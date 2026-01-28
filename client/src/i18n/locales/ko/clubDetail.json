@@ -1,0 +1,12 @@
+{
+  "backToCatalog": "카탈로그로 돌아가기",
+  "specifications": "제품 사양",
+  "ratings": "성능 평가",
+  "suitableFor": "적합한 대상",
+  "availableShafts": "샤프트 옵션",
+  "availableLofts": "로프트 옵션",
+  "swingSpeedRange": "스윙 스피드 범위",
+  "notFound": "클럽을 찾을 수 없습니다",
+  "notFoundMessage": "찾고 있는 클럽이 존재하지 않거나 삭제되었습니다.",
+  "outOf": "/10"
+}

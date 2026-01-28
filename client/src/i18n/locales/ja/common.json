@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "logo": "ゴルフクラブファインダー",
+    "home": "ホーム",
+    "quiz": "おすすめを見る",
+    "catalog": "クラブ一覧"
+  },
+  "footer": {
+    "copyright": "ゴルフクラブファインダー。最適なクラブ選びをサポートします。",
+    "disclaimer": "価格と在庫は変動する場合があります。正規販売店にてご確認ください。"
+  },
+  "buttons": {
+    "back": "戻る",
+    "next": "次へ",
+    "submit": "送信",
+    "search": "検索",
+    "reset": "リセット",
+    "viewDetails": "詳細を見る",
+    "startQuiz": "診断を始める",
+    "browseAll": "すべてのクラブを見る",
+    "backToResults": "結果に戻る",
+    "retakeQuiz": "もう一度診断する"
+  },
+  "clubTypes": {
+    "driver": "ドライバー",
+    "fairway_wood": "フェアウェイウッド",
+    "hybrid": "ハイブリッド",
+    "iron_set": "アイアンセット",
+    "wedge": "ウェッジ",
+    "putter": "パター"
+  },
+  "skillLevels": {
+    "beginner": "初心者",
+    "intermediate": "中級者",
+    "advanced": "上級者",
+    "professional": "プロ"
+  },
+  "shaftFlex": {
+    "ladies": "レディース",
+    "senior": "シニア",
+    "regular": "レギュラー",
+    "stiff": "スティッフ",
+    "extra_stiff": "エクストラスティッフ"
+  },
+  "swingSpeed": {
+    "slow": "遅い",
+    "moderate": "普通",
+    "fast": "速い",
+    "very_fast": "非常に速い"
+  },
+  "ratings": {
+    "forgiveness": "寛容性",
+    "distance": "飛距離",
+    "accuracy": "正確性"
+  },
+  "labels": {
+    "price": "価格",
+    "brand": "ブランド",
+    "type": "タイプ",
+    "loft": "ロフト",
+    "shaftFlex": "シャフト硬度",
+    "skillLevel": "スキルレベル",
+    "swingSpeed": "スイングスピード",
+    "all": "すべて",
+    "noResults": "結果が見つかりません",
+    "loading": "読み込み中..."
+  },
+  "errors": {
+    "clubNotFound": "クラブが見つかりません",
+    "loadFailed": "データの読み込みに失敗しました",
+    "generic": "問題が発生しました"
+  },
+  "units": {
+    "imperial": "ヤード/ポンド",
+    "metric": "メートル法"
+  },
+  "language": {
+    "en": "English",
+    "ko": "한국어",
+    "zh": "中文",
+    "es": "Español",
+    "ja": "日本語"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "title": "找到最适合您的高尔夫球杆",
+    "subtitle": "根据您的技术水平、挥杆特点和偏好，获得个性化球杆推荐",
+    "cta": "获取推荐"
+  },
+  "features": {
+    "title": "为什么选择高尔夫球杆推荐？",
+    "personalized": {
+      "title": "个性化推荐",
+      "description": "我们的算法分析您的技术水平、挥杆速度和目标，为您找到最佳球杆。"
+    },
+    "comprehensive": {
+      "title": "全面的数据库",
+      "description": "浏览来自TaylorMade、Callaway、Titleist、Ping等顶级品牌的60多支球杆。"
+    },
+    "expert": {
+      "title": "专家级分析",
+      "description": "每条推荐都附有详细的理由，解释为什么该球杆适合您。"
+    }
+  },
+  "howItWorks": {
+    "title": "使用方法",
+    "step1": {
+      "number": "1",
+      "title": "参加测试",
+      "description": "回答关于您的球技、偏好和预算的几个问题。"
+    },
+    "step2": {
+      "number": "2",
+      "title": "获得匹配",
+      "description": "我们的算法根据您的档案对每支球杆进行评分。"
+    },
+    "step3": {
+      "number": "3",
+      "title": "审查与选择",
+      "description": "查看包含评分、推荐理由和总费用的个性化套装。"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "speed": {
+    "mph": "mph",
+    "ms": "m/s"
+  },
+  "distance": {
+    "yards": "yardas",
+    "meters": "metros"
+  },
+  "height": {
+    "imperial": {
+      "short": "5'4\" o menos",
+      "medium": "5'5\" - 5'9\"",
+      "tall": "5'10\" - 6'1\"",
+      "very_tall": "6'2\" o más"
+    },
+    "metric": {
+      "short": "163 cm o menos",
+      "medium": "165 - 175 cm",
+      "tall": "178 - 185 cm",
+      "very_tall": "188 cm o más"
+    }
+  },
+  "swingSpeedValues": {
+    "imperial": {
+      "slow": "Menos de 85 mph",
+      "moderateLow": "85 mph",
+      "moderateHigh": "95 mph",
+      "fastLow": "95 mph",
+      "fastHigh": "110 mph",
+      "veryFast": "110 mph"
+    },
+    "metric": {
+      "slow": "Menos de 38 m/s",
+      "moderateLow": "38 m/s",
+      "moderateHigh": "42 m/s",
+      "fastLow": "42 m/s",
+      "fastHigh": "49 m/s",
+      "veryFast": "49 m/s"
+    }
+  }
+}

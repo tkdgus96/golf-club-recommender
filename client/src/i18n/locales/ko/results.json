@@ -1,0 +1,28 @@
+{
+  "title": "추천 세트",
+  "subtitle": "퀴즈 결과를 바탕으로 각 클럽 종류별 최고의 추천입니다",
+  "totalCost": "세트 총 비용",
+  "matchScore": "매칭 점수",
+  "whyRecommended": "추천 이유",
+  "noRecommendation": "이 카테고리에 대한 추천이 없습니다",
+  "reasons": {
+    "skillMatch": "{{skillLevel}} 수준 골퍼에게 적합",
+    "closeSkillMatch": "실력 수준에 근접한 매치",
+    "withinBudget": "예산 범위 내",
+    "underBudget": "예산보다 저렴 - 가성비 우수",
+    "slightlyOverBudget": "예산 약간 초과",
+    "greatSwingSpeedMatch": "스윙 스피드에 최적",
+    "compatibleSwingSpeed": "스윙 스피드에 호환",
+    "excellentDistance": "우수한 비거리 ({{rating}}/10)",
+    "excellentAccuracy": "우수한 정확도 ({{rating}}/10)",
+    "veryForgiving": "뛰어난 관용성 ({{rating}}/10)"
+  },
+  "clubCategories": {
+    "driver": "드라이버",
+    "fairwayWood": "페어웨이 우드",
+    "hybrid": "하이브리드",
+    "ironSet": "아이언 세트",
+    "wedge": "웨지",
+    "putter": "퍼터"
+  }
+}

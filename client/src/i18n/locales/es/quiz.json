@@ -1,0 +1,98 @@
+{
+  "title": "Encuentra Tus Palos Perfectos",
+  "progress": "Paso {{current}} de {{total}}",
+  "step1": {
+    "title": "¿Cuál es tu nivel de habilidad?",
+    "beginner": {
+      "label": "Principiante",
+      "description": "Nuevo en el golf o menos de un año jugando"
+    },
+    "intermediate": {
+      "label": "Intermedio",
+      "description": "Cómodo con lo básico, puntuación 90-110"
+    },
+    "advanced": {
+      "label": "Avanzado",
+      "description": "Jugador consistente, puntuación 75-90"
+    },
+    "professional": {
+      "label": "Profesional",
+      "description": "Golfista scratch o jugador competitivo"
+    }
+  },
+  "step2": {
+    "title": "¿Cuál es tu velocidad de swing?",
+    "slow": {
+      "label": "Lento",
+      "description": "Menos de {{speed}}"
+    },
+    "moderate": {
+      "label": "Moderado",
+      "description": "{{speedLow}} - {{speedHigh}}"
+    },
+    "fast": {
+      "label": "Rápido",
+      "description": "{{speedLow}} - {{speedHigh}}"
+    },
+    "very_fast": {
+      "label": "Muy Rápido",
+      "description": "Más de {{speed}}"
+    }
+  },
+  "step3": {
+    "title": "¿Cuál es tu rango de presupuesto?",
+    "perClub": "Por palo, no el set completo",
+    "min": "Mínimo",
+    "max": "Máximo",
+    "range": "${{min}} - ${{max}}"
+  },
+  "step4": {
+    "title": "¿Con qué frecuencia juegas?",
+    "occasional": {
+      "label": "Ocasionalmente",
+      "description": "Algunas veces al año"
+    },
+    "monthly": {
+      "label": "Mensualmente",
+      "description": "1-3 veces al mes"
+    },
+    "weekly": {
+      "label": "Semanalmente",
+      "description": "Una o dos veces por semana"
+    },
+    "daily": {
+      "label": "Diariamente",
+      "description": "Casi todos los días"
+    }
+  },
+  "step5": {
+    "title": "Cuéntanos sobre tu perfil físico",
+    "height": "Tu Estatura",
+    "heightOptions": {
+      "short": "Menos de {{height}}",
+      "medium": "{{heightLow}} - {{heightHigh}}",
+      "tall": "{{heightLow}} - {{heightHigh}}",
+      "very_tall": "Más de {{height}}"
+    },
+    "strength": "Tu Nivel de Fuerza",
+    "strengthOptions": {
+      "light": "Ligero",
+      "average": "Promedio",
+      "strong": "Fuerte",
+      "very_strong": "Muy Fuerte"
+    }
+  },
+  "step6": {
+    "title": "¿Qué quieres mejorar?",
+    "subtitle": "Selecciona todo lo que aplique",
+    "goals": {
+      "distance": "Más Distancia",
+      "accuracy": "Mejor Precisión",
+      "consistency": "Más Consistencia",
+      "forgiveness": "Mayor Tolerancia",
+      "control": "Mejor Control",
+      "feel": "Mejor Sensación"
+    }
+  },
+  "submitting": "Buscando tus palos perfectos..."
+}

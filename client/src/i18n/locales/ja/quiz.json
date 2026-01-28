@@ -1,0 +1,98 @@
+{
+  "title": "あなたに最適なクラブを見つけよう",
+  "progress": "ステップ {{current}} / {{total}}",
+  "step1": {
+    "title": "あなたのスキルレベルは？",
+    "beginner": {
+      "label": "初心者",
+      "description": "ゴルフを始めて1年未満"
+    },
+    "intermediate": {
+      "label": "中級者",
+      "description": "基本に慣れている、スコア90-110"
+    },
+    "advanced": {
+      "label": "上級者",
+      "description": "安定したプレー、スコア75-90"
+    },
+    "professional": {
+      "label": "プロ",
+      "description": "スクラッチゴルファーまたは競技プレーヤー"
+    }
+  },
+  "step2": {
+    "title": "あなたのスイングスピードは？",
+    "slow": {
+      "label": "遅い",
+      "description": "{{speed}} 未満"
+    },
+    "moderate": {
+      "label": "普通",
+      "description": "{{speedLow}} - {{speedHigh}}"
+    },
+    "fast": {
+      "label": "速い",
+      "description": "{{speedLow}} - {{speedHigh}}"
+    },
+    "very_fast": {
+      "label": "非常に速い",
+      "description": "{{speed}} 以上"
+    }
+  },
+  "step3": {
+    "title": "予算範囲は？",
+    "perClub": "セットではなく、1本あたりの価格",
+    "min": "最低",
+    "max": "最高",
+    "range": "${{min}} - ${{max}}"
+  },
+  "step4": {
+    "title": "どのくらいの頻度でプレーしますか？",
+    "occasional": {
+      "label": "たまに",
+      "description": "年に数回"
+    },
+    "monthly": {
+      "label": "月に数回",
+      "description": "月に1-3回"
+    },
+    "weekly": {
+      "label": "毎週",
+      "description": "週に1-2回"
+    },
+    "daily": {
+      "label": "毎日",
+      "description": "ほぼ毎日"
+    }
+  },
+  "step5": {
+    "title": "あなたの体格を教えてください",
+    "height": "身長",
+    "heightOptions": {
+      "short": "{{height}} 以下",
+      "medium": "{{heightLow}} - {{heightHigh}}",
+      "tall": "{{heightLow}} - {{heightHigh}}",
+      "very_tall": "{{height}} 以上"
+    },
+    "strength": "筋力レベル",
+    "strengthOptions": {
+      "light": "軽い",
+      "average": "普通",
+      "strong": "強い",
+      "very_strong": "非常に強い"
+    }
+  },
+  "step6": {
+    "title": "何を改善したいですか？",
+    "subtitle": "該当するものをすべて選んでください",
+    "goals": {
+      "distance": "飛距離アップ",
+      "accuracy": "正確性の向上",
+      "consistency": "安定性の向上",
+      "forgiveness": "寛容性の向上",
+      "control": "コントロール向上",
+      "feel": "打感の向上"
+    }
+  },
+  "submitting": "最適なクラブを探しています..."
+}

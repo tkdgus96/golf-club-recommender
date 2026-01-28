@@ -1,0 +1,28 @@
+{
+  "title": "おすすめセット",
+  "subtitle": "診断結果に基づいた、各クラブタイプのベストピックです",
+  "totalCost": "セット合計費用",
+  "matchScore": "マッチスコア",
+  "whyRecommended": "おすすめの理由",
+  "noRecommendation": "このカテゴリーにはおすすめがありません",
+  "reasons": {
+    "skillMatch": "{{skillLevel}}レベルのプレーヤーに最適",
+    "closeSkillMatch": "スキルレベルに近いマッチ",
+    "withinBudget": "予算内",
+    "underBudget": "予算以下 - お買い得",
+    "slightlyOverBudget": "予算をわずかに超過",
+    "greatSwingSpeedMatch": "スイングスピードに最適",
+    "compatibleSwingSpeed": "スイングスピードに対応",
+    "excellentDistance": "優れた飛距離 ({{rating}}/10)",
+    "excellentAccuracy": "優れた正確性 ({{rating}}/10)",
+    "veryForgiving": "高い寛容性 ({{rating}}/10)"
+  },
+  "clubCategories": {
+    "driver": "ドライバー",
+    "fairwayWood": "フェアウェイウッド",
+    "hybrid": "ハイブリッド",
+    "ironSet": "アイアンセット",
+    "wedge": "ウェッジ",
+    "putter": "パター"
+  }
+}

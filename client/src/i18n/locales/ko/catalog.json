@@ -1,0 +1,30 @@
+{
+  "title": "골프 클럽 카탈로그",
+  "subtitle": "최고의 브랜드의 다양한 골프 클럽 컬렉션을 둘러보세요",
+  "filters": {
+    "title": "필터",
+    "type": "클럽 종류",
+    "brand": "브랜드",
+    "skillLevel": "실력",
+    "priceRange": "가격대",
+    "search": "클럽 검색...",
+    "all": "전체",
+    "clearAll": "필터 초기화",
+    "minPrice": "최저가",
+    "maxPrice": "최고가"
+  },
+  "results": {
+    "showing": "{{count}}개의 클럽 표시 중",
+    "noResults": "필터에 맞는 클럽이 없습니다",
+    "noResultsHint": "필터나 검색어를 조정해 보세요"
+  },
+  "pagination": {
+    "page": "{{total}} 페이지 중 {{current}} 페이지",
+    "prev": "이전",
+    "next": "다음"
+  },
+  "card": {
+    "from": "가격",
+    "viewDetails": "상세 보기"
+  }
+}

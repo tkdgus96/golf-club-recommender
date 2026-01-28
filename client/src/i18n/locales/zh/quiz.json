@@ -1,0 +1,98 @@
+{
+  "title": "找到最适合您的球杆",
+  "progress": "第 {{current}} 步，共 {{total}} 步",
+  "step1": {
+    "title": "您的技术水平如何？",
+    "beginner": {
+      "label": "初学者",
+      "description": "刚接触高尔夫或打球不到一年"
+    },
+    "intermediate": {
+      "label": "中级",
+      "description": "掌握基础技术，成绩在90-110之间"
+    },
+    "advanced": {
+      "label": "高级",
+      "description": "稳定发挥，成绩在75-90之间"
+    },
+    "professional": {
+      "label": "职业",
+      "description": "零差点球手或竞技球员"
+    }
+  },
+  "step2": {
+    "title": "您的挥杆速度如何？",
+    "slow": {
+      "label": "慢",
+      "description": "低于 {{speed}}"
+    },
+    "moderate": {
+      "label": "中等",
+      "description": "{{speedLow}} - {{speedHigh}}"
+    },
+    "fast": {
+      "label": "快",
+      "description": "{{speedLow}} - {{speedHigh}}"
+    },
+    "very_fast": {
+      "label": "非常快",
+      "description": "超过 {{speed}}"
+    }
+  },
+  "step3": {
+    "title": "您的预算范围是多少？",
+    "perClub": "每支球杆的价格，非整套",
+    "min": "最低",
+    "max": "最高",
+    "range": "${{min}} - ${{max}}"
+  },
+  "step4": {
+    "title": "您多久打一次球？",
+    "occasional": {
+      "label": "偶尔",
+      "description": "一年几次"
+    },
+    "monthly": {
+      "label": "每月",
+      "description": "每月1-3次"
+    },
+    "weekly": {
+      "label": "每周",
+      "description": "每周1-2次"
+    },
+    "daily": {
+      "label": "每天",
+      "description": "几乎每天"
+    }
+  },
+  "step5": {
+    "title": "请告诉我们您的身体情况",
+    "height": "身高",
+    "heightOptions": {
+      "short": "{{height}} 以下",
+      "medium": "{{heightLow}} - {{heightHigh}}",
+      "tall": "{{heightLow}} - {{heightHigh}}",
+      "very_tall": "{{height}} 以上"
+    },
+    "strength": "力量水平",
+    "strengthOptions": {
+      "light": "较弱",
+      "average": "一般",
+      "strong": "较强",
+      "very_strong": "很强"
+    }
+  },
+  "step6": {
+    "title": "您想改善什么？",
+    "subtitle": "请选择所有适用项",
+    "goals": {
+      "distance": "更远的距离",
+      "accuracy": "更高的精准度",
+      "consistency": "更好的一致性",
+      "forgiveness": "更高的容错性",
+      "control": "更好的控制力",
+      "feel": "更好的手感"
+    }
+  },
+  "submitting": "正在为您寻找最佳球杆..."
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Tu Set Recomendado",
+  "subtitle": "Según tus respuestas, estas son nuestras mejores selecciones para cada tipo de palo",
+  "totalCost": "Costo Total del Set",
+  "matchScore": "Puntuación de Coincidencia",
+  "whyRecommended": "Por Qué Lo Recomendamos",
+  "noRecommendation": "No hay recomendación disponible para esta categoría",
+  "reasons": {
+    "skillMatch": "Adecuado para jugadores de nivel {{skillLevel}}",
+    "closeSkillMatch": "Coincidencia cercana de nivel de habilidad",
+    "withinBudget": "Dentro de tu presupuesto",
+    "underBudget": "Por debajo del presupuesto - gran valor",
+    "slightlyOverBudget": "Ligeramente por encima del presupuesto",
+    "greatSwingSpeedMatch": "Gran coincidencia para tu velocidad de swing",
+    "compatibleSwingSpeed": "Compatible con tu velocidad de swing",
+    "excellentDistance": "Excelente distancia ({{rating}}/10)",
+    "excellentAccuracy": "Excelente precisión ({{rating}}/10)",
+    "veryForgiving": "Muy tolerante ({{rating}}/10)"
+  },
+  "clubCategories": {
+    "driver": "Driver",
+    "fairwayWood": "Madera de Calle",
+    "hybrid": "Híbrido",
+    "ironSet": "Juego de Hierros",
+    "wedge": "Wedge",
+    "putter": "Putter"
+  }
+}

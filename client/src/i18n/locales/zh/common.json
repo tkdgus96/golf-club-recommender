@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "logo": "高尔夫球杆推荐",
+    "home": "首页",
+    "quiz": "获取推荐",
+    "catalog": "浏览球杆"
+  },
+  "footer": {
+    "copyright": "高尔夫球杆推荐。帮助您找到完美的球杆。",
+    "disclaimer": "价格和库存可能会有所变动，请咨询授权经销商确认。"
+  },
+  "buttons": {
+    "back": "返回",
+    "next": "下一步",
+    "submit": "提交",
+    "search": "搜索",
+    "reset": "重置",
+    "viewDetails": "查看详情",
+    "startQuiz": "开始测试",
+    "browseAll": "浏览所有球杆",
+    "backToResults": "返回结果",
+    "retakeQuiz": "重新测试"
+  },
+  "clubTypes": {
+    "driver": "一号木",
+    "fairway_wood": "球道木",
+    "hybrid": "混合杆",
+    "iron_set": "铁杆套装",
+    "wedge": "挖起杆",
+    "putter": "推杆"
+  },
+  "skillLevels": {
+    "beginner": "初学者",
+    "intermediate": "中级",
+    "advanced": "高级",
+    "professional": "职业"
+  },
+  "shaftFlex": {
+    "ladies": "女士",
+    "senior": "高龄",
+    "regular": "常规",
+    "stiff": "硬",
+    "extra_stiff": "超硬"
+  },
+  "swingSpeed": {
+    "slow": "慢",
+    "moderate": "中等",
+    "fast": "快",
+    "very_fast": "非常快"
+  },
+  "ratings": {
+    "forgiveness": "容错性",
+    "distance": "距离",
+    "accuracy": "精准度"
+  },
+  "labels": {
+    "price": "价格",
+    "brand": "品牌",
+    "type": "类型",
+    "loft": "杆面角",
+    "shaftFlex": "杆身硬度",
+    "skillLevel": "技术水平",
+    "swingSpeed": "挥杆速度",
+    "all": "全部",
+    "noResults": "未找到结果",
+    "loading": "加载中..."
+  },
+  "errors": {
+    "clubNotFound": "未找到该球杆",
+    "loadFailed": "数据加载失败",
+    "generic": "出现了问题"
+  },
+  "units": {
+    "imperial": "英制",
+    "metric": "公制"
+  },
+  "language": {
+    "en": "English",
+    "ko": "한국어",
+    "zh": "中文",
+    "es": "Español",
+    "ja": "日本語"
+  }
+}

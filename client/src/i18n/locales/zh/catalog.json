@@ -1,0 +1,30 @@
+{
+  "title": "高尔夫球杆目录",
+  "subtitle": "浏览顶级品牌的高尔夫球杆系列",
+  "filters": {
+    "title": "筛选",
+    "type": "球杆类型",
+    "brand": "品牌",
+    "skillLevel": "技术水平",
+    "priceRange": "价格范围",
+    "search": "搜索球杆...",
+    "all": "全部",
+    "clearAll": "清除所有筛选",
+    "minPrice": "最低价",
+    "maxPrice": "最高价"
+  },
+  "results": {
+    "showing": "显示 {{count}} 支球杆",
+    "noResults": "没有符合条件的球杆",
+    "noResultsHint": "请尝试调整筛选条件或搜索关键词"
+  },
+  "pagination": {
+    "page": "第 {{current}} 页，共 {{total}} 页",
+    "prev": "上一页",
+    "next": "下一页"
+  },
+  "card": {
+    "from": "起价",
+    "viewDetails": "查看详情"
+  }
+}

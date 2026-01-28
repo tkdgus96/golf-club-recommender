@@ -1,0 +1,12 @@
+{
+  "backToCatalog": "カタログに戻る",
+  "specifications": "仕様",
+  "ratings": "パフォーマンス評価",
+  "suitableFor": "対象レベル",
+  "availableShafts": "シャフトオプション",
+  "availableLofts": "ロフトオプション",
+  "swingSpeedRange": "スイングスピード範囲",
+  "notFound": "クラブが見つかりません",
+  "notFoundMessage": "お探しのクラブは存在しないか、削除されました。",
+  "outOf": "/10"
+}

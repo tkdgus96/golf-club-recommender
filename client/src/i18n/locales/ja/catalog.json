@@ -1,0 +1,30 @@
+{
+  "title": "ゴルフクラブカタログ",
+  "subtitle": "トップブランドのゴルフクラブコレクションをご覧ください",
+  "filters": {
+    "title": "フィルター",
+    "type": "クラブタイプ",
+    "brand": "ブランド",
+    "skillLevel": "スキルレベル",
+    "priceRange": "価格帯",
+    "search": "クラブを検索...",
+    "all": "すべて",
+    "clearAll": "フィルターをクリア",
+    "minPrice": "最低価格",
+    "maxPrice": "最高価格"
+  },
+  "results": {
+    "showing": "{{count}} 件のクラブを表示",
+    "noResults": "フィルターに一致するクラブがありません",
+    "noResultsHint": "フィルターや検索条件を調整してみてください"
+  },
+  "pagination": {
+    "page": "{{total}} ページ中 {{current}} ページ",
+    "prev": "前へ",
+    "next": "次へ"
+  },
+  "card": {
+    "from": "価格",
+    "viewDetails": "詳細を見る"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "speed": {
+    "mph": "mph",
+    "ms": "m/s"
+  },
+  "distance": {
+    "yards": "야드",
+    "meters": "미터"
+  },
+  "height": {
+    "imperial": {
+      "short": "5'4\" 이하",
+      "medium": "5'5\" - 5'9\"",
+      "tall": "5'10\" - 6'1\"",
+      "very_tall": "6'2\" 이상"
+    },
+    "metric": {
+      "short": "163 cm 이하",
+      "medium": "165 - 175 cm",
+      "tall": "178 - 185 cm",
+      "very_tall": "188 cm 이상"
+    }
+  },
+  "swingSpeedValues": {
+    "imperial": {
+      "slow": "85 mph 미만",
+      "moderateLow": "85 mph",
+      "moderateHigh": "95 mph",
+      "fastLow": "95 mph",
+      "fastHigh": "110 mph",
+      "veryFast": "110 mph"
+    },
+    "metric": {
+      "slow": "38 m/s 미만",
+      "moderateLow": "38 m/s",
+      "moderateHigh": "42 m/s",
+      "fastLow": "42 m/s",
+      "fastHigh": "49 m/s",
+      "veryFast": "49 m/s"
+    }
+  }
+}

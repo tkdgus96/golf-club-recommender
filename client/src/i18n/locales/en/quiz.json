@@ -1,0 +1,98 @@
+{
+  "title": "Find Your Perfect Clubs",
+  "progress": "Step {{current}} of {{total}}",
+  "step1": {
+    "title": "What is your skill level?",
+    "beginner": {
+      "label": "Beginner",
+      "description": "New to golf or played less than a year"
+    },
+    "intermediate": {
+      "label": "Intermediate",
+      "description": "Comfortable with basics, scoring 90-110"
+    },
+    "advanced": {
+      "label": "Advanced",
+      "description": "Consistent player, scoring 75-90"
+    },
+    "professional": {
+      "label": "Professional",
+      "description": "Scratch golfer or competitive player"
+    }
+  },
+  "step2": {
+    "title": "What is your swing speed?",
+    "slow": {
+      "label": "Slow",
+      "description": "Under {{speed}}"
+    },
+    "moderate": {
+      "label": "Moderate",
+      "description": "{{speedLow}} - {{speedHigh}}"
+    },
+    "fast": {
+      "label": "Fast",
+      "description": "{{speedLow}} - {{speedHigh}}"
+    },
+    "very_fast": {
+      "label": "Very Fast",
+      "description": "Over {{speed}}"
+    }
+  },
+  "step3": {
+    "title": "What is your budget range?",
+    "perClub": "Per club, not total set",
+    "min": "Minimum",
+    "max": "Maximum",
+    "range": "${{min}} - ${{max}}"
+  },
+  "step4": {
+    "title": "How often do you play?",
+    "occasional": {
+      "label": "Occasionally",
+      "description": "A few times a year"
+    },
+    "monthly": {
+      "label": "Monthly",
+      "description": "1-3 times per month"
+    },
+    "weekly": {
+      "label": "Weekly",
+      "description": "Once or twice a week"
+    },
+    "daily": {
+      "label": "Daily",
+      "description": "Nearly every day"
+    }
+  },
+  "step5": {
+    "title": "Tell us about your physical profile",
+    "height": "Your Height",
+    "heightOptions": {
+      "short": "Under {{height}}",
+      "medium": "{{heightLow}} - {{heightHigh}}",
+      "tall": "{{heightLow}} - {{heightHigh}}",
+      "very_tall": "Over {{height}}"
+    },
+    "strength": "Your Strength Level",
+    "strengthOptions": {
+      "light": "Light",
+      "average": "Average",
+      "strong": "Strong",
+      "very_strong": "Very Strong"
+    }
+  },
+  "step6": {
+    "title": "What do you want to improve?",
+    "subtitle": "Select all that apply",
+    "goals": {
+      "distance": "More Distance",
+      "accuracy": "Better Accuracy",
+      "consistency": "More Consistency",
+      "forgiveness": "More Forgiveness",
+      "control": "Better Control",
+      "feel": "Better Feel"
+    }
+  },
+  "submitting": "Finding your perfect clubs..."
+}

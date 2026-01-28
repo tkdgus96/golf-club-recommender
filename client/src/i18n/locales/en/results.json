@@ -1,0 +1,28 @@
+{
+  "title": "Your Recommended Set",
+  "subtitle": "Based on your quiz answers, here are our top picks for each club type",
+  "totalCost": "Total Set Cost",
+  "matchScore": "Match Score",
+  "whyRecommended": "Why We Recommend This",
+  "noRecommendation": "No recommendation available for this category",
+  "reasons": {
+    "skillMatch": "Suitable for {{skillLevel}} players",
+    "closeSkillMatch": "Close skill level match",
+    "withinBudget": "Within your budget",
+    "underBudget": "Under budget - great value",
+    "slightlyOverBudget": "Slightly over budget",
+    "greatSwingSpeedMatch": "Great match for your swing speed",
+    "compatibleSwingSpeed": "Compatible with your swing speed",
+    "excellentDistance": "Excellent distance ({{rating}}/10)",
+    "excellentAccuracy": "Excellent accuracy ({{rating}}/10)",
+    "veryForgiving": "Very forgiving ({{rating}}/10)"
+  },
+  "clubCategories": {
+    "driver": "Driver",
+    "fairwayWood": "Fairway Wood",
+    "hybrid": "Hybrid",
+    "ironSet": "Iron Set",
+    "wedge": "Wedge",
+    "putter": "Putter"
+  }
+}

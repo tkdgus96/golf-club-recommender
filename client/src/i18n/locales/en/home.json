@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "title": "Find Your Perfect Golf Clubs",
+    "subtitle": "Get personalized club recommendations based on your skill level, swing, and preferences",
+    "cta": "Get My Recommendations"
+  },
+  "features": {
+    "title": "Why Use GolfClub Finder?",
+    "personalized": {
+      "title": "Personalized Recommendations",
+      "description": "Our algorithm analyzes your skill level, swing speed, and goals to find the best clubs for you."
+    },
+    "comprehensive": {
+      "title": "Comprehensive Database",
+      "description": "Browse 60+ clubs from top brands including TaylorMade, Callaway, Titleist, Ping, and more."
+    },
+    "expert": {
+      "title": "Expert-Level Analysis",
+      "description": "Each recommendation comes with detailed reasons explaining why a club suits your game."
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "step1": {
+      "number": "1",
+      "title": "Take the Quiz",
+      "description": "Answer a few questions about your game, preferences, and budget."
+    },
+    "step2": {
+      "number": "2",
+      "title": "Get Matched",
+      "description": "Our algorithm scores every club against your profile to find the best fits."
+    },
+    "step3": {
+      "number": "3",
+      "title": "Review & Choose",
+      "description": "See your personalized set with scores, reasons, and total cost breakdown."
+    }
+  }
+}
