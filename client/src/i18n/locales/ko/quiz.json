@@ -1,0 +1,98 @@
+{
+  "title": "나에게 맞는 클럽 찾기",
+  "progress": "{{total}}단계 중 {{current}}단계",
+  "step1": {
+    "title": "골프 실력이 어느 정도인가요?",
+    "beginner": {
+      "label": "초급",
+      "description": "골프를 시작한 지 1년 미만"
+    },
+    "intermediate": {
+      "label": "중급",
+      "description": "기본기에 익숙하며, 스코어 90-110"
+    },
+    "advanced": {
+      "label": "상급",
+      "description": "안정적인 플레이, 스코어 75-90"
+    },
+    "professional": {
+      "label": "프로",
+      "description": "스크래치 골퍼 또는 경쟁 선수"
+    }
+  },
+  "step2": {
+    "title": "스윙 스피드가 어느 정도인가요?",
+    "slow": {
+      "label": "느림",
+      "description": "{{speed}} 미만"
+    },
+    "moderate": {
+      "label": "보통",
+      "description": "{{speedLow}} - {{speedHigh}}"
+    },
+    "fast": {
+      "label": "빠름",
+      "description": "{{speedLow}} - {{speedHigh}}"
+    },
+    "very_fast": {
+      "label": "매우 빠름",
+      "description": "{{speed}} 이상"
+    }
+  },
+  "step3": {
+    "title": "예산 범위가 어떻게 되나요?",
+    "perClub": "세트가 아닌 클럽 하나 당 가격",
+    "min": "최소",
+    "max": "최대",
+    "range": "${{min}} - ${{max}}"
+  },
+  "step4": {
+    "title": "얼마나 자주 플레이하나요?",
+    "occasional": {
+      "label": "가끔",
+      "description": "1년에 몇 번"
+    },
+    "monthly": {
+      "label": "월간",
+      "description": "한 달에 1-3회"
+    },
+    "weekly": {
+      "label": "주간",
+      "description": "일주일에 1-2회"
+    },
+    "daily": {
+      "label": "매일",
+      "description": "거의 매일"
+    }
+  },
+  "step5": {
+    "title": "신체 정보를 알려주세요",
+    "height": "키",
+    "heightOptions": {
+      "short": "{{height}} 이하",
+      "medium": "{{heightLow}} - {{heightHigh}}",
+      "tall": "{{heightLow}} - {{heightHigh}}",
+      "very_tall": "{{height}} 이상"
+    },
+    "strength": "체력 수준",
+    "strengthOptions": {
+      "light": "가벼움",
+      "average": "보통",
+      "strong": "강함",
+      "very_strong": "매우 강함"
+    }
+  },
+  "step6": {
+    "title": "무엇을 개선하고 싶나요?",
+    "subtitle": "해당하는 항목을 모두 선택하세요",
+    "goals": {
+      "distance": "비거리 향상",
+      "accuracy": "정확도 향상",
+      "consistency": "일관성 향상",
+      "forgiveness": "관용성 향상",
+      "control": "컨트롤 향상",
+      "feel": "타감 향상"
+    }
+  },
+  "submitting": "최적의 클럽을 찾는 중..."
+}

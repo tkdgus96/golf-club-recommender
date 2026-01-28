@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "logo": "GolfClub Finder",
+    "home": "Inicio",
+    "quiz": "Obtener Recomendaciones",
+    "catalog": "Explorar Palos"
+  },
+  "footer": {
+    "copyright": "GolfClub Finder. Ayudándote a encontrar los palos perfectos.",
+    "disclaimer": "Los precios y la disponibilidad pueden variar. Consulte con distribuidores autorizados."
+  },
+  "buttons": {
+    "back": "Atrás",
+    "next": "Siguiente",
+    "submit": "Enviar",
+    "search": "Buscar",
+    "reset": "Restablecer",
+    "viewDetails": "Ver Detalles",
+    "startQuiz": "Iniciar Test",
+    "browseAll": "Ver Todos los Palos",
+    "backToResults": "Volver a Resultados",
+    "retakeQuiz": "Repetir Test"
+  },
+  "clubTypes": {
+    "driver": "Driver",
+    "fairway_wood": "Madera de Calle",
+    "hybrid": "Híbrido",
+    "iron_set": "Juego de Hierros",
+    "wedge": "Wedge",
+    "putter": "Putter"
+  },
+  "skillLevels": {
+    "beginner": "Principiante",
+    "intermediate": "Intermedio",
+    "advanced": "Avanzado",
+    "professional": "Profesional"
+  },
+  "shaftFlex": {
+    "ladies": "Damas",
+    "senior": "Senior",
+    "regular": "Regular",
+    "stiff": "Rígido",
+    "extra_stiff": "Extra Rígido"
+  },
+  "swingSpeed": {
+    "slow": "Lento",
+    "moderate": "Moderado",
+    "fast": "Rápido",
+    "very_fast": "Muy Rápido"
+  },
+  "ratings": {
+    "forgiveness": "Tolerancia",
+    "distance": "Distancia",
+    "accuracy": "Precisión"
+  },
+  "labels": {
+    "price": "Precio",
+    "brand": "Marca",
+    "type": "Tipo",
+    "loft": "Loft",
+    "shaftFlex": "Flexibilidad de Varilla",
+    "skillLevel": "Nivel de Habilidad",
+    "swingSpeed": "Velocidad de Swing",
+    "all": "Todos",
+    "noResults": "Sin resultados",
+    "loading": "Cargando..."
+  },
+  "errors": {
+    "clubNotFound": "Palo no encontrado",
+    "loadFailed": "Error al cargar datos",
+    "generic": "Algo salió mal"
+  },
+  "units": {
+    "imperial": "Imperial",
+    "metric": "Métrico"
+  },
+  "language": {
+    "en": "English",
+    "ko": "한국어",
+    "zh": "中文",
+    "es": "Español",
+    "ja": "日本語"
+  }
+}

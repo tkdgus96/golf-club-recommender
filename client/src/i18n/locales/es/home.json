@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "title": "Encuentra Tus Palos de Golf Perfectos",
+    "subtitle": "Obtén recomendaciones personalizadas según tu nivel, swing y preferencias",
+    "cta": "Obtener Mis Recomendaciones"
+  },
+  "features": {
+    "title": "¿Por Qué Usar GolfClub Finder?",
+    "personalized": {
+      "title": "Recomendaciones Personalizadas",
+      "description": "Nuestro algoritmo analiza tu nivel, velocidad de swing y objetivos para encontrar los mejores palos."
+    },
+    "comprehensive": {
+      "title": "Base de Datos Completa",
+      "description": "Explora más de 60 palos de marcas como TaylorMade, Callaway, Titleist, Ping y más."
+    },
+    "expert": {
+      "title": "Análisis de Nivel Experto",
+      "description": "Cada recomendación incluye razones detalladas de por qué un palo se adapta a tu juego."
+    }
+  },
+  "howItWorks": {
+    "title": "Cómo Funciona",
+    "step1": {
+      "number": "1",
+      "title": "Haz el Test",
+      "description": "Responde algunas preguntas sobre tu juego, preferencias y presupuesto."
+    },
+    "step2": {
+      "number": "2",
+      "title": "Obtén tu Match",
+      "description": "Nuestro algoritmo evalúa cada palo según tu perfil para encontrar los mejores."
+    },
+    "step3": {
+      "number": "3",
+      "title": "Revisa y Elige",
+      "description": "Ve tu set personalizado con puntuaciones, razones y desglose de costos."
+    }
+  }
+}

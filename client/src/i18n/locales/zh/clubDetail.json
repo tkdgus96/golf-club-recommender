@@ -1,0 +1,12 @@
+{
+  "backToCatalog": "返回目录",
+  "specifications": "规格参数",
+  "ratings": "性能评分",
+  "suitableFor": "适合人群",
+  "availableShafts": "可选杆身",
+  "availableLofts": "可选杆面角",
+  "swingSpeedRange": "挥杆速度范围",
+  "notFound": "未找到球杆",
+  "notFoundMessage": "您要查找的球杆不存在或已被删除。",
+  "outOf": "/10"
+}

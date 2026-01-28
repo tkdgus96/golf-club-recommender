@@ -1,0 +1,28 @@
+{
+  "title": "您的推荐套装",
+  "subtitle": "根据测试结果，以下是每种球杆类型的最佳推荐",
+  "totalCost": "套装总费用",
+  "matchScore": "匹配分数",
+  "whyRecommended": "推荐理由",
+  "noRecommendation": "该类别暂无推荐",
+  "reasons": {
+    "skillMatch": "适合{{skillLevel}}水平球手",
+    "closeSkillMatch": "技术水平接近匹配",
+    "withinBudget": "在您的预算范围内",
+    "underBudget": "低于预算 - 性价比高",
+    "slightlyOverBudget": "略超预算",
+    "greatSwingSpeedMatch": "非常匹配您的挥杆速度",
+    "compatibleSwingSpeed": "兼容您的挥杆速度",
+    "excellentDistance": "出色的距离表现 ({{rating}}/10)",
+    "excellentAccuracy": "出色的精准度 ({{rating}}/10)",
+    "veryForgiving": "极高的容错性 ({{rating}}/10)"
+  },
+  "clubCategories": {
+    "driver": "一号木",
+    "fairwayWood": "球道木",
+    "hybrid": "混合杆",
+    "ironSet": "铁杆套装",
+    "wedge": "挖起杆",
+    "putter": "推杆"
+  }
+}

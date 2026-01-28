@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "logo": "GolfClub Finder",
+    "home": "Home",
+    "quiz": "Get Recommendations",
+    "catalog": "Browse Clubs"
+  },
+  "footer": {
+    "copyright": "GolfClub Finder. Helping you find the perfect clubs.",
+    "disclaimer": "Prices and availability may vary. Always check with authorized retailers."
+  },
+  "buttons": {
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "search": "Search",
+    "reset": "Reset",
+    "viewDetails": "View Details",
+    "startQuiz": "Start Quiz",
+    "browseAll": "Browse All Clubs",
+    "backToResults": "Back to Results",
+    "retakeQuiz": "Retake Quiz"
+  },
+  "clubTypes": {
+    "driver": "Driver",
+    "fairway_wood": "Fairway Wood",
+    "hybrid": "Hybrid",
+    "iron_set": "Iron Set",
+    "wedge": "Wedge",
+    "putter": "Putter"
+  },
+  "skillLevels": {
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced",
+    "professional": "Professional"
+  },
+  "shaftFlex": {
+    "ladies": "Ladies",
+    "senior": "Senior",
+    "regular": "Regular",
+    "stiff": "Stiff",
+    "extra_stiff": "Extra Stiff"
+  },
+  "swingSpeed": {
+    "slow": "Slow",
+    "moderate": "Moderate",
+    "fast": "Fast",
+    "very_fast": "Very Fast"
+  },
+  "ratings": {
+    "forgiveness": "Forgiveness",
+    "distance": "Distance",
+    "accuracy": "Accuracy"
+  },
+  "labels": {
+    "price": "Price",
+    "brand": "Brand",
+    "type": "Type",
+    "loft": "Loft",
+    "shaftFlex": "Shaft Flex",
+    "skillLevel": "Skill Level",
+    "swingSpeed": "Swing Speed",
+    "all": "All",
+    "noResults": "No results found",
+    "loading": "Loading..."
+  },
+  "errors": {
+    "clubNotFound": "Club not found",
+    "loadFailed": "Failed to load data",
+    "generic": "Something went wrong"
+  },
+  "units": {
+    "imperial": "Imperial",
+    "metric": "Metric"
+  },
+  "language": {
+    "en": "English",
+    "ko": "한국어",
+    "zh": "中文",
+    "es": "Español",
+    "ja": "日本語"
+  }
+}

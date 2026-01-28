@@ -1,0 +1,30 @@
+{
+  "title": "Golf Club Catalog",
+  "subtitle": "Browse our comprehensive collection of golf clubs from top brands",
+  "filters": {
+    "title": "Filters",
+    "type": "Club Type",
+    "brand": "Brand",
+    "skillLevel": "Skill Level",
+    "priceRange": "Price Range",
+    "search": "Search clubs...",
+    "all": "All",
+    "clearAll": "Clear All Filters",
+    "minPrice": "Min Price",
+    "maxPrice": "Max Price"
+  },
+  "results": {
+    "showing": "Showing {{count}} clubs",
+    "noResults": "No clubs match your filters",
+    "noResultsHint": "Try adjusting your filters or search terms"
+  },
+  "pagination": {
+    "page": "Page {{current}} of {{total}}",
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "card": {
+    "from": "From",
+    "viewDetails": "View Details"
+  }
+}

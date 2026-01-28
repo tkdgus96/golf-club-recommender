@@ -1,0 +1,12 @@
+{
+  "backToCatalog": "Volver al Catálogo",
+  "specifications": "Especificaciones",
+  "ratings": "Calificaciones de Rendimiento",
+  "suitableFor": "Adecuado Para",
+  "availableShafts": "Varillas Disponibles",
+  "availableLofts": "Lofts Disponibles",
+  "swingSpeedRange": "Rango de Velocidad de Swing",
+  "notFound": "Palo no encontrado",
+  "notFoundMessage": "El palo que buscas no existe o ha sido eliminado.",
+  "outOf": "/10"
+}

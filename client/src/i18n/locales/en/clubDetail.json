@@ -1,0 +1,12 @@
+{
+  "backToCatalog": "Back to Catalog",
+  "specifications": "Specifications",
+  "ratings": "Performance Ratings",
+  "suitableFor": "Suitable For",
+  "availableShafts": "Available Shafts",
+  "availableLofts": "Available Lofts",
+  "swingSpeedRange": "Swing Speed Range",
+  "notFound": "Club not found",
+  "notFoundMessage": "The club you're looking for doesn't exist or has been removed.",
+  "outOf": "/10"
+}

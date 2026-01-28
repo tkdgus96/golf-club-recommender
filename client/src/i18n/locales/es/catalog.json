@@ -1,0 +1,30 @@
+{
+  "title": "Catálogo de Palos de Golf",
+  "subtitle": "Explora nuestra colección completa de palos de las mejores marcas",
+  "filters": {
+    "title": "Filtros",
+    "type": "Tipo de Palo",
+    "brand": "Marca",
+    "skillLevel": "Nivel de Habilidad",
+    "priceRange": "Rango de Precio",
+    "search": "Buscar palos...",
+    "all": "Todos",
+    "clearAll": "Limpiar Filtros",
+    "minPrice": "Precio Mín.",
+    "maxPrice": "Precio Máx."
+  },
+  "results": {
+    "showing": "Mostrando {{count}} palos",
+    "noResults": "No hay palos que coincidan con los filtros",
+    "noResultsHint": "Intenta ajustar los filtros o términos de búsqueda"
+  },
+  "pagination": {
+    "page": "Página {{current}} de {{total}}",
+    "prev": "Anterior",
+    "next": "Siguiente"
+  },
+  "card": {
+    "from": "Desde",
+    "viewDetails": "Ver Detalles"
+  }
+}

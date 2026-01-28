@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "logo": "골프클럽 파인더",
+    "home": "홈",
+    "quiz": "추천 받기",
+    "catalog": "클럽 둘러보기"
+  },
+  "footer": {
+    "copyright": "골프클럽 파인더. 최적의 클럽을 찾아드립니다.",
+    "disclaimer": "가격 및 재고는 변동될 수 있습니다. 공인 판매점에서 확인하세요."
+  },
+  "buttons": {
+    "back": "이전",
+    "next": "다음",
+    "submit": "제출",
+    "search": "검색",
+    "reset": "초기화",
+    "viewDetails": "상세 보기",
+    "startQuiz": "퀴즈 시작",
+    "browseAll": "전체 클럽 보기",
+    "backToResults": "결과로 돌아가기",
+    "retakeQuiz": "퀴즈 다시 하기"
+  },
+  "clubTypes": {
+    "driver": "드라이버",
+    "fairway_wood": "페어웨이 우드",
+    "hybrid": "하이브리드",
+    "iron_set": "아이언 세트",
+    "wedge": "웨지",
+    "putter": "퍼터"
+  },
+  "skillLevels": {
+    "beginner": "초급",
+    "intermediate": "중급",
+    "advanced": "상급",
+    "professional": "프로"
+  },
+  "shaftFlex": {
+    "ladies": "레이디스",
+    "senior": "시니어",
+    "regular": "레귤러",
+    "stiff": "스티프",
+    "extra_stiff": "엑스트라 스티프"
+  },
+  "swingSpeed": {
+    "slow": "느림",
+    "moderate": "보통",
+    "fast": "빠름",
+    "very_fast": "매우 빠름"
+  },
+  "ratings": {
+    "forgiveness": "관용성",
+    "distance": "비거리",
+    "accuracy": "정확도"
+  },
+  "labels": {
+    "price": "가격",
+    "brand": "브랜드",
+    "type": "종류",
+    "loft": "로프트",
+    "shaftFlex": "샤프트 강도",
+    "skillLevel": "실력",
+    "swingSpeed": "스윙 스피드",
+    "all": "전체",
+    "noResults": "결과가 없습니다",
+    "loading": "로딩 중..."
+  },
+  "errors": {
+    "clubNotFound": "클럽을 찾을 수 없습니다",
+    "loadFailed": "데이터를 불러오지 못했습니다",
+    "generic": "문제가 발생했습니다"
+  },
+  "units": {
+    "imperial": "야드/파운드",
+    "metric": "미터법"
+  },
+  "language": {
+    "en": "English",
+    "ko": "한국어",
+    "zh": "中文",
+    "es": "Español",
+    "ja": "日本語"
+  }
+}
