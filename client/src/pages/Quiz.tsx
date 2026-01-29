@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import type { QuizAnswers } from "../types";
 import { getRecommendations } from "../services/api";
+import { useUnits } from "../hooks/useUnits";
 
 const INITIAL_ANSWERS: QuizAnswers = {
   skillLevel: "",
@@ -14,23 +16,26 @@ const INITIAL_ANSWERS: QuizAnswers = {
   improvementGoals: [],
 };
 
-const STEPS = [
-  "Skill Level",
-  "Swing Speed",
-  "Budget",
-  "Playing Frequency",
-  "Physical Profile",
-  "Improvement Goals",
-];
-
 export default function Quiz() {
   const navigate = useNavigate();
+  const { t } = useTranslation("quiz");
+  const { t: tc } = useTranslation("common");
+  const { getHeightLabel, getSwingSpeedDescription, isMetric } = useUnits();
   const [step, setStep] = useState(0);
   const [answers, setAnswers] = useState<QuizAnswers>(INITIAL_ANSWERS);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const update = (field: keyof QuizAnswers, value: any) => {
+  const STEPS = [
+    tc("skillLevels.beginner"),
+    tc("swingSpeed.slow"),
+    tc("labels.price"),
+    t("step4.title"),
+    t("step5.title"),
+    t("step6.title"),
+  ];
+
+  const update = (field: keyof QuizAnswers, value: unknown) => {
     setAnswers((prev) => ({ ...prev, [field]: value }));
   };
 
@@ -69,7 +74,7 @@ export default function Quiz() {
       const results = await getRecommendations(answers);
       navigate("/results", { state: { results, answers } });
     } catch (err) {
-      setError("Failed to get recommendations. Is the server running?");
+      setError(tc("errors.loadFailed"));
     } finally {
       setLoading(false);
     }
@@ -80,38 +85,16 @@ export default function Quiz() {
       case 0:
         return (
           <div className="quiz-step">
-            <h2>What's your skill level?</h2>
-            <p>Choose the option that best describes your current game.</p>
+            <h2>{t("step1.title")}</h2>
             <div className="quiz-options">
-              {[
-                {
-                  value: "beginner",
-                  label: "Beginner",
-                  desc: "New to golf or still learning the basics. Typical score: 100+",
-                },
-                {
-                  value: "intermediate",
-                  label: "Intermediate",
-                  desc: "Comfortable with fundamentals, working on consistency. Score: 85-100",
-                },
-                {
-                  value: "advanced",
-                  label: "Advanced",
-                  desc: "Strong all-around game with good course management. Score: 75-85",
-                },
-                {
-                  value: "professional",
-                  label: "Professional",
-                  desc: "Elite player competing at a high level. Score: under 75",
-                },
-              ].map((opt) => (
+              {(["beginner", "intermediate", "advanced", "professional"] as const).map((level) => (
                 <button
-                  key={opt.value}
-                  className={`quiz-option ${answers.skillLevel === opt.value ? "selected" : ""}`}
-                  onClick={() => update("skillLevel", opt.value)}
+                  key={level}
+                  className={`quiz-option ${answers.skillLevel === level ? "selected" : ""}`}
+                  onClick={() => update("skillLevel", level)}
                 >
-                  <strong>{opt.label}</strong>
-                  <span>{opt.desc}</span>
+                  <strong>{t(`step1.${level}.label`)}</strong>
+                  <span>{t(`step1.${level}.description`)}</span>
                 </button>
               ))}
             </div>
@@ -121,40 +104,16 @@ export default function Quiz() {
       case 1:
         return (
           <div className="quiz-step">
-            <h2>How fast is your swing?</h2>
-            <p>
-              If you're unsure, pick based on your typical driver distance.
-            </p>
+            <h2>{t("step2.title")}</h2>
             <div className="quiz-options">
-              {[
-                {
-                  value: "slow",
-                  label: "Slow",
-                  desc: "Driver distance under 180 yards. Swing speed under 80 mph.",
-                },
-                {
-                  value: "moderate",
-                  label: "Moderate",
-                  desc: "Driver distance 180-220 yards. Swing speed 80-95 mph.",
-                },
-                {
-                  value: "fast",
-                  label: "Fast",
-                  desc: "Driver distance 220-260 yards. Swing speed 95-110 mph.",
-                },
-                {
-                  value: "very_fast",
-                  label: "Very Fast",
-                  desc: "Driver distance 260+ yards. Swing speed 110+ mph.",
-                },
-              ].map((opt) => (
+              {(["slow", "moderate", "fast", "very_fast"] as const).map((speed) => (
                 <button
-                  key={opt.value}
-                  className={`quiz-option ${answers.swingSpeed === opt.value ? "selected" : ""}`}
-                  onClick={() => update("swingSpeed", opt.value)}
+                  key={speed}
+                  className={`quiz-option ${answers.swingSpeed === speed ? "selected" : ""}`}
+                  onClick={() => update("swingSpeed", speed)}
                 >
-                  <strong>{opt.label}</strong>
-                  <span>{opt.desc}</span>
+                  <strong>{t(`step2.${speed}.label`)}</strong>
+                  <span>{getSwingSpeedDescription(speed)}</span>
                 </button>
               ))}
             </div>
@@ -164,15 +123,15 @@ export default function Quiz() {
       case 2:
         return (
           <div className="quiz-step">
-            <h2>What's your budget?</h2>
-            <p>Per-club budget range (not the total set).</p>
+            <h2>{t("step3.title")}</h2>
+            <p>{t("step3.perClub")}</p>
             <div className="budget-inputs">
               <div className="budget-presets">
                 {[
-                  { label: "Budget ($0 - $300)", min: 0, max: 300 },
-                  { label: "Mid-Range ($100 - $500)", min: 100, max: 500 },
-                  { label: "Premium ($300 - $800)", min: 300, max: 800 },
-                  { label: "No Limit ($0 - $2000)", min: 0, max: 2000 },
+                  { label: `${t("step3.min")} ($0 - $300)`, min: 0, max: 300 },
+                  { label: `Mid-Range ($100 - $500)`, min: 100, max: 500 },
+                  { label: `Premium ($300 - $800)`, min: 300, max: 800 },
+                  { label: `No Limit ($0 - $2000)`, min: 0, max: 2000 },
                 ].map((preset) => (
                   <button
                     key={preset.label}
@@ -188,7 +147,7 @@ export default function Quiz() {
               </div>
               <div className="custom-budget">
                 <label>
-                  Or set custom range:
+                  {t("step3.range", { min: answers.budgetMin, max: answers.budgetMax })}
                   <div className="range-inputs">
                     <input
                       type="number"
@@ -196,17 +155,17 @@ export default function Quiz() {
                       onChange={(e) =>
                         update("budgetMin", parseInt(e.target.value) || 0)
                       }
-                      placeholder="Min"
+                      placeholder={t("step3.min")}
                       min={0}
                     />
-                    <span>to</span>
+                    <span>-</span>
                     <input
                       type="number"
                       value={answers.budgetMax}
                       onChange={(e) =>
                         update("budgetMax", parseInt(e.target.value) || 0)
                       }
-                      placeholder="Max"
+                      placeholder={t("step3.max")}
                       min={0}
                     />
                   </div>
@@ -219,33 +178,16 @@ export default function Quiz() {
       case 3:
         return (
           <div className="quiz-step">
-            <h2>How often do you play?</h2>
+            <h2>{t("step4.title")}</h2>
             <div className="quiz-options">
-              {[
-                { value: "rarely", label: "Rarely", desc: "A few times a year" },
-                {
-                  value: "monthly",
-                  label: "Monthly",
-                  desc: "1-3 times per month",
-                },
-                {
-                  value: "weekly",
-                  label: "Weekly",
-                  desc: "Once or twice a week",
-                },
-                {
-                  value: "daily",
-                  label: "Almost Daily",
-                  desc: "3+ times per week",
-                },
-              ].map((opt) => (
+              {(["occasional", "monthly", "weekly", "daily"] as const).map((freq) => (
                 <button
-                  key={opt.value}
-                  className={`quiz-option ${answers.playingFrequency === opt.value ? "selected" : ""}`}
-                  onClick={() => update("playingFrequency", opt.value)}
+                  key={freq}
+                  className={`quiz-option ${answers.playingFrequency === freq ? "selected" : ""}`}
+                  onClick={() => update("playingFrequency", freq)}
                 >
-                  <strong>{opt.label}</strong>
-                  <span>{opt.desc}</span>
+                  <strong>{t(`step4.${freq}.label`)}</strong>
+                  <span>{t(`step4.${freq}.description`)}</span>
                 </button>
               ))}
             </div>
@@ -255,40 +197,31 @@ export default function Quiz() {
       case 4:
         return (
           <div className="quiz-step">
-            <h2>Tell us about yourself</h2>
-            <p>This helps us recommend the right shaft and club weight.</p>
+            <h2>{t("step5.title")}</h2>
             <div className="quiz-section">
-              <h3>Height</h3>
+              <h3>{t("step5.height")}</h3>
               <div className="quiz-options horizontal">
-                {[
-                  { value: "short", label: "Under 5'6\"" },
-                  { value: "average", label: "5'6\" - 6'0\"" },
-                  { value: "tall", label: "Over 6'0\"" },
-                ].map((opt) => (
+                {(["short", "medium", "tall", "very_tall"] as const).map((h) => (
                   <button
-                    key={opt.value}
-                    className={`quiz-option compact ${answers.height === opt.value ? "selected" : ""}`}
-                    onClick={() => update("height", opt.value)}
+                    key={h}
+                    className={`quiz-option compact ${answers.height === h ? "selected" : ""}`}
+                    onClick={() => update("height", h)}
                   >
-                    <strong>{opt.label}</strong>
+                    <strong>{getHeightLabel(h)}</strong>
                   </button>
                 ))}
               </div>
             </div>
             <div className="quiz-section">
-              <h3>Strength</h3>
+              <h3>{t("step5.strength")}</h3>
               <div className="quiz-options horizontal">
-                {[
-                  { value: "light", label: "Light" },
-                  { value: "average", label: "Average" },
-                  { value: "strong", label: "Strong" },
-                ].map((opt) => (
+                {(["light", "average", "strong", "very_strong"] as const).map((s) => (
                   <button
-                    key={opt.value}
-                    className={`quiz-option compact ${answers.strength === opt.value ? "selected" : ""}`}
-                    onClick={() => update("strength", opt.value)}
+                    key={s}
+                    className={`quiz-option compact ${answers.strength === s ? "selected" : ""}`}
+                    onClick={() => update("strength", s)}
                   >
-                    <strong>{opt.label}</strong>
+                    <strong>{t(`step5.strengthOptions.${s}`)}</strong>
                   </button>
                 ))}
               </div>
@@ -299,38 +232,16 @@ export default function Quiz() {
       case 5:
         return (
           <div className="quiz-step">
-            <h2>What do you want to improve?</h2>
-            <p>Select all that apply.</p>
+            <h2>{t("step6.title")}</h2>
+            <p>{t("step6.subtitle")}</p>
             <div className="quiz-options">
-              {[
-                {
-                  value: "distance",
-                  label: "Distance",
-                  desc: "Hit the ball farther off the tee and with every club",
-                },
-                {
-                  value: "accuracy",
-                  label: "Accuracy",
-                  desc: "Hit more fairways and greens in regulation",
-                },
-                {
-                  value: "consistency",
-                  label: "Consistency",
-                  desc: "More forgiving clubs that reduce the impact of mishits",
-                },
-                {
-                  value: "control",
-                  label: "Shot Control",
-                  desc: "Shape shots and control trajectory and spin",
-                },
-              ].map((opt) => (
+              {(["distance", "accuracy", "consistency", "forgiveness", "control", "feel"] as const).map((goal) => (
                 <button
-                  key={opt.value}
-                  className={`quiz-option ${answers.improvementGoals.includes(opt.value) ? "selected" : ""}`}
-                  onClick={() => toggleGoal(opt.value)}
+                  key={goal}
+                  className={`quiz-option ${answers.improvementGoals.includes(goal) ? "selected" : ""}`}
+                  onClick={() => toggleGoal(goal)}
                 >
-                  <strong>{opt.label}</strong>
-                  <span>{opt.desc}</span>
+                  <strong>{t(`step6.goals.${goal}`)}</strong>
                 </button>
               ))}
             </div>
@@ -344,16 +255,15 @@ export default function Quiz() {
 
   return (
     <div className="quiz-page">
+      <h1>{t("title")}</h1>
       <div className="quiz-progress">
-        {STEPS.map((s, i) => (
+        <span>{t("progress", { current: step + 1, total: STEPS.length })}</span>
+        <div className="progress-bar">
           <div
-            key={s}
-            className={`progress-step ${i === step ? "current" : ""} ${i < step ? "done" : ""}`}
-          >
-            <div className="progress-dot">{i < step ? "\u2713" : i + 1}</div>
-            <span className="progress-label">{s}</span>
-          </div>
-        ))}
+            className="progress-fill"
+            style={{ width: `${((step + 1) / STEPS.length) * 100}%` }}
+          />
+        </div>
       </div>
 
       {renderStep()}
@@ -363,7 +273,7 @@ export default function Quiz() {
       <div className="quiz-nav">
         {step > 0 && (
           <button className="btn btn-secondary" onClick={() => setStep(step - 1)}>
-            Back
+            {tc("buttons.back")}
           </button>
         )}
         {step < STEPS.length - 1 ? (
@@ -372,7 +282,7 @@ export default function Quiz() {
             onClick={() => setStep(step + 1)}
             disabled={!canNext()}
           >
-            Next
+            {tc("buttons.next")}
           </button>
         ) : (
           <button
@@ -380,7 +290,7 @@ export default function Quiz() {
             onClick={handleSubmit}
             disabled={!canNext() || loading}
           >
-            {loading ? "Finding clubs..." : "Get Recommendations"}
+            {loading ? t("submitting") : tc("nav.quiz")}
           </button>
         )}
       </div>
