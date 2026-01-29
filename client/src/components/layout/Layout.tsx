@@ -1,7 +1,10 @@
 import { Outlet } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import Header from "./Header";
 
 export default function Layout() {
+  const { t } = useTranslation("common");
+
   return (
     <div className="app">
       <Header />
@@ -9,7 +12,7 @@ export default function Layout() {
         <Outlet />
       </main>
       <footer className="footer">
-        <p>GolfClub Finder - Find the perfect clubs for your game</p>
+        <p>{t("footer.copyright")}</p>
       </footer>
     </div>
   );
