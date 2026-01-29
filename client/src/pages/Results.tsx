@@ -1,16 +1,30 @@
 import { useLocation, Link, Navigate } from "react-router-dom";
-import type { RecommendationSet, ScoredClub, QuizAnswers } from "../types";
+import { useTranslation } from "react-i18next";
+import type { RecommendationSet, ScoredClub, QuizAnswers, ReasonItem } from "../types";
 
 function ClubRecommendation({
   label,
   scored,
+  t,
+  tc,
+  tr,
 }: {
   label: string;
   scored: ScoredClub | null;
+  t: (key: string) => string;
+  tc: (key: string) => string;
+  tr: (key: string, params?: Record<string, unknown>) => string;
 }) {
   if (!scored) return null;
 
   const { club, score, reasons } = scored;
+
+  const translateReason = (reason: ReasonItem): string => {
+    if (reason.params) {
+      return tr(`reasons.${reason.key}`, reason.params);
+    }
+    return tr(`reasons.${reason.key}`);
+  };
 
   return (
     <div className="rec-card">
@@ -25,20 +39,20 @@ function ClubRecommendation({
         <p className="rec-price">${Number(club.price).toFixed(2)}</p>
         <p className="rec-desc">{club.description}</p>
         <div className="rec-ratings">
-          <span>Forgiveness: {club.forgivenessRating}/10</span>
-          <span>Distance: {club.distanceRating}/10</span>
-          <span>Accuracy: {club.accuracyRating}/10</span>
+          <span>{tc("ratings.forgiveness")}: {club.forgivenessRating}/10</span>
+          <span>{tc("ratings.distance")}: {club.distanceRating}/10</span>
+          <span>{tc("ratings.accuracy")}: {club.accuracyRating}/10</span>
         </div>
         <div className="rec-reasons">
-          <strong>Why this club:</strong>
+          <strong>{t("whyRecommended")}:</strong>
           <ul>
             {reasons.map((r, i) => (
-              <li key={i}>{r}</li>
+              <li key={i}>{translateReason(r)}</li>
             ))}
           </ul>
         </div>
         <Link to={`/clubs/${club.id}`} className="btn btn-sm btn-secondary">
-          View Details
+          {tc("buttons.viewDetails")}
         </Link>
       </div>
     </div>
@@ -47,6 +61,9 @@ function ClubRecommendation({
 
 export default function Results() {
   const location = useLocation();
+  const { t } = useTranslation("results");
+  const { t: tc } = useTranslation("common");
+
   const state = location.state as {
     results: RecommendationSet;
     answers: QuizAnswers;
@@ -58,19 +75,13 @@ export default function Results() {
 
   const { results, answers } = state;
 
-  const skillLabel = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
-
   return (
     <div className="results-page">
       <div className="results-header">
-        <h1>Your Recommended Set</h1>
-        <p>
-          Based on your profile: {skillLabel(answers.skillLevel)} player,{" "}
-          {answers.swingSpeed.replace("_", " ")} swing speed, ${answers.budgetMin}-$
-          {answers.budgetMax} per club budget.
-        </p>
+        <h1>{t("title")}</h1>
+        <p>{t("subtitle")}</p>
         <div className="results-total">
-          <strong>Estimated Total Set Price:</strong>{" "}
+          <strong>{t("totalCost")}:</strong>{" "}
           <span className="total-price">
             ${results.totalPrice.toFixed(2)}
           </span>
@@ -78,20 +89,56 @@ export default function Results() {
       </div>
 
       <div className="rec-grid">
-        <ClubRecommendation label="Driver" scored={results.driver} />
-        <ClubRecommendation label="Fairway Wood" scored={results.fairwayWood} />
-        <ClubRecommendation label="Hybrid" scored={results.hybrid} />
-        <ClubRecommendation label="Iron Set" scored={results.ironSet} />
-        <ClubRecommendation label="Wedge" scored={results.wedge} />
-        <ClubRecommendation label="Putter" scored={results.putter} />
+        <ClubRecommendation
+          label={t("clubCategories.driver")}
+          scored={results.driver}
+          t={t}
+          tc={tc}
+          tr={t}
+        />
+        <ClubRecommendation
+          label={t("clubCategories.fairwayWood")}
+          scored={results.fairwayWood}
+          t={t}
+          tc={tc}
+          tr={t}
+        />
+        <ClubRecommendation
+          label={t("clubCategories.hybrid")}
+          scored={results.hybrid}
+          t={t}
+          tc={tc}
+          tr={t}
+        />
+        <ClubRecommendation
+          label={t("clubCategories.ironSet")}
+          scored={results.ironSet}
+          t={t}
+          tc={tc}
+          tr={t}
+        />
+        <ClubRecommendation
+          label={t("clubCategories.wedge")}
+          scored={results.wedge}
+          t={t}
+          tc={tc}
+          tr={t}
+        />
+        <ClubRecommendation
+          label={t("clubCategories.putter")}
+          scored={results.putter}
+          t={t}
+          tc={tc}
+          tr={t}
+        />
       </div>
 
       <div className="results-actions">
         <Link to="/quiz" className="btn btn-secondary">
-          Retake Quiz
+          {tc("buttons.retakeQuiz")}
         </Link>
         <Link to="/catalog" className="btn btn-primary">
-          Browse Full Catalog
+          {tc("buttons.browseAll")}
         </Link>
       </div>
     </div>
