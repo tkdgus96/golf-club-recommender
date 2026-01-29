@@ -1,11 +1,13 @@
 import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import type { GolfClub } from "../types";
-import { CLUB_TYPE_LABELS } from "../types";
 import { getClub } from "../services/api";
 
 export default function ClubDetail() {
   const { id } = useParams<{ id: string }>();
+  const { t } = useTranslation("clubDetail");
+  const { t: tc, i18n } = useTranslation("common");
   const [club, setClub] = useState<GolfClub | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
@@ -15,39 +17,33 @@ export default function ClubDetail() {
     setLoading(true);
     getClub(parseInt(id))
       .then(setClub)
-      .catch(() => setError("Club not found"))
+      .catch(() => setError(tc("errors.clubNotFound")))
       .finally(() => setLoading(false));
-  }, [id]);
+  }, [id, i18n.language, tc]);
 
-  if (loading) return <div className="loading">Loading...</div>;
+  if (loading) return <div className="loading">{tc("labels.loading")}</div>;
   if (error || !club)
     return (
       <div className="error-page">
-        <h2>Club not found</h2>
+        <h2>{t("notFound")}</h2>
+        <p>{t("notFoundMessage")}</p>
         <Link to="/catalog" className="btn btn-primary">
-          Back to Catalog
+          {t("backToCatalog")}
         </Link>
       </div>
     );
 
-  const skillLabel = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
-  const flexLabel = (s: string) =>
-    s
-      .split("_")
-      .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-      .join(" ");
-
   return (
     <div className="club-detail-page">
       <Link to="/catalog" className="back-link">
-        &larr; Back to Catalog
+        &larr; {t("backToCatalog")}
       </Link>
 
       <div className="club-detail">
         <div className="club-detail-header">
           <div>
             <span className="club-type-badge large">
-              {CLUB_TYPE_LABELS[club.clubType]}
+              {tc(`clubTypes.${club.clubType}`)}
             </span>
             <h1>
               {club.brand} {club.name}
@@ -60,65 +56,69 @@ export default function ClubDetail() {
 
         <div className="club-detail-body">
           <div className="club-detail-section">
-            <h3>Description</h3>
+            <h3>{t("specifications")}</h3>
             <p>{club.description}</p>
           </div>
 
           <div className="club-detail-specs">
             <div className="spec-group">
-              <h3>Specifications</h3>
+              <h3>{t("specifications")}</h3>
               <dl>
-                <dt>Loft</dt>
+                <dt>{tc("labels.loft")}</dt>
                 <dd>{club.loft}</dd>
-                <dt>Shaft Flex Options</dt>
-                <dd>{club.shaftFlex.map(flexLabel).join(", ")}</dd>
-                <dt>Swing Speed</dt>
-                <dd>{club.swingSpeedRange.map(flexLabel).join(", ")}</dd>
+                <dt>{t("availableShafts")}</dt>
+                <dd>
+                  {club.shaftFlex.map((f) => tc(`shaftFlex.${f}`)).join(", ")}
+                </dd>
+                <dt>{t("swingSpeedRange")}</dt>
+                <dd>
+                  {club.swingSpeedRange.map((s) => tc(`swingSpeed.${s}`)).join(", ")}
+                </dd>
               </dl>
             </div>
 
             <div className="spec-group">
-              <h3>Ratings</h3>
+              <h3>{t("ratings")}</h3>
               <div className="rating-bars">
                 <div className="rating-bar">
-                  <span>Forgiveness</span>
+                  <span>{tc("ratings.forgiveness")}</span>
                   <div className="bar">
                     <div
                       className="bar-fill forgiveness"
                       style={{ width: `${club.forgivenessRating * 10}%` }}
                     />
                   </div>
-                  <span>{club.forgivenessRating}/10</span>
+                  <span>{club.forgivenessRating}{t("outOf")}</span>
                 </div>
                 <div className="rating-bar">
-                  <span>Distance</span>
+                  <span>{tc("ratings.distance")}</span>
                   <div className="bar">
                     <div
                       className="bar-fill distance"
                       style={{ width: `${club.distanceRating * 10}%` }}
                     />
                   </div>
-                  <span>{club.distanceRating}/10</span>
+                  <span>{club.distanceRating}{t("outOf")}</span>
                 </div>
                 <div className="rating-bar">
-                  <span>Accuracy</span>
+                  <span>{tc("ratings.accuracy")}</span>
                   <div className="bar">
                     <div
                       className="bar-fill accuracy"
                       style={{ width: `${club.accuracyRating * 10}%` }}
                     />
                   </div>
-                  <span>{club.accuracyRating}/10</span>
+                  <span>{club.accuracyRating}{t("outOf")}</span>
                 </div>
               </div>
             </div>
 
             <div className="spec-group">
-              <h3>Suitable For</h3>
+              <h3>{t("suitableFor")}</h3>
               <div className="skill-badges">
                 {club.skillLevels.map((sl) => (
                   <span key={sl} className="skill-badge large">
-                    {skillLabel(sl)}
+                    {tc(`skillLevels.${sl}`)}
                   </span>
                 ))}
               </div>
