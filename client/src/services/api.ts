@@ -1,4 +1,5 @@
 import axios from "axios";
+import i18n from "../i18n";
 import type {
   ClubsResponse,
   GolfClub,
@@ -11,8 +12,13 @@ const api = axios.create({
   baseURL: "http://localhost:3001/api",
 });
 
+function getLang(): string {
+  return i18n.language?.substring(0, 2) || "en";
+}
+
 export async function getClubs(filters: ClubFilters = {}): Promise<ClubsResponse> {
   const params: Record<string, string | number> = {};
+  params.lang = getLang();
   if (filters.type) params.type = filters.type;
   if (filters.brand) params.brand = filters.brand;
   if (filters.skillLevel) params.skillLevel = filters.skillLevel;
@@ -27,7 +33,9 @@ export async function getClubs(filters: ClubFilters = {}): Promise<ClubsResponse
 }
 
 export async function getClub(id: number): Promise<GolfClub> {
-  const { data } = await api.get<GolfClub>(`/clubs/${id}`);
+  const { data } = await api.get<GolfClub>(`/clubs/${id}`, {
+    params: { lang: getLang() },
+  });
   return data;
 }
 
