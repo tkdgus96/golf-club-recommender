@@ -7,9 +7,15 @@
     "dev:client": "cd client && npm run dev",
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
     "seed": "cd server && npm run seed",
-    "install:all": "npm install && cd server && npm install && cd ../client && npm install"
+    "validate:data": "cd server && npm run validate:data",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "test:ui": "playwright test",
+    "test:ui:headed": "playwright test --project=chromium --headed",
+    "test:ui:report": "playwright show-report"
   },
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "@playwright/test": "^1.58.2",
+    "concurrently": "^8.2.2",
+    "playwright": "^1.58.2"
   }
 }
