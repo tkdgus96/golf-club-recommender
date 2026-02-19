@@ -1,0 +1,51 @@
+{
+  "title": "Ajuste de Varilla",
+  "subtitle": "Encuentra la varilla perfecta para tu swing usando nuestro gráfico interactivo",
+  "backToFitting": "Volver al Ajuste de Varilla",
+  "filters": {
+    "title": "Filtros",
+    "vendor": "Fabricante",
+    "flex": "Flex",
+    "category": "Categoría",
+    "weightRange": "Peso (g)",
+    "min": "Mín",
+    "max": "Máx",
+    "clearAll": "Limpiar Filtros"
+  },
+  "chart": {
+    "title": "Gráfico de Perfil de Varilla",
+    "xAxis": "Sensación (Rigidez de Punta)",
+    "yAxis": "Lanzamiento (Trayectoria)",
+    "soft": "Suave",
+    "firm": "Firme",
+    "low": "Bajo",
+    "high": "Alto",
+    "hint": "Haz clic en un punto de varilla para ver detalles"
+  },
+  "legend": {
+    "title": "Categorías"
+  },
+  "categories": {
+    "driverWood": "Driver/Madera",
+    "hybrid": "Híbrido",
+    "iron": "Hierro"
+  },
+  "specs": {
+    "weight": "Peso",
+    "flex": "Flex",
+    "torque": "Torque",
+    "tip": "Punta",
+    "butt": "Culata",
+    "launch": "Lanzamiento",
+    "spin": "Efecto"
+  },
+  "detail": {
+    "specifications": "Especificaciones",
+    "characteristics": "Características",
+    "description": "Descripción",
+    "upchargeNote": "Puede aplicar cargo adicional"
+  },
+  "errors": {
+    "notFound": "Varilla no encontrada"
+  }
+}

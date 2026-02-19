@@ -6,6 +6,11 @@ import type {
   QuizAnswers,
   RecommendationSet,
   ClubFilters,
+  ShaftsResponse,
+  Shaft,
+  ShaftFilters,
+  ClubOffersResponse,
+  BundleOffersResponse,
 } from "../types";
 
 const api = axios.create({
@@ -53,5 +58,59 @@ export async function getRecommendations(
   answers: QuizAnswers
 ): Promise<RecommendationSet> {
   const { data } = await api.post<RecommendationSet>("/recommendations", answers);
+  return data;
+}
+
+export async function getShafts(filters: ShaftFilters = {}): Promise<ShaftsResponse> {
+  const params: Record<string, string | number> = {};
+  if (filters.vendor) params.vendor = filters.vendor;
+  if (filters.flex) params.flex = filters.flex;
+  if (filters.category !== undefined) params.category = filters.category;
+  if (filters.application) params.application = filters.application;
+  if (filters.type) params.type = filters.type;
+  if (filters.minWeight) params.minWeight = filters.minWeight;
+  if (filters.maxWeight) params.maxWeight = filters.maxWeight;
+  if (filters.minTorque) params.minTorque = filters.minTorque;
+  if (filters.maxTorque) params.maxTorque = filters.maxTorque;
+  if (filters.search) params.search = filters.search;
+  if (filters.page) params.page = filters.page;
+  if (filters.limit) params.limit = filters.limit;
+
+  const { data } = await api.get<ShaftsResponse>("/shafts", { params });
+  return data;
+}
+
+export async function getShaft(id: string): Promise<Shaft> {
+  const { data } = await api.get<Shaft>(`/shafts/${id}`);
+  return data;
+}
+
+export async function getShaftVendors(): Promise<string[]> {
+  const { data } = await api.get<string[]>("/shafts/vendors");
+  return data;
+}
+
+export async function getShaftCategories(): Promise<number[]> {
+  const { data } = await api.get<number[]>("/shafts/categories");
+  return data;
+}
+
+export async function getShaftApplications(): Promise<string[]> {
+  const { data } = await api.get<string[]>("/shafts/applications");
+  return data;
+}
+
+export async function getShaftFlexOptions(): Promise<string[]> {
+  const { data } = await api.get<string[]>("/shafts/flex-options");
+  return data;
+}
+
+export async function getClubOffers(id: number): Promise<ClubOffersResponse> {
+  const { data } = await api.get<ClubOffersResponse>(`/commerce/clubs/${id}/offers`);
+  return data;
+}
+
+export async function getBundleOffers(clubIds: number[]): Promise<BundleOffersResponse> {
+  const { data } = await api.post<BundleOffersResponse>("/commerce/bundle", { clubIds });
   return data;
 }

@@ -1,0 +1,148 @@
+{
+  "title": "杆身比较工具",
+  "subtitle": "比较杆身特性，预测更换杆身对击球的影响",
+  "currentShaft": "当前杆身",
+  "targetShaft": "目标杆身",
+  "yourShotData": "您的击球数据",
+  "selectShaft": "选择杆身...",
+  "searchShafts": "搜索杆身...",
+  "clear": "清除",
+  "moreResults": "还有 {{count}} 个结果",
+  "applications": {
+    "driver": "一号木",
+    "fairway_wood": "球道木",
+    "hybrid": "混合杆",
+    "iron": "铁杆",
+    "wedge": "挖起杆",
+    "putter": "推杆"
+  },
+  "modes": {
+    "shotData": "击球数据",
+    "clubData": "挥杆数据",
+    "shotDescription": "输入您的发射监测数据（球速、起飞角度、旋转）",
+    "clubDescription": "输入您的挥杆数据（杆头速度、杆面角度、挥杆路径）"
+  },
+  "inputs": {
+    "ballSpeed": "球速",
+    "launchAngle": "起飞角度",
+    "spinRate": "旋转量",
+    "carry": "飞行距离",
+    "clubSpeed": "杆头速度",
+    "clubFaceAngle": "杆面角度",
+    "clubPathAngle": "挥杆路径",
+    "attackAngle": "攻击角",
+    "backspin": "倒旋",
+    "closed": "闭合",
+    "open": "开放",
+    "inToOut": "由内向外",
+    "outToIn": "由外向内",
+    "down": "向下",
+    "up": "向上"
+  },
+  "buttons": {
+    "compare": "比较杆身",
+    "reset": "重置"
+  },
+  "predictedChanges": "预测变化",
+  "metrics": {
+    "ballSpeed": "球速",
+    "launchAngle": "起飞角度",
+    "spinRate": "旋转量",
+    "carry": "飞行距离",
+    "clubFaceAngle": "杆面角度",
+    "clubPathAngle": "挥杆路径角",
+    "faceToPath": "杆面-路径",
+    "offline": "左右偏差"
+  },
+  "offline": {
+    "left": "左",
+    "right": "右",
+    "center": "中"
+  },
+  "dispersion": {
+    "title": "偏差分解",
+    "startLine": "起始线影响",
+    "curvature": "曲率影响",
+    "band": "90% 偏差带"
+  },
+  "uncertainty": {
+    "carryRange": "预测飞行距离范围",
+    "offlineWindow": "预测左右范围",
+    "modelConfidence": "模型置信度"
+  },
+  "units": {
+    "mph": "mph",
+    "ms": "m/s",
+    "rpm": "rpm",
+    "yards": "码",
+    "meters": "米"
+  },
+  "overallRating": "综合评分",
+  "ratings": {
+    "distance": "距离",
+    "accuracy": "准确性",
+    "better": "更好",
+    "worse": "更差",
+    "same": "相同"
+  },
+  "recommendations": {
+    "better": "推荐选择",
+    "neutral": "中性变化",
+    "worse": "不推荐"
+  },
+  "reasons": {
+    "moreDistance": "这根杆身可以提供更远的距离",
+    "moreAccuracy": "这根杆身可以提高准确性和稳定性",
+    "betterOverall": "这根杆身在距离和准确性方面都有改善",
+    "lessDistance": "使用这根杆身可能会损失距离",
+    "lessAccuracy": "这根杆身可能会降低准确性和稳定性",
+    "worseOverall": "这根杆身可能不太适合您的挥杆",
+    "neutral": "差异很小 - 两根杆身都应该可以使用",
+    "betterExpectedStrokes": "This setup projects lower expected strokes for the same target window",
+    "worseExpectedStrokes": "This setup projects higher expected strokes with wider miss cost"
+  },
+  "trajectoryComparison": "弹道比较",
+  "legend": {
+    "current": "当前",
+    "target": "目标"
+  },
+  "emptyState": {
+    "title": "比较杆身性能",
+    "description": "选择杆身并输入您的击球数据以查看预测变化",
+    "step1": "选择您当前的杆身",
+    "step2": "选择您想尝试的杆身",
+    "step3": "输入您的典型击球数据",
+    "step4": "点击比较杆身查看预测变化"
+  },
+  "fallback": {
+    "title": "3D preview unavailable",
+    "description": "Your browser/device blocked WebGL. The data and recommendation panel still use full calculations."
+  },
+  "quality": {
+    "ultra": "Renderer: Ultra",
+    "balanced": "Renderer: Balanced",
+    "safe": "Renderer: Safe"
+  },
+  "shaftApplication": "Shaft Category",
+  "strokes": {
+    "current": "Expected Strokes (Current)",
+    "predicted": "Expected Strokes (Target)",
+    "delta": "Expected Strokes Gain"
+  },
+  "probability": {
+    "title": "Probability Bands",
+    "carry": "Carry (P10/P50/P90)",
+    "offline": "Offline (P10/P50/P90)"
+  },
+  "calibration": {
+    "title": "Personal Calibration",
+    "subtitle": "Tune this model to your launch monitor tendencies.",
+    "ballSpeedBias": "Ball Speed Bias",
+    "launchAngleBias": "Launch Angle Bias",
+    "spinRateBias": "Spin Rate Bias",
+    "faceAngleBias": "Face Angle Bias",
+    "pathAngleBias": "Path Angle Bias",
+    "dispersionBias": "Dispersion Bias",
+    "reset": "Reset Calibration"
+  }
+}

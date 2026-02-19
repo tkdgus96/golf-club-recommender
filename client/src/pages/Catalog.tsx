@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import type { GolfClub, ClubFilters } from "../types";
 import { getClubs, getBrands } from "../services/api";
+import DataTrustBadge from "../components/common/DataTrustBadge";
 
 export default function Catalog() {
   const { t } = useTranslation("catalog");
@@ -165,6 +166,22 @@ export default function Catalog() {
                     key={club.id}
                     className="club-card"
                   >
+                    <div className="club-card-image">
+                      {club.imageUrl ? (
+                        <img 
+                          src={club.imageUrl} 
+                          alt={club.name} 
+                          className="club-image"
+                          onError={(e) => {
+                            (e.target as HTMLImageElement).src = `https://placehold.co/400x400?text=${encodeURIComponent(club.name)}`;
+                          }}
+                        />
+                      ) : (
+                        <div className="image-placeholder">
+                          {club.brand[0]}{club.name[0]}
+                        </div>
+                      )}
+                    </div>
                     <div className="club-card-header">
                       <span className="club-type-badge">
                         {tc(`clubTypes.${club.clubType}`)}
@@ -191,6 +208,14 @@ export default function Catalog() {
                         </span>
                       ))}
                     </div>
+                    <DataTrustBadge
+                      compact
+                      className="club-trust"
+                      sourceName={club.sourceName}
+                      sourceUrl={club.sourceUrl}
+                      sourceUpdatedAt={club.sourceUpdatedAt}
+                      dataConfidence={club.dataConfidence}
+                    />
                   </Link>
                 ))}
               </div>

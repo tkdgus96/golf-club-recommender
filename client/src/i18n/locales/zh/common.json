@@ -3,11 +3,18 @@
     "logo": "高尔夫球杆推荐",
     "home": "首页",
     "quiz": "获取推荐",
-    "catalog": "浏览球杆"
+    "catalog": "浏览球杆",
+    "shafts": "杆身适配",
+    "simulator": "模拟器",
+    "compare": "比较",
+    "results": "View Results",
+    "myFits": "My Fits",
+    "coach": "Coach"
   },
   "footer": {
     "copyright": "高尔夫球杆推荐。帮助您找到完美的球杆。",
-    "disclaimer": "价格和库存可能会有所变动，请咨询授权经销商确认。"
+    "disclaimer": "价格和库存可能会有所变动，请咨询授权经销商确认。",
+    "privacy": "Data & Privacy"
   },
   "buttons": {
     "back": "返回",
@@ -80,5 +87,37 @@
     "zh": "中文",
     "es": "Español",
     "ja": "日本語"
+  },
+  "trust": {
+    "confidence": "Confidence {{value}}%",
+    "source": "Source",
+    "updated": "Updated {{date}}",
+    "verify": "Verify"
+  },
+  "myFits": {
+    "title": "My Fits",
+    "subtitle": "Saved bags, compare history, and your best fit performance.",
+    "bestBag": "Last Best Fit",
+    "openBag": "Open Bag",
+    "savedBags": "Saved Bags",
+    "noSavedBags": "No saved bags yet. Save one from your Results page.",
+    "remove": "Remove",
+    "compareHistory": "Compare History",
+    "noCompareHistory": "No comparison history yet.",
+    "clearHistory": "Clear History"
+  },
+  "report": {
+    "notFound": "Shared report not found",
+    "notFoundHint": "This report link may have expired or was created on another device."
+  },
+  "commerce": {
+    "title": "Retail Offers",
+    "bundleTitle": "Bundle Pricing",
+    "bestBundle": "Best total: {{retailer}} (${{total}})",
+    "buy": "Buy",
+    "inStock": "In Stock",
+    "limited": "Limited",
+    "out": "Out",
+    "partial": "Partial Stock"
   }
 }

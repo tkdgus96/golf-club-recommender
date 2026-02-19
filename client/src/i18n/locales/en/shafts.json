@@ -1,0 +1,51 @@
+{
+  "title": "Shaft Fitting",
+  "subtitle": "Find the perfect shaft for your swing using our interactive fitting chart",
+  "backToFitting": "Back to Shaft Fitting",
+  "filters": {
+    "title": "Filters",
+    "vendor": "Vendor",
+    "flex": "Flex",
+    "category": "Category",
+    "weightRange": "Weight (g)",
+    "min": "Min",
+    "max": "Max",
+    "clearAll": "Clear Filters"
+  },
+  "chart": {
+    "title": "Shaft Profile Chart",
+    "xAxis": "Feel (Tip Stiffness)",
+    "yAxis": "Launch (Trajectory)",
+    "soft": "Soft",
+    "firm": "Firm",
+    "low": "Low",
+    "high": "High",
+    "hint": "Click on a shaft point to see details"
+  },
+  "legend": {
+    "title": "Categories"
+  },
+  "categories": {
+    "driverWood": "Driver/Wood",
+    "hybrid": "Hybrid",
+    "iron": "Iron"
+  },
+  "specs": {
+    "weight": "Weight",
+    "flex": "Flex",
+    "torque": "Torque",
+    "tip": "Tip",
+    "butt": "Butt",
+    "launch": "Launch",
+    "spin": "Spin"
+  },
+  "detail": {
+    "specifications": "Specifications",
+    "characteristics": "Characteristics",
+    "description": "Description",
+    "upchargeNote": "Upcharge may apply"
+  },
+  "errors": {
+    "notFound": "Shaft not found"
+  }
+}

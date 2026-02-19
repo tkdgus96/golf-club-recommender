@@ -2,7 +2,9 @@
   "hero": {
     "title": "Encuentra Tus Palos de Golf Perfectos",
     "subtitle": "Obtén recomendaciones personalizadas según tu nivel, swing y preferencias",
-    "cta": "Obtener Mis Recomendaciones"
+    "cta": "Obtener Mis Recomendaciones",
+    "resumeCta": "Resume Quiz",
+    "lastSession": "Last completed fitting: {{date}}"
   },
   "features": {
     "title": "¿Por Qué Usar GolfClub Finder?",
@@ -35,6 +37,16 @@
       "number": "3",
       "title": "Revisa y Elige",
       "description": "Ve tu set personalizado con puntuaciones, razones y desglose de costos."
+    }
+  },
+  "heroVariants": {
+    "guided": {
+      "title": "Build A Precision Bag Setup",
+      "subtitle": "Take the full guided flow for confidence-scored club and shaft recommendations."
+    },
+    "express": {
+      "title": "Express Fitting In Minutes",
+      "subtitle": "Start in fast mode with fewer decisions, then refine with simulator and comparison tools."
     }
   }
 }

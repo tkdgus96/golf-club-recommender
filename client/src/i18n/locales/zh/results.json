@@ -24,5 +24,34 @@
     "ironSet": "铁杆套装",
     "wedge": "挖起杆",
     "putter": "推杆"
+  },
+  "confidence": {
+    "title": "Recommendation Confidence",
+    "breakdown": "Model {{model}}% • Data {{data}}% • Signal {{signal}}%",
+    "levels": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    }
+  },
+  "source": {
+    "title": "Data Source",
+    "updated": "Updated: {{date}}",
+    "dataConfidence": "Data confidence: {{value}}%",
+    "link": "View Source"
+  },
+  "actions": {
+    "saveBag": "Save Bag",
+    "downloadReport": "Download Fitter Report",
+    "copyLink": "Copy Share Link",
+    "saved": "Bag saved to My Fits.",
+    "downloaded": "Fitter report downloaded.",
+    "linkCopied": "Share link copied."
+  },
+  "optimization": {
+    "title": "Optimized Setup",
+    "adjustments": "Loft {{loft}}°, Lie {{lie}}°, Length {{length}}in",
+    "shaft": "Shaft: {{flex}}, {{weight}}, {{torque}}, {{launch}} launch",
+    "ball": "Ball: {{profile}} / {{compression}} compression / {{spin}} spin"
   }
 }

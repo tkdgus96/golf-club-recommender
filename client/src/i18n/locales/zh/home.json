@@ -2,7 +2,9 @@
   "hero": {
     "title": "找到最适合您的高尔夫球杆",
     "subtitle": "根据您的技术水平、挥杆特点和偏好，获得个性化球杆推荐",
-    "cta": "获取推荐"
+    "cta": "获取推荐",
+    "resumeCta": "Resume Quiz",
+    "lastSession": "Last completed fitting: {{date}}"
   },
   "features": {
     "title": "为什么选择高尔夫球杆推荐？",
@@ -35,6 +37,16 @@
       "number": "3",
       "title": "审查与选择",
       "description": "查看包含评分、推荐理由和总费用的个性化套装。"
+    }
+  },
+  "heroVariants": {
+    "guided": {
+      "title": "Build A Precision Bag Setup",
+      "subtitle": "Take the full guided flow for confidence-scored club and shaft recommendations."
+    },
+    "express": {
+      "title": "Express Fitting In Minutes",
+      "subtitle": "Start in fast mode with fewer decisions, then refine with simulator and comparison tools."
     }
   }
 }

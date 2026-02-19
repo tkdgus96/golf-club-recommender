@@ -1,0 +1,51 @@
+{
+  "title": "杆身适配",
+  "subtitle": "使用我们的交互式适配图表找到适合您挥杆的完美杆身",
+  "backToFitting": "返回杆身适配",
+  "filters": {
+    "title": "筛选",
+    "vendor": "品牌",
+    "flex": "硬度",
+    "category": "类别",
+    "weightRange": "重量 (g)",
+    "min": "最小",
+    "max": "最大",
+    "clearAll": "清除筛选"
+  },
+  "chart": {
+    "title": "杆身特性图表",
+    "xAxis": "手感 (杆头硬度)",
+    "yAxis": "弹道 (发射角度)",
+    "soft": "软",
+    "firm": "硬",
+    "low": "低",
+    "high": "高",
+    "hint": "点击杆身点查看详情"
+  },
+  "legend": {
+    "title": "类别"
+  },
+  "categories": {
+    "driverWood": "一号木/球道木",
+    "hybrid": "铁木杆",
+    "iron": "铁杆"
+  },
+  "specs": {
+    "weight": "重量",
+    "flex": "硬度",
+    "torque": "扭矩",
+    "tip": "杆头",
+    "butt": "杆尾",
+    "launch": "弹道",
+    "spin": "旋转"
+  },
+  "detail": {
+    "specifications": "规格",
+    "characteristics": "特性",
+    "description": "描述",
+    "upchargeNote": "可能需要额外付费"
+  },
+  "errors": {
+    "notFound": "未找到杆身"
+  }
+}

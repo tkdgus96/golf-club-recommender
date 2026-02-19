@@ -3,11 +3,18 @@
     "logo": "ゴルフクラブファインダー",
     "home": "ホーム",
     "quiz": "おすすめを見る",
-    "catalog": "クラブ一覧"
+    "catalog": "クラブ一覧",
+    "shafts": "シャフトフィッティング",
+    "simulator": "シミュレーター",
+    "compare": "比較",
+    "results": "View Results",
+    "myFits": "My Fits",
+    "coach": "Coach"
   },
   "footer": {
     "copyright": "ゴルフクラブファインダー。最適なクラブ選びをサポートします。",
-    "disclaimer": "価格と在庫は変動する場合があります。正規販売店にてご確認ください。"
+    "disclaimer": "価格と在庫は変動する場合があります。正規販売店にてご確認ください。",
+    "privacy": "Data & Privacy"
   },
   "buttons": {
     "back": "戻る",
@@ -80,5 +87,37 @@
     "zh": "中文",
     "es": "Español",
     "ja": "日本語"
+  },
+  "trust": {
+    "confidence": "Confidence {{value}}%",
+    "source": "Source",
+    "updated": "Updated {{date}}",
+    "verify": "Verify"
+  },
+  "myFits": {
+    "title": "My Fits",
+    "subtitle": "Saved bags, compare history, and your best fit performance.",
+    "bestBag": "Last Best Fit",
+    "openBag": "Open Bag",
+    "savedBags": "Saved Bags",
+    "noSavedBags": "No saved bags yet. Save one from your Results page.",
+    "remove": "Remove",
+    "compareHistory": "Compare History",
+    "noCompareHistory": "No comparison history yet.",
+    "clearHistory": "Clear History"
+  },
+  "report": {
+    "notFound": "Shared report not found",
+    "notFoundHint": "This report link may have expired or was created on another device."
+  },
+  "commerce": {
+    "title": "Retail Offers",
+    "bundleTitle": "Bundle Pricing",
+    "bestBundle": "Best total: {{retailer}} (${{total}})",
+    "buy": "Buy",
+    "inStock": "In Stock",
+    "limited": "Limited",
+    "out": "Out",
+    "partial": "Partial Stock"
   }
 }

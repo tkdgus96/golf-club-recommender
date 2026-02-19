@@ -1,0 +1,48 @@
+{
+  "title": "볼 비행 시뮬레이터",
+  "subtitle": "3D 볼 비행 시뮬레이터로 샷 궤적을 시각화하세요",
+  "inputs": {
+    "title": "샷 파라미터",
+    "ballSpeed": "볼 스피드",
+    "clubSpeed": "클럽 스피드",
+    "launchAngle": "런치 앵글",
+    "clubFaceAngle": "클럽 페이스 앵글",
+    "clubPathAngle": "클럽 패스 앵글",
+    "backspin": "백스핀",
+    "closed": "닫힘",
+    "open": "열림",
+    "inToOut": "인-투-아웃",
+    "outToIn": "아웃-투-인"
+  },
+  "buttons": {
+    "simulate": "샷 시뮬레이션",
+    "reset": "초기화"
+  },
+  "results": {
+    "title": "샷 결과",
+    "empty": "파라미터를 조정하고 시뮬레이션 버튼을 클릭하세요",
+    "carry": "캐리 거리",
+    "total": "총 거리",
+    "maxHeight": "최고 높이",
+    "landingAngle": "랜딩 앵글",
+    "offline": "오프라인",
+    "flightTime": "비행 시간",
+    "left": "왼쪽",
+    "right": "오른쪽",
+    "straight": "직선"
+  },
+  "units": {
+    "mph": "mph",
+    "kph": "km/h",
+    "ms": "m/s",
+    "yards": "야드",
+    "meters": "m",
+    "seconds": "초"
+  },
+  "quality": {
+    "ultra": "Renderer: Ultra",
+    "balanced": "Renderer: Balanced",
+    "safe": "Renderer: Safe",
+    "fallback": "3D preview switched to compatibility mode due to a WebGL issue."
+  }
+}

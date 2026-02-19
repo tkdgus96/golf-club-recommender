@@ -1,0 +1,148 @@
+{
+  "title": "Shaft Comparison Tool",
+  "subtitle": "Compare shaft characteristics and predict how a shaft change will affect your shot",
+  "currentShaft": "Current Shaft",
+  "targetShaft": "Target Shaft",
+  "yourShotData": "Your Shot Data",
+  "selectShaft": "Select a shaft...",
+  "searchShafts": "Search shafts...",
+  "shaftApplication": "Shaft Category",
+  "clear": "Clear",
+  "moreResults": "+{{count}} more results",
+  "applications": {
+    "driver": "Driver",
+    "fairway_wood": "Fairway Wood",
+    "hybrid": "Hybrid",
+    "iron": "Iron",
+    "wedge": "Wedge",
+    "putter": "Putter"
+  },
+  "modes": {
+    "shotData": "Shot Data",
+    "clubData": "Club Data",
+    "shotDescription": "Enter your launch monitor data (ball speed, launch angle, spin)",
+    "clubDescription": "Enter your swing data (club speed, face angle, path)"
+  },
+  "inputs": {
+    "ballSpeed": "Ball Speed",
+    "launchAngle": "Launch Angle",
+    "spinRate": "Spin Rate",
+    "carry": "Carry Distance",
+    "clubSpeed": "Club Speed",
+    "clubFaceAngle": "Club Face Angle",
+    "clubPathAngle": "Club Path",
+    "attackAngle": "Attack Angle",
+    "backspin": "Backspin",
+    "closed": "Closed",
+    "open": "Open",
+    "inToOut": "In-to-Out",
+    "outToIn": "Out-to-In",
+    "down": "Down",
+    "up": "Up"
+  },
+  "buttons": {
+    "compare": "Compare Shafts",
+    "reset": "Reset"
+  },
+  "predictedChanges": "Predicted Changes",
+  "strokes": {
+    "current": "Expected Strokes (Current)",
+    "predicted": "Expected Strokes (Target)",
+    "delta": "Expected Strokes Gain"
+  },
+  "probability": {
+    "title": "Probability Bands",
+    "carry": "Carry (P10/P50/P90)",
+    "offline": "Offline (P10/P50/P90)"
+  },
+  "metrics": {
+    "ballSpeed": "Ball Speed",
+    "launchAngle": "Launch Angle",
+    "spinRate": "Spin Rate",
+    "carry": "Carry Distance",
+    "clubFaceAngle": "Club Face Angle",
+    "clubPathAngle": "Club Path Angle",
+    "faceToPath": "Face-to-Path",
+    "offline": "Left/Right Dispersion"
+  },
+  "dispersion": {
+    "title": "Dispersion Decomposition",
+    "startLine": "Start Line Impact",
+    "curvature": "Curvature Impact",
+    "band": "90% Dispersion Band"
+  },
+  "uncertainty": {
+    "carryRange": "Predicted Carry Range",
+    "offlineWindow": "Predicted Offline Window",
+    "modelConfidence": "Model Confidence"
+  },
+  "quality": {
+    "ultra": "Renderer: Ultra",
+    "balanced": "Renderer: Balanced",
+    "safe": "Renderer: Safe"
+  },
+  "offline": {
+    "left": "L",
+    "right": "R",
+    "center": "Center"
+  },
+  "units": {
+    "mph": "mph",
+    "ms": "m/s",
+    "rpm": "rpm",
+    "yards": "yds",
+    "meters": "m"
+  },
+  "overallRating": "Overall Rating",
+  "ratings": {
+    "distance": "Distance",
+    "accuracy": "Accuracy",
+    "better": "Better",
+    "worse": "Worse",
+    "same": "Same"
+  },
+  "recommendations": {
+    "better": "Good Match",
+    "neutral": "Neutral Change",
+    "worse": "Not Recommended"
+  },
+  "reasons": {
+    "moreDistance": "This shaft should provide more distance",
+    "moreAccuracy": "This shaft should improve accuracy and consistency",
+    "betterExpectedStrokes": "This setup projects lower expected strokes for the same target window",
+    "betterOverall": "This shaft offers improvements in both distance and accuracy",
+    "lessDistance": "You may lose distance with this shaft",
+    "lessAccuracy": "This shaft may reduce accuracy and consistency",
+    "worseExpectedStrokes": "This setup projects higher expected strokes with wider miss cost",
+    "worseOverall": "This shaft may not suit your swing as well",
+    "neutral": "The differences are minimal - either shaft should work well"
+  },
+  "calibration": {
+    "title": "Personal Calibration",
+    "subtitle": "Tune this model to your launch monitor tendencies.",
+    "ballSpeedBias": "Ball Speed Bias",
+    "launchAngleBias": "Launch Angle Bias",
+    "spinRateBias": "Spin Rate Bias",
+    "faceAngleBias": "Face Angle Bias",
+    "pathAngleBias": "Path Angle Bias",
+    "dispersionBias": "Dispersion Bias",
+    "reset": "Reset Calibration"
+  },
+  "trajectoryComparison": "Trajectory Comparison",
+  "legend": {
+    "current": "Current",
+    "target": "Target"
+  },
+  "fallback": {
+    "title": "3D preview unavailable",
+    "description": "Your browser/device blocked WebGL. The data and recommendation panel still use full calculations."
+  },
+  "emptyState": {
+    "title": "Compare Shaft Performance",
+    "description": "Select shafts and enter your shot data to see predicted changes",
+    "step1": "Select your current shaft",
+    "step2": "Select the shaft you want to try",
+    "step3": "Enter your typical shot data",
+    "step4": "Click 'Compare Shafts' to see the predicted changes"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Simulador de Vuelo de Bola",
+  "subtitle": "Visualiza la trayectoria de tu golpe con nuestro simulador de vuelo 3D",
+  "inputs": {
+    "title": "Parámetros del Golpe",
+    "ballSpeed": "Velocidad de Bola",
+    "clubSpeed": "Velocidad del Palo",
+    "launchAngle": "Ángulo de Lanzamiento",
+    "clubFaceAngle": "Ángulo de la Cara",
+    "clubPathAngle": "Ángulo de Trayectoria",
+    "backspin": "Efecto Retroceso",
+    "closed": "Cerrado",
+    "open": "Abierto",
+    "inToOut": "Interior-Exterior",
+    "outToIn": "Exterior-Interior"
+  },
+  "buttons": {
+    "simulate": "Simular Golpe",
+    "reset": "Reiniciar"
+  },
+  "results": {
+    "title": "Resultados del Golpe",
+    "empty": "Ajusta los parámetros y haz clic en Simular para ver resultados",
+    "carry": "Distancia de Vuelo",
+    "total": "Distancia Total",
+    "maxHeight": "Altura Máxima",
+    "landingAngle": "Ángulo de Aterrizaje",
+    "offline": "Desviación",
+    "flightTime": "Tiempo de Vuelo",
+    "left": "Izquierda",
+    "right": "Derecha",
+    "straight": "Recto"
+  },
+  "units": {
+    "mph": "mph",
+    "kph": "km/h",
+    "ms": "m/s",
+    "yards": "yds",
+    "meters": "m",
+    "seconds": "s"
+  },
+  "quality": {
+    "ultra": "Renderer: Ultra",
+    "balanced": "Renderer: Balanced",
+    "safe": "Renderer: Safe",
+    "fallback": "3D preview switched to compatibility mode due to a WebGL issue."
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "title": "Herramienta de Comparación de Varillas",
+  "subtitle": "Compara las características de las varillas y predice cómo afectará el cambio a tu golpe",
+  "currentShaft": "Varilla Actual",
+  "targetShaft": "Varilla Objetivo",
+  "yourShotData": "Tus Datos de Golpe",
+  "selectShaft": "Seleccionar varilla...",
+  "searchShafts": "Buscar varillas...",
+  "clear": "Limpiar",
+  "moreResults": "+{{count}} más resultados",
+  "applications": {
+    "driver": "Driver",
+    "fairway_wood": "Madera de Calle",
+    "hybrid": "Híbrido",
+    "iron": "Hierro",
+    "wedge": "Wedge",
+    "putter": "Putter"
+  },
+  "modes": {
+    "shotData": "Datos de Golpe",
+    "clubData": "Datos del Palo",
+    "shotDescription": "Ingresa datos del monitor de lanzamiento (velocidad, ángulo, spin)",
+    "clubDescription": "Ingresa datos de swing (velocidad del palo, ángulo de cara, trayectoria)"
+  },
+  "inputs": {
+    "ballSpeed": "Velocidad de Bola",
+    "launchAngle": "Ángulo de Lanzamiento",
+    "spinRate": "Tasa de Spin",
+    "carry": "Distancia de Carry",
+    "clubSpeed": "Velocidad del Palo",
+    "clubFaceAngle": "Ángulo de Cara",
+    "clubPathAngle": "Trayectoria del Palo",
+    "attackAngle": "Ángulo de Ataque",
+    "backspin": "Backspin",
+    "closed": "Cerrado",
+    "open": "Abierto",
+    "inToOut": "Dentro-Fuera",
+    "outToIn": "Fuera-Dentro",
+    "down": "Abajo",
+    "up": "Arriba"
+  },
+  "buttons": {
+    "compare": "Comparar Varillas",
+    "reset": "Reiniciar"
+  },
+  "predictedChanges": "Cambios Predichos",
+  "metrics": {
+    "ballSpeed": "Velocidad de Bola",
+    "launchAngle": "Ángulo de Lanzamiento",
+    "spinRate": "Tasa de Spin",
+    "carry": "Distancia de Carry",
+    "clubFaceAngle": "Ángulo de Cara",
+    "clubPathAngle": "Ángulo de Trayectoria",
+    "faceToPath": "Cara a Trayectoria",
+    "offline": "Dispersión Izquierda/Derecha"
+  },
+  "offline": {
+    "left": "I",
+    "right": "D",
+    "center": "Centro"
+  },
+  "dispersion": {
+    "title": "Descomposición de Dispersión",
+    "startLine": "Impacto de Línea de Salida",
+    "curvature": "Impacto de Curvatura",
+    "band": "Banda de Dispersión 90%"
+  },
+  "uncertainty": {
+    "carryRange": "Rango de Carry Predicho",
+    "offlineWindow": "Ventana Lateral Predicha",
+    "modelConfidence": "Confianza del Modelo"
+  },
+  "units": {
+    "mph": "mph",
+    "ms": "m/s",
+    "rpm": "rpm",
+    "yards": "yds",
+    "meters": "m"
+  },
+  "overallRating": "Calificación General",
+  "ratings": {
+    "distance": "Distancia",
+    "accuracy": "Precisión",
+    "better": "Mejor",
+    "worse": "Peor",
+    "same": "Igual"
+  },
+  "recommendations": {
+    "better": "Buena Opción",
+    "neutral": "Cambio Neutral",
+    "worse": "No Recomendado"
+  },
+  "reasons": {
+    "moreDistance": "Esta varilla debería proporcionar más distancia",
+    "moreAccuracy": "Esta varilla debería mejorar la precisión y consistencia",
+    "betterOverall": "Esta varilla ofrece mejoras tanto en distancia como en precisión",
+    "lessDistance": "Podrías perder distancia con esta varilla",
+    "lessAccuracy": "Esta varilla puede reducir la precisión y consistencia",
+    "worseOverall": "Esta varilla puede no adaptarse bien a tu swing",
+    "neutral": "Las diferencias son mínimas - cualquier varilla debería funcionar bien",
+    "betterExpectedStrokes": "This setup projects lower expected strokes for the same target window",
+    "worseExpectedStrokes": "This setup projects higher expected strokes with wider miss cost"
+  },
+  "trajectoryComparison": "Comparación de Trayectoria",
+  "legend": {
+    "current": "Actual",
+    "target": "Objetivo"
+  },
+  "emptyState": {
+    "title": "Compara el Rendimiento de Varillas",
+    "description": "Selecciona varillas e ingresa tus datos de golpe para ver los cambios predichos",
+    "step1": "Selecciona tu varilla actual",
+    "step2": "Selecciona la varilla que quieres probar",
+    "step3": "Ingresa tus datos de golpe típicos",
+    "step4": "Haz clic en 'Comparar Varillas' para ver los cambios predichos"
+  },
+  "fallback": {
+    "title": "3D preview unavailable",
+    "description": "Your browser/device blocked WebGL. The data and recommendation panel still use full calculations."
+  },
+  "quality": {
+    "ultra": "Renderer: Ultra",
+    "balanced": "Renderer: Balanced",
+    "safe": "Renderer: Safe"
+  },
+  "shaftApplication": "Shaft Category",
+  "strokes": {
+    "current": "Expected Strokes (Current)",
+    "predicted": "Expected Strokes (Target)",
+    "delta": "Expected Strokes Gain"
+  },
+  "probability": {
+    "title": "Probability Bands",
+    "carry": "Carry (P10/P50/P90)",
+    "offline": "Offline (P10/P50/P90)"
+  },
+  "calibration": {
+    "title": "Personal Calibration",
+    "subtitle": "Tune this model to your launch monitor tendencies.",
+    "ballSpeedBias": "Ball Speed Bias",
+    "launchAngleBias": "Launch Angle Bias",
+    "spinRateBias": "Spin Rate Bias",
+    "faceAngleBias": "Face Angle Bias",
+    "pathAngleBias": "Path Angle Bias",
+    "dispersionBias": "Dispersion Bias",
+    "reset": "Reset Calibration"
+  }
+}

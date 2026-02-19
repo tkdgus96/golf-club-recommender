@@ -1,0 +1,148 @@
+{
+  "title": "シャフト比較ツール",
+  "subtitle": "シャフト特性を比較し、シャフト変更がショットに与える影響を予測します",
+  "currentShaft": "現在のシャフト",
+  "targetShaft": "比較シャフト",
+  "yourShotData": "あなたのショットデータ",
+  "selectShaft": "シャフトを選択...",
+  "searchShafts": "シャフトを検索...",
+  "clear": "クリア",
+  "moreResults": "+{{count}}件の結果",
+  "applications": {
+    "driver": "ドライバー",
+    "fairway_wood": "フェアウェイウッド",
+    "hybrid": "ハイブリッド",
+    "iron": "アイアン",
+    "wedge": "ウェッジ",
+    "putter": "パター"
+  },
+  "modes": {
+    "shotData": "ショットデータ",
+    "clubData": "クラブデータ",
+    "shotDescription": "弾道測定器のデータを入力（ボールスピード、打ち出し角、スピン）",
+    "clubDescription": "スイングデータを入力（ヘッドスピード、フェース角、スイング軌道）"
+  },
+  "inputs": {
+    "ballSpeed": "ボールスピード",
+    "launchAngle": "打ち出し角",
+    "spinRate": "スピン量",
+    "carry": "キャリー距離",
+    "clubSpeed": "ヘッドスピード",
+    "clubFaceAngle": "フェース角",
+    "clubPathAngle": "スイング軌道",
+    "attackAngle": "入射角",
+    "backspin": "バックスピン",
+    "closed": "クローズ",
+    "open": "オープン",
+    "inToOut": "イン-トゥ-アウト",
+    "outToIn": "アウト-トゥ-イン",
+    "down": "ダウン",
+    "up": "アップ"
+  },
+  "buttons": {
+    "compare": "シャフトを比較",
+    "reset": "リセット"
+  },
+  "predictedChanges": "予測される変化",
+  "metrics": {
+    "ballSpeed": "ボールスピード",
+    "launchAngle": "打ち出し角",
+    "spinRate": "スピン量",
+    "carry": "キャリー距離",
+    "clubFaceAngle": "フェース角",
+    "clubPathAngle": "クラブパス角",
+    "faceToPath": "フェース to パス",
+    "offline": "左右ブレ"
+  },
+  "offline": {
+    "left": "L",
+    "right": "R",
+    "center": "センター"
+  },
+  "dispersion": {
+    "title": "左右ブレ分解",
+    "startLine": "打ち出し方向の影響",
+    "curvature": "曲がりの影響",
+    "band": "90% ブレ幅"
+  },
+  "uncertainty": {
+    "carryRange": "予測キャリー範囲",
+    "offlineWindow": "予測左右範囲",
+    "modelConfidence": "モデル信頼度"
+  },
+  "units": {
+    "mph": "mph",
+    "ms": "m/s",
+    "rpm": "rpm",
+    "yards": "ヤード",
+    "meters": "m"
+  },
+  "overallRating": "総合評価",
+  "ratings": {
+    "distance": "飛距離",
+    "accuracy": "正確性",
+    "better": "向上",
+    "worse": "低下",
+    "same": "同等"
+  },
+  "recommendations": {
+    "better": "おすすめ",
+    "neutral": "中立的な変化",
+    "worse": "非推奨"
+  },
+  "reasons": {
+    "moreDistance": "このシャフトはより飛距離が出る可能性があります",
+    "moreAccuracy": "このシャフトは正確性と安定性を向上させる可能性があります",
+    "betterOverall": "このシャフトは飛距離と正確性の両方で改善が期待できます",
+    "lessDistance": "このシャフトでは飛距離が落ちる可能性があります",
+    "lessAccuracy": "このシャフトは正確性と安定性が低下する可能性があります",
+    "worseOverall": "このシャフトはあなたのスイングに合わない可能性があります",
+    "neutral": "差は最小限です - どちらのシャフトでも問題ありません",
+    "betterExpectedStrokes": "This setup projects lower expected strokes for the same target window",
+    "worseExpectedStrokes": "This setup projects higher expected strokes with wider miss cost"
+  },
+  "trajectoryComparison": "弾道比較",
+  "legend": {
+    "current": "現在",
+    "target": "比較"
+  },
+  "emptyState": {
+    "title": "シャフト性能を比較",
+    "description": "シャフトを選択し、ショットデータを入力して予測される変化を確認してください",
+    "step1": "現在のシャフトを選択",
+    "step2": "試してみたいシャフトを選択",
+    "step3": "通常のショットデータを入力",
+    "step4": "「シャフトを比較」をクリックして予測される変化を確認"
+  },
+  "fallback": {
+    "title": "3D preview unavailable",
+    "description": "Your browser/device blocked WebGL. The data and recommendation panel still use full calculations."
+  },
+  "quality": {
+    "ultra": "Renderer: Ultra",
+    "balanced": "Renderer: Balanced",
+    "safe": "Renderer: Safe"
+  },
+  "shaftApplication": "Shaft Category",
+  "strokes": {
+    "current": "Expected Strokes (Current)",
+    "predicted": "Expected Strokes (Target)",
+    "delta": "Expected Strokes Gain"
+  },
+  "probability": {
+    "title": "Probability Bands",
+    "carry": "Carry (P10/P50/P90)",
+    "offline": "Offline (P10/P50/P90)"
+  },
+  "calibration": {
+    "title": "Personal Calibration",
+    "subtitle": "Tune this model to your launch monitor tendencies.",
+    "ballSpeedBias": "Ball Speed Bias",
+    "launchAngleBias": "Launch Angle Bias",
+    "spinRateBias": "Spin Rate Bias",
+    "faceAngleBias": "Face Angle Bias",
+    "pathAngleBias": "Path Angle Bias",
+    "dispersionBias": "Dispersion Bias",
+    "reset": "Reset Calibration"
+  }
+}

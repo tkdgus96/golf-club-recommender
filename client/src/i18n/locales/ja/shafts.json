@@ -1,0 +1,51 @@
+{
+  "title": "シャフトフィッティング",
+  "subtitle": "インタラクティブなフィッティングチャートで、スイングに最適なシャフトを見つけましょう",
+  "backToFitting": "シャフトフィッティングに戻る",
+  "filters": {
+    "title": "フィルター",
+    "vendor": "メーカー",
+    "flex": "フレックス",
+    "category": "カテゴリー",
+    "weightRange": "重量 (g)",
+    "min": "最小",
+    "max": "最大",
+    "clearAll": "フィルターをクリア"
+  },
+  "chart": {
+    "title": "シャフトプロファイルチャート",
+    "xAxis": "フィール (先端硬度)",
+    "yAxis": "打ち出し (弾道)",
+    "soft": "ソフト",
+    "firm": "ファーム",
+    "low": "低",
+    "high": "高",
+    "hint": "シャフトのポイントをクリックして詳細を表示"
+  },
+  "legend": {
+    "title": "カテゴリー"
+  },
+  "categories": {
+    "driverWood": "ドライバー/ウッド",
+    "hybrid": "ハイブリッド",
+    "iron": "アイアン"
+  },
+  "specs": {
+    "weight": "重量",
+    "flex": "フレックス",
+    "torque": "トルク",
+    "tip": "先端",
+    "butt": "グリップ側",
+    "launch": "弾道",
+    "spin": "スピン"
+  },
+  "detail": {
+    "specifications": "仕様",
+    "characteristics": "特性",
+    "description": "説明",
+    "upchargeNote": "追加料金がかかる場合があります"
+  },
+  "errors": {
+    "notFound": "シャフトが見つかりません"
+  }
+}

@@ -2,7 +2,9 @@
   "hero": {
     "title": "あなたに最適なゴルフクラブを見つけよう",
     "subtitle": "スキルレベル、スイング、好みに基づいたパーソナライズされたクラブ推薦",
-    "cta": "おすすめを見る"
+    "cta": "おすすめを見る",
+    "resumeCta": "Resume Quiz",
+    "lastSession": "Last completed fitting: {{date}}"
   },
   "features": {
     "title": "ゴルフクラブファインダーの特長",
@@ -35,6 +37,16 @@
       "number": "3",
       "title": "確認して選ぶ",
       "description": "スコア、推薦理由、合計費用と共にカスタムセットをご確認ください。"
+    }
+  },
+  "heroVariants": {
+    "guided": {
+      "title": "Build A Precision Bag Setup",
+      "subtitle": "Take the full guided flow for confidence-scored club and shaft recommendations."
+    },
+    "express": {
+      "title": "Express Fitting In Minutes",
+      "subtitle": "Start in fast mode with fewer decisions, then refine with simulator and comparison tools."
     }
   }
 }

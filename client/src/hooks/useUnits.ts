@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import { useTranslation } from "react-i18next";
 import { UnitContext } from "../contexts/UnitContext";
-import type { UnitSystem } from "../contexts/UnitContext";
 
 export function useUnits() {
   const { unitSystem, setUnitSystem, toggleUnit } = useContext(UnitContext);

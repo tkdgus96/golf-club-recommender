@@ -2,13 +2,16 @@ import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import type { GolfClub } from "../types";
-import { getClub } from "../services/api";
+import type { ClubOffersResponse } from "../types";
+import { getClub, getClubOffers } from "../services/api";
+import DataTrustBadge from "../components/common/DataTrustBadge";
 
 export default function ClubDetail() {
   const { id } = useParams<{ id: string }>();
   const { t } = useTranslation("clubDetail");
   const { t: tc, i18n } = useTranslation("common");
   const [club, setClub] = useState<GolfClub | null>(null);
+  const [offers, setOffers] = useState<ClubOffersResponse | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
 
@@ -20,6 +23,11 @@ export default function ClubDetail() {
       .catch(() => setError(tc("errors.clubNotFound")))
       .finally(() => setLoading(false));
   }, [id, i18n.language, tc]);
+
+  useEffect(() => {
+    if (!id) return;
+    getClubOffers(parseInt(id)).then(setOffers).catch(() => setOffers(null));
+  }, [id]);
 
   if (loading) return <div className="loading">{tc("labels.loading")}</div>;
   if (error || !club)
@@ -58,6 +66,12 @@ export default function ClubDetail() {
           <div className="club-detail-section">
             <h3>{t("specifications")}</h3>
             <p>{club.description}</p>
+            <DataTrustBadge
+              sourceName={club.sourceName}
+              sourceUrl={club.sourceUrl}
+              sourceUpdatedAt={club.sourceUpdatedAt}
+              dataConfidence={club.dataConfidence}
+            />
           </div>
 
           <div className="club-detail-specs">
@@ -123,6 +137,30 @@ export default function ClubDetail() {
                 ))}
               </div>
             </div>
+
+            {offers && (
+              <div className="spec-group">
+                <h3>{tc("commerce.title", { defaultValue: "Retail Offers" })}</h3>
+                <div className="commerce-table">
+                  {offers.offers.map((offer) => (
+                    <div key={offer.retailer} className="commerce-row">
+                      <span>{offer.retailer}</span>
+                      <span>${offer.price.toFixed(2)}</span>
+                      <span>
+                        {offer.availability === "in_stock"
+                          ? tc("commerce.inStock", { defaultValue: "In Stock" })
+                          : offer.availability === "limited"
+                          ? tc("commerce.limited", { defaultValue: "Limited" })
+                          : tc("commerce.out", { defaultValue: "Out" })}
+                      </span>
+                      <a href={offer.purchaseUrl} target="_blank" rel="noreferrer">
+                        {tc("commerce.buy", { defaultValue: "Buy" })}
+                      </a>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>

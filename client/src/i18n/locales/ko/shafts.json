@@ -1,0 +1,51 @@
+{
+  "title": "샤프트 피팅",
+  "subtitle": "인터랙티브 피팅 차트를 사용하여 스윙에 맞는 완벽한 샤프트를 찾아보세요",
+  "backToFitting": "샤프트 피팅으로 돌아가기",
+  "filters": {
+    "title": "필터",
+    "vendor": "제조사",
+    "flex": "플렉스",
+    "category": "카테고리",
+    "weightRange": "무게 (g)",
+    "min": "최소",
+    "max": "최대",
+    "clearAll": "필터 초기화"
+  },
+  "chart": {
+    "title": "샤프트 프로필 차트",
+    "xAxis": "필 (팁 강성)",
+    "yAxis": "런치 (탄도)",
+    "soft": "소프트",
+    "firm": "펌",
+    "low": "낮음",
+    "high": "높음",
+    "hint": "샤프트 점을 클릭하면 상세 정보를 볼 수 있습니다"
+  },
+  "legend": {
+    "title": "카테고리"
+  },
+  "categories": {
+    "driverWood": "드라이버/우드",
+    "hybrid": "하이브리드",
+    "iron": "아이언"
+  },
+  "specs": {
+    "weight": "무게",
+    "flex": "플렉스",
+    "torque": "토크",
+    "tip": "팁",
+    "butt": "버트",
+    "launch": "탄도",
+    "spin": "스핀"
+  },
+  "detail": {
+    "specifications": "사양",
+    "characteristics": "특성",
+    "description": "설명",
+    "upchargeNote": "추가 요금이 발생할 수 있습니다"
+  },
+  "errors": {
+    "notFound": "샤프트를 찾을 수 없습니다"
+  }
+}

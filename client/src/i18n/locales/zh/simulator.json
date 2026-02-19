@@ -1,0 +1,48 @@
+{
+  "title": "球飞行模拟器",
+  "subtitle": "使用我们的3D球飞行模拟器可视化您的击球轨迹",
+  "inputs": {
+    "title": "击球参数",
+    "ballSpeed": "球速",
+    "clubSpeed": "杆头速度",
+    "launchAngle": "发射角",
+    "clubFaceAngle": "杆面角",
+    "clubPathAngle": "挥杆路径角",
+    "backspin": "倒旋",
+    "closed": "关闭",
+    "open": "打开",
+    "inToOut": "由内向外",
+    "outToIn": "由外向内"
+  },
+  "buttons": {
+    "simulate": "模拟击球",
+    "reset": "重置"
+  },
+  "results": {
+    "title": "击球结果",
+    "empty": "调整参数并点击模拟查看结果",
+    "carry": "空中距离",
+    "total": "总距离",
+    "maxHeight": "最大高度",
+    "landingAngle": "落地角",
+    "offline": "偏移",
+    "flightTime": "飞行时间",
+    "left": "左",
+    "right": "右",
+    "straight": "直线"
+  },
+  "units": {
+    "mph": "mph",
+    "kph": "km/h",
+    "ms": "m/s",
+    "yards": "码",
+    "meters": "m",
+    "seconds": "秒"
+  },
+  "quality": {
+    "ultra": "Renderer: Ultra",
+    "balanced": "Renderer: Balanced",
+    "safe": "Renderer: Safe",
+    "fallback": "3D preview switched to compatibility mode due to a WebGL issue."
+  }
+}

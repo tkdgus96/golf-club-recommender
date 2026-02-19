@@ -26,6 +26,21 @@ export default function Header() {
           <Link to="/catalog" className={`nav-link ${isActive("/catalog")}`}>
             {t("nav.catalog")}
           </Link>
+          <Link to="/shafts" className={`nav-link ${isActive("/shafts")}`}>
+            {t("nav.shafts")}
+          </Link>
+          <Link to="/simulator" className={`nav-link ${isActive("/simulator")}`}>
+            {t("nav.simulator")}
+          </Link>
+          <Link to="/compare" className={`nav-link ${isActive("/compare")}`}>
+            {t("nav.compare")}
+          </Link>
+          <Link to="/my-fits" className={`nav-link ${isActive("/my-fits")}`}>
+            {t("nav.myFits")}
+          </Link>
+          <Link to="/coach" className={`nav-link ${isActive("/coach")}`}>
+            {t("nav.coach", { defaultValue: "Coach" })}
+          </Link>
         </nav>
         <div className="header-controls">
           <UnitToggle />

@@ -1,0 +1,48 @@
+{
+  "title": "Ball Flight Simulator",
+  "subtitle": "Visualize your shot trajectory with our 3D ball flight simulator",
+  "inputs": {
+    "title": "Shot Parameters",
+    "ballSpeed": "Ball Speed",
+    "clubSpeed": "Club Speed",
+    "launchAngle": "Launch Angle",
+    "clubFaceAngle": "Club Face Angle",
+    "clubPathAngle": "Club Path Angle",
+    "backspin": "Backspin",
+    "closed": "Closed",
+    "open": "Open",
+    "inToOut": "In-to-Out",
+    "outToIn": "Out-to-In"
+  },
+  "buttons": {
+    "simulate": "Simulate Shot",
+    "reset": "Reset"
+  },
+  "quality": {
+    "ultra": "Renderer: Ultra",
+    "balanced": "Renderer: Balanced",
+    "safe": "Renderer: Safe",
+    "fallback": "3D preview switched to compatibility mode due to a WebGL issue."
+  },
+  "results": {
+    "title": "Shot Results",
+    "empty": "Adjust parameters and click Simulate to see results",
+    "carry": "Carry Distance",
+    "total": "Total Distance",
+    "maxHeight": "Max Height",
+    "landingAngle": "Landing Angle",
+    "offline": "Offline",
+    "flightTime": "Flight Time",
+    "left": "Left",
+    "right": "Right",
+    "straight": "Straight"
+  },
+  "units": {
+    "mph": "mph",
+    "kph": "km/h",
+    "ms": "m/s",
+    "yards": "yds",
+    "meters": "m",
+    "seconds": "s"
+  }
+}

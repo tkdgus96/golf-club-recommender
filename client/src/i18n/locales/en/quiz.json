@@ -1,6 +1,51 @@
+
 {
   "title": "Find Your Perfect Clubs",
+  "variant": {
+    "guided": "Guided mode: complete the full fitting sequence for higher-confidence recommendations.",
+    "express": "Express mode: we prefilled a fast-start full bag flow for quicker results."
+  },
   "progress": "Step {{current}} of {{total}}",
+  "step0": {
+    "title": "What are you looking for?",
+    "full_set": {
+      "label": "Full Bag Fitting",
+      "description": "Build a complete set from scratch"
+    },
+    "driver": {
+      "label": "Driver Problem Solver",
+      "description": "Fix your slice, hook, or distance off the tee"
+    },
+    "iron": {
+      "label": "Iron Consistency",
+      "description": "Improve approach shots and contact"
+    },
+    "wedge": {
+      "label": "Short Game",
+      "description": "Better control around the greens"
+    }
+  },
+  "goalMode": {
+    "title": "What should this fitting optimize for?",
+    "distance": "Max Distance",
+    "fairwayHit": "Fairway Hit %",
+    "dispersion": "Tighter Dispersion",
+    "scoringGain": "Lower Expected Score"
+  },
+  "step1_problem": {
+    "title": "What's your biggest struggle?"
+  },
+  "problems": {
+    "slice": "I Slice the ball (Curve Right)",
+    "hook": "I Hook the ball (Curve Left)",
+    "distance": "I need more Distance",
+    "launch": "I hit it too Low/High",
+    "consistency": "Inconsistent Contact",
+    "direction": "Trouble holding lines",
+    "chunk": "Fat/Chunked shots",
+    "thin": "Thin/Bladed shots",
+    "spin": "Need more Spin"
+  },
   "step1": {
     "title": "What is your skill level?",
     "beginner": {

@@ -2,7 +2,19 @@
   "hero": {
     "title": "Find Your Perfect Golf Clubs",
     "subtitle": "Get personalized club recommendations based on your skill level, swing, and preferences",
-    "cta": "Get My Recommendations"
+    "cta": "Get My Recommendations",
+    "resumeCta": "Resume Quiz",
+    "lastSession": "Last completed fitting: {{date}}"
+  },
+  "heroVariants": {
+    "guided": {
+      "title": "Build A Precision Bag Setup",
+      "subtitle": "Take the full guided flow for confidence-scored club and shaft recommendations."
+    },
+    "express": {
+      "title": "Express Fitting In Minutes",
+      "subtitle": "Start in fast mode with fewer decisions, then refine with simulator and comparison tools."
+    }
   },
   "features": {
     "title": "Why Use GolfClub Finder?",

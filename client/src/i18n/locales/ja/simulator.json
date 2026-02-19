@@ -1,0 +1,48 @@
+{
+  "title": "ボール飛行シミュレーター",
+  "subtitle": "3Dボール飛行シミュレーターでショットの軌跡を可視化",
+  "inputs": {
+    "title": "ショットパラメーター",
+    "ballSpeed": "ボールスピード",
+    "clubSpeed": "クラブスピード",
+    "launchAngle": "打ち出し角",
+    "clubFaceAngle": "フェース角",
+    "clubPathAngle": "クラブパス角",
+    "backspin": "バックスピン",
+    "closed": "クローズ",
+    "open": "オープン",
+    "inToOut": "インサイドアウト",
+    "outToIn": "アウトサイドイン"
+  },
+  "buttons": {
+    "simulate": "ショットをシミュレート",
+    "reset": "リセット"
+  },
+  "results": {
+    "title": "ショット結果",
+    "empty": "パラメーターを調整してシミュレートボタンをクリックしてください",
+    "carry": "キャリー距離",
+    "total": "トータル距離",
+    "maxHeight": "最高到達点",
+    "landingAngle": "着地角度",
+    "offline": "オフライン",
+    "flightTime": "飛行時間",
+    "left": "左",
+    "right": "右",
+    "straight": "ストレート"
+  },
+  "units": {
+    "mph": "mph",
+    "kph": "km/h",
+    "ms": "m/s",
+    "yards": "ヤード",
+    "meters": "m",
+    "seconds": "秒"
+  },
+  "quality": {
+    "ultra": "Renderer: Ultra",
+    "balanced": "Renderer: Balanced",
+    "safe": "Renderer: Safe",
+    "fallback": "3D preview switched to compatibility mode due to a WebGL issue."
+  }
+}

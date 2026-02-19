@@ -1,13 +1,20 @@
 {
   "nav": {
-    "logo": "GolfClub Finder",
+    "logo": "GolfFit AI",
     "home": "Home",
-    "quiz": "Get Recommendations",
-    "catalog": "Browse Clubs"
+    "results": "View Results",
+    "quiz": "Quiz",
+    "catalog": "Catalog",
+    "shafts": "Shafts",
+    "compare": "Compare",
+    "simulator": "Simulator",
+    "myFits": "My Fits",
+    "coach": "Coach"
   },
   "footer": {
     "copyright": "GolfClub Finder. Helping you find the perfect clubs.",
-    "disclaimer": "Prices and availability may vary. Always check with authorized retailers."
+    "disclaimer": "Prices and availability may vary. Always check with authorized retailers.",
+    "privacy": "Data & Privacy"
   },
   "buttons": {
     "back": "Back",
@@ -69,6 +76,38 @@
     "clubNotFound": "Club not found",
     "loadFailed": "Failed to load data",
     "generic": "Something went wrong"
+  },
+  "trust": {
+    "confidence": "Confidence {{value}}%",
+    "source": "Source",
+    "updated": "Updated {{date}}",
+    "verify": "Verify"
+  },
+  "myFits": {
+    "title": "My Fits",
+    "subtitle": "Saved bags, compare history, and your best fit performance.",
+    "bestBag": "Last Best Fit",
+    "openBag": "Open Bag",
+    "savedBags": "Saved Bags",
+    "noSavedBags": "No saved bags yet. Save one from your Results page.",
+    "remove": "Remove",
+    "compareHistory": "Compare History",
+    "noCompareHistory": "No comparison history yet.",
+    "clearHistory": "Clear History"
+  },
+  "report": {
+    "notFound": "Shared report not found",
+    "notFoundHint": "This report link may have expired or was created on another device."
+  },
+  "commerce": {
+    "title": "Retail Offers",
+    "bundleTitle": "Bundle Pricing",
+    "bestBundle": "Best total: {{retailer}} (${{total}})",
+    "buy": "Buy",
+    "inStock": "In Stock",
+    "limited": "Limited",
+    "out": "Out",
+    "partial": "Partial Stock"
   },
   "units": {
     "imperial": "Imperial",
