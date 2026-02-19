@@ -1,0 +1,15 @@
+
+[
+  { "vendor": "Fujikura", "title": "Ventus VeloCore+ Blue (2024)", "type": "Wood", "img": "https://cdn.shopify.com/s/files/1/0015/4114/4643/files/Ventus_Blue_24_Hero_1024x1024.png" },
+  { "vendor": "Fujikura", "title": "Ventus VeloCore+ Black (2024)", "type": "Wood", "img": "https://cdn.shopify.com/s/files/1/0015/4114/4643/files/Ventus_Black_24_Hero_1024x1024.png" },
+  { "vendor": "Fujikura", "title": "Ventus VeloCore+ Red (2024)", "type": "Wood", "img": "https://cdn.shopify.com/s/files/1/0015/4114/4643/files/Ventus_Red_24_Hero_1024x1024.png" },
+  { "vendor": "Fujikura", "title": "Ventus TR Blue", "type": "Wood", "img": "https://cdn.shopify.com/s/files/1/0015/4114/4643/products/Ventus_TR_Blue_Hero_1024x1024.png" },
+  { "vendor": "Fujikura", "title": "Ventus TR Black", "type": "Wood", "img": "https://cdn.shopify.com/s/files/1/0015/4114/4643/products/Ventus_TR_Black_Hero_1024x1024.png" },
+  { "vendor": "Fujikura", "title": "Axiom 105 S", "type": "Iron", "img": "https://cdn.shopify.com/s/files/1/0015/4114/4643/files/Axiom_Hero_1024x1024.png" },
+  { "vendor": "Fujikura", "title": "Axiom 75 R", "type": "Iron", "img": "https://cdn.shopify.com/s/files/1/0015/4114/4643/files/Axiom_Hero_1024x1024.png" },
+  { "vendor": "Mitsubishi", "title": "Tensei 1K Pro White", "type": "Wood", "img": "https://cdn.shopify.com/s/files/1/0015/4114/4643/products/Tensei_1K_Pro_White_Hero_1024x1024.png" },
+  { "vendor": "Mitsubishi", "title": "Tensei 1K Pro Blue", "type": "Wood", "img": "https://cdn.shopify.com/s/files/1/0015/4114/4643/products/Tensei_1K_Pro_Blue_Hero_1024x1024.png" },
+  { "vendor": "Graphite Design", "title": "Tour AD VF", "type": "Wood", "img": "https://cdn.shopify.com/s/files/1/0015/4114/4643/products/Tour_AD_VF_Hero_1024x1024.png" },
+  { "vendor": "Graphite Design", "title": "Tour AD DI", "type": "Wood", "img": "https://cdn.shopify.com/s/files/1/0015/4114/4643/products/Tour_AD_DI_Hero_1024x1024.png" },
+  { "vendor": "Project X", "title": "HZRDUS Smoke Black RDX", "type": "Wood", "img": "https://cdn.shopify.com/s/files/1/0015/4114/4643/products/HZRDUS_Smoke_Black_RDX_Hero_1024x1024.png" }
+]

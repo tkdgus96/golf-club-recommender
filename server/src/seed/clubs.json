@@ -1,0 +1,288 @@
+
+[
+  {
+    "name": "Qi10 Max",
+    "brand": "TaylorMade",
+    "clubType": "driver",
+    "price": 599.99,
+    "skillLevels": ["beginner", "intermediate", "advanced"],
+    "shaftFlex": ["senior", "regular", "stiff", "extra_stiff"],
+    "loft": "9.0, 10.5, 12.0",
+    "description": "Highest MOI ever in a TaylorMade driver (10K). Built for extreme forgiveness and stability on off-center hits.",
+    "descriptions": {
+      "en": "Highest MOI ever in a TaylorMade driver (10K). Built for extreme forgiveness and stability on off-center hits.",
+      "ko": "테일러메이드 드라이버 사상 가장 높은 MOI(10K)를 자랑합니다. 미스 히트 시에도 극강의 관용성과 안정성을 제공합니다."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Qi10+Max",
+    "swingSpeedRange": ["slow", "moderate", "fast"],
+    "forgivenessRating": 10,
+    "distanceRating": 9,
+    "accuracyRating": 10
+  },
+  {
+    "name": "Qi10 LS",
+    "brand": "TaylorMade",
+    "clubType": "driver",
+    "price": 629.99,
+    "skillLevels": ["advanced", "professional"],
+    "shaftFlex": ["stiff", "extra_stiff"],
+    "loft": "8.0, 9.0, 10.5",
+    "description": "Low spin model for high swing speeds. Compact shape with adjustable sliding weight for shot shaping.",
+    "descriptions": {
+      "en": "Low spin model for high swing speeds. Compact shape with adjustable sliding weight for shot shaping.",
+      "ko": "빠른 스윙 스피드를 위한 저스핀 모델. 샷 메이킹을 위한 슬라이딩 웨이트와 컴팩트한 헤드 디자인."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Qi10+LS",
+    "swingSpeedRange": ["fast", "very_fast"],
+    "forgivenessRating": 7,
+    "distanceRating": 10,
+    "accuracyRating": 8
+  },
+  {
+    "name": "Paradym Ai Smoke Max",
+    "brand": "Callaway",
+    "clubType": "driver",
+    "price": 599.99,
+    "skillLevels": ["beginner", "intermediate", "advanced"],
+    "shaftFlex": ["senior", "regular", "stiff"],
+    "loft": "9.0, 10.5, 12.0",
+    "description": "Features Ai Smart Face technology designed to optimize performance using player data. Excellent all-around performance.",
+    "descriptions": {
+      "en": "Features Ai Smart Face technology designed to optimize performance using player data. Excellent all-around performance.",
+      "ko": "수천 명의 골퍼 데이터를 기반으로 설계된 Ai 스마트 페이스 기술 적용. 모든 면에서 뛰어난 퍼포먼스를 발휘합니다."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Ai+Smoke+Max",
+    "swingSpeedRange": ["moderate", "fast"],
+    "forgivenessRating": 9,
+    "distanceRating": 9,
+    "accuracyRating": 9
+  },
+  {
+    "name": "Paradym Ai Smoke Triple Diamond",
+    "brand": "Callaway",
+    "clubType": "driver",
+    "price": 599.99,
+    "skillLevels": ["advanced", "professional"],
+    "shaftFlex": ["stiff", "extra_stiff"],
+    "loft": "8.0, 9.0, 10.5",
+    "description": "Compact 450cc head for better players looking for workability and low spin.",
+    "descriptions": {
+      "en": "Compact 450cc head for better players looking for workability and low spin.",
+      "ko": "상급 골퍼를 위한 450cc 컴팩트 헤드. 뛰어난 조작성과 낮은 스핀을 제공합니다."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Ai+Smoke+TD",
+    "swingSpeedRange": ["fast", "very_fast"],
+    "forgivenessRating": 6,
+    "distanceRating": 10,
+    "accuracyRating": 8
+  },
+  {
+    "name": "G430 Max 10K",
+    "brand": "Ping",
+    "clubType": "driver",
+    "price": 599.99,
+    "skillLevels": ["beginner", "intermediate", "advanced"],
+    "shaftFlex": ["soft_regular", "regular", "stiff"],
+    "loft": "9.0, 10.5, 12.0",
+    "description": "Ping's straightest and most forgiving driver ever. Exceeds 10,000 MOI combined.",
+    "descriptions": {
+      "en": "Ping's straightest and most forgiving driver ever. Exceeds 10,000 MOI combined.",
+      "ko": "핑 역사상 가장 똑바로 가고 관용성이 좋은 드라이버. 합산 MOI 10,000을 초과합니다."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=G430+Max+10K",
+    "swingSpeedRange": ["slow", "moderate", "fast"],
+    "forgivenessRating": 10,
+    "distanceRating": 8,
+    "accuracyRating": 10
+  },
+  {
+    "name": "TSR2",
+    "brand": "Titleist",
+    "clubType": "driver",
+    "price": 599.00,
+    "skillLevels": ["intermediate", "advanced"],
+    "shaftFlex": ["regular", "stiff", "extra_stiff"],
+    "loft": "8.0, 9.0, 10.0, 11.0",
+    "description": "High launch and low spin for maximum distance and stability. The modern standard for speed.",
+    "descriptions": {
+      "en": "High launch and low spin for maximum distance and stability. The modern standard for speed.",
+      "ko": "높은 탄도와 낮은 스핀으로 최대 비거리를 제공합니다. 스피드의 새로운 기준."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=TSR2",
+    "swingSpeedRange": ["moderate", "fast"],
+    "forgivenessRating": 8,
+    "distanceRating": 9,
+    "accuracyRating": 9
+  },
+  {
+    "name": "P790 (2023)",
+    "brand": "TaylorMade",
+    "clubType": "iron_set",
+    "price": 1399.99,
+    "skillLevels": ["intermediate", "advanced"],
+    "shaftFlex": ["regular", "stiff"],
+    "loft": "Standard",
+    "description": "Beautiful forged hollow body construction with SpeedFoam Air. The ultimate players distance iron.",
+    "descriptions": {
+      "en": "Beautiful forged hollow body construction with SpeedFoam Air. The ultimate players distance iron.",
+      "ko": "SpeedFoam Air 기술이 적용된 아름다운 단조 중공 구조. 최고의 플레이어스 디스턴스 아이언."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=P790",
+    "swingSpeedRange": ["moderate", "fast"],
+    "forgivenessRating": 7,
+    "distanceRating": 10,
+    "accuracyRating": 8
+  },
+  {
+    "name": "Qi Irons",
+    "brand": "TaylorMade",
+    "clubType": "iron_set",
+    "price": 1099.99,
+    "skillLevels": ["beginner", "intermediate"],
+    "shaftFlex": ["senior", "regular", "stiff"],
+    "loft": "Strong",
+    "description": "Designed for straight distance. Features integrated design system for eliminating the fade.",
+    "descriptions": {
+      "en": "Designed for straight distance. Features integrated design system for eliminating the fade.",
+      "ko": "직진성과 비거리를 위해 설계되었습니다. 페이드를 방지하는 통합 디자인 시스템 적용."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Qi+Irons",
+    "swingSpeedRange": ["slow", "moderate"],
+    "forgivenessRating": 10,
+    "distanceRating": 9,
+    "accuracyRating": 7
+  },
+  {
+    "name": "Apex Pro",
+    "brand": "Callaway",
+    "clubType": "iron_set",
+    "price": 1499.99,
+    "skillLevels": ["advanced", "professional"],
+    "shaftFlex": ["stiff", "extra_stiff"],
+    "loft": "Standard",
+    "description": "Multi-material forged construction for elite feel and precision.",
+    "descriptions": {
+      "en": "Multi-material forged construction for elite feel and precision.",
+      "ko": "엘리트 골퍼를 위한 다중 소재 단조 구조. 정교한 타구감과 정확성을 제공합니다."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Apex+Pro",
+    "swingSpeedRange": ["fast", "very_fast"],
+    "forgivenessRating": 6,
+    "distanceRating": 8,
+    "accuracyRating": 10
+  },
+  {
+    "name": "T100",
+    "brand": "Titleist",
+    "clubType": "iron_set",
+    "price": 1399.00,
+    "skillLevels": ["advanced", "professional"],
+    "shaftFlex": ["stiff", "extra_stiff"],
+    "loft": "Traditional",
+    "description": "The #1 iron on Tour. Precision control and unrivaled feel for the best ball strikers.",
+    "descriptions": {
+      "en": "The #1 iron on Tour. Precision control and unrivaled feel for the best ball strikers.",
+      "ko": "투어 사용률 1위 아이언. 최고의 볼 스트라이커를 위한 정밀한 컨트롤과 타구감."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=T100",
+    "swingSpeedRange": ["fast", "very_fast"],
+    "forgivenessRating": 5,
+    "distanceRating": 7,
+    "accuracyRating": 10
+  },
+  {
+    "name": "T350",
+    "brand": "Titleist",
+    "clubType": "iron_set",
+    "price": 1399.00,
+    "skillLevels": ["beginner", "intermediate"],
+    "shaftFlex": ["senior", "regular", "stiff"],
+    "loft": "Strong",
+    "description": "The ultimate game improvement iron from Titleist. High launch, long distance, and forgiving.",
+    "descriptions": {
+      "en": "The ultimate game improvement iron from Titleist. High launch, long distance, and forgiving.",
+      "ko": "타이틀리스트 최고의 게임 임프루브먼트 아이언. 높은 탄도, 긴 비거리, 뛰어난 관용성."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=T350",
+    "swingSpeedRange": ["slow", "moderate"],
+    "forgivenessRating": 9,
+    "distanceRating": 9,
+    "accuracyRating": 8
+  },
+  {
+    "name": "Vokey SM10",
+    "brand": "Titleist",
+    "clubType": "wedge",
+    "price": 189.00,
+    "skillLevels": ["intermediate", "advanced", "professional"],
+    "shaftFlex": ["wedge"],
+    "loft": "46, 48, 50, 52, 54, 56, 58, 60, 62",
+    "description": "The ultimate in spin and control. Progressive CG design for precise distance gapping.",
+    "descriptions": {
+      "en": "The ultimate in spin and control. Progressive CG design for precise distance gapping.",
+      "ko": "스핀과 컨트롤의 정점. 정밀한 거리 간격을 위한 프로그레시브 CG 디자인."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Vokey+SM10",
+    "swingSpeedRange": ["moderate", "fast", "very_fast"],
+    "forgivenessRating": 6,
+    "distanceRating": 6,
+    "accuracyRating": 10
+  },
+  {
+    "name": "Jaws Raw",
+    "brand": "Callaway",
+    "clubType": "wedge",
+    "price": 179.99,
+    "skillLevels": ["intermediate", "advanced"],
+    "shaftFlex": ["wedge"],
+    "loft": "48, 50, 52, 54, 56, 58, 60",
+    "description": "Raw face for maximum spin. Tungsten technology for balance and feel.",
+    "descriptions": {
+      "en": "Raw face for maximum spin. Tungsten technology for balance and feel.",
+      "ko": "최대 스핀을 위한 로우(Raw) 페이스. 텅스텐 기술로 균형과 타구감 향상."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Jaws+Raw",
+    "swingSpeedRange": ["moderate", "fast"],
+    "forgivenessRating": 7,
+    "distanceRating": 6,
+    "accuracyRating": 9
+  },
+  {
+    "name": "Phantom 5",
+    "brand": "Scotty Cameron",
+    "clubType": "putter",
+    "price": 449.00,
+    "skillLevels": ["beginner", "intermediate", "advanced", "professional"],
+    "shaftFlex": ["putter"],
+    "loft": "3.5",
+    "description": "Tour-proven mallet shape. Precision milled for superior alignment and stability.",
+    "descriptions": {
+      "en": "Tour-proven mallet shape. Precision milled for superior alignment and stability.",
+      "ko": "투어에서 검증된 말렛 형상. 뛰어난 정렬과 안정성을 위한 정밀 밀링 가공."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Phantom+5",
+    "swingSpeedRange": ["slow", "moderate", "fast", "very_fast"],
+    "forgivenessRating": 9,
+    "distanceRating": 5,
+    "accuracyRating": 10
+  },
+  {
+    "name": "Ai-One #7",
+    "brand": "Odyssey",
+    "clubType": "putter",
+    "price": 299.99,
+    "skillLevels": ["beginner", "intermediate", "advanced"],
+    "shaftFlex": ["putter"],
+    "loft": "3.0",
+    "description": "Features Ai-designed insert for consistent ball speed across the face.",
+    "descriptions": {
+      "en": "Features Ai-designed insert for consistent ball speed across the face.",
+      "ko": "Ai가 설계한 인서트 적용. 페이스 전체에서 일관된 볼 스피드를 제공합니다."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Ai-One+7",
+    "swingSpeedRange": ["slow", "moderate", "fast", "very_fast"],
+    "forgivenessRating": 9,
+    "distanceRating": 5,
+    "accuracyRating": 9
+  }
+]

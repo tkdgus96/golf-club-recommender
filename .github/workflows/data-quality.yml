@@ -1,0 +1,29 @@
+name: Data Quality Checks
+
+on:
+  schedule:
+    - cron: "0 9 * * 1"
+  workflow_dispatch:
+
+jobs:
+  validate-seed-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install Root Dependencies
+        run: npm ci
+
+      - name: Install Server Dependencies
+        run: npm --prefix server ci
+
+      - name: Validate Club and Shaft Data
+        run: npm --prefix server run validate:data

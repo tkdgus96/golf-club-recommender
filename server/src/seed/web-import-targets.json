@@ -1,0 +1,107 @@
+[
+  {
+    "url": "https://www.callawaygolf.com/drivers/drivers-2025-elyte.html",
+    "sourceName": "Callaway",
+    "clubTypeHint": "driver"
+  },
+  {
+    "url": "https://www.callawaygolf.com/fairway-woods/fwoods-2025-elyte.html",
+    "sourceName": "Callaway",
+    "clubTypeHint": "fairway_wood"
+  },
+  {
+    "url": "https://www.callawaygolf.com/irons/irons-2024-apex-ai200.html",
+    "sourceName": "Callaway",
+    "clubTypeHint": "iron_set"
+  },
+  {
+    "url": "https://www.callawaygolf.com/wedges/wedges-2024-opus.html",
+    "sourceName": "Callaway",
+    "clubTypeHint": "wedge"
+  },
+  {
+    "url": "https://www.titleist.com/golf-clubs/drivers/gt2",
+    "sourceName": "Titleist",
+    "clubTypeHint": "driver"
+  },
+  {
+    "url": "https://www.titleist.com/golf-clubs/drivers/gt3",
+    "sourceName": "Titleist",
+    "clubTypeHint": "driver"
+  },
+  {
+    "url": "https://www.titleist.com/golf-clubs/irons/t200",
+    "sourceName": "Titleist",
+    "clubTypeHint": "iron_set"
+  },
+  {
+    "url": "https://www.titleist.com/golf-clubs/wedges/vokey-sm10",
+    "sourceName": "Titleist",
+    "clubTypeHint": "wedge"
+  },
+  {
+    "url": "https://www.taylormadegolf.com/drivers/",
+    "sourceName": "TaylorMade",
+    "clubTypeHint": "driver"
+  },
+  {
+    "url": "https://www.taylormadegolf.com/qi35-max-driver/N2904509.html",
+    "sourceName": "TaylorMade",
+    "clubTypeHint": "driver"
+  },
+  {
+    "url": "https://www.taylormadegolf.com/qi-irons/N4313309.html",
+    "sourceName": "TaylorMade",
+    "clubTypeHint": "iron_set"
+  },
+  {
+    "url": "https://www.taylormadegolf.com/milled-grind-4-wedge/N2879807.html",
+    "sourceName": "TaylorMade",
+    "clubTypeHint": "wedge"
+  },
+  {
+    "url": "https://eu.ping.com/en-us/clubs/drivers",
+    "sourceName": "PING",
+    "clubTypeHint": "driver"
+  },
+  {
+    "url": "https://eu.ping.com/en-us/clubs/fairways/g440",
+    "sourceName": "PING",
+    "clubTypeHint": "fairway_wood"
+  },
+  {
+    "url": "https://eu.ping.com/en-us/clubs/irons/g440",
+    "sourceName": "PING",
+    "clubTypeHint": "iron_set"
+  },
+  {
+    "url": "https://eu.ping.com/en-us/clubs/wedges/s159",
+    "sourceName": "PING",
+    "clubTypeHint": "wedge"
+  },
+  {
+    "url": "https://www.cobragolf.com/collections/drivers/products/ds-adapt-max-k-driver",
+    "sourceName": "Cobra",
+    "clubTypeHint": "driver"
+  },
+  {
+    "url": "https://www.cobragolf.com/collections/irons/products/king-tec-irons",
+    "sourceName": "Cobra",
+    "clubTypeHint": "iron_set"
+  },
+  {
+    "url": "https://www.mizunousa.com/us/product/golf-st-max-230-driver/",
+    "sourceName": "Mizuno",
+    "clubTypeHint": "driver"
+  },
+  {
+    "url": "https://www.mizunousa.com/us/product/golf-jpx925-hot-metal-irons/",
+    "sourceName": "Mizuno",
+    "clubTypeHint": "iron_set"
+  },
+  {
+    "url": "https://us.dunlopsports.com/srixon/clubs/drivers/zxi-driver/MZXIDRV.html",
+    "sourceName": "Srixon",
+    "clubTypeHint": "driver"
+  }
+]

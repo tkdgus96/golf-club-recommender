@@ -1,0 +1,193 @@
+
+[
+  {
+    "name": "Qi4D Max",
+    "brand": "TaylorMade",
+    "clubType": "driver",
+    "price": 649.99,
+    "skillLevels": ["beginner", "intermediate", "advanced"],
+    "shaftFlex": ["senior", "regular", "stiff", "extra_stiff"],
+    "loft": "9.0, 10.5, 12.0",
+    "description": "The ultimate in forgiveness. Qi4D Max features an ultra-low CG and max MOI for stability.",
+    "descriptions": {
+      "en": "The ultimate in forgiveness. Qi4D Max features an ultra-low CG and max MOI for stability.",
+      "ko": "궁극의 관용성. Qi4D Max는 초저중심 설계와 최대 MOI로 뛰어난 안정성을 제공합니다."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Qi4D+Max",
+    "swingSpeedRange": ["slow", "moderate", "fast"],
+    "forgivenessRating": 10,
+    "distanceRating": 9,
+    "accuracyRating": 10
+  },
+  {
+    "name": "Qi4D LS",
+    "brand": "TaylorMade",
+    "clubType": "driver",
+    "price": 699.99,
+    "skillLevels": ["advanced", "professional"],
+    "shaftFlex": ["stiff", "extra_stiff"],
+    "loft": "8.0, 9.0, 10.5",
+    "description": "Low Spin model with adjustable sliding weight track. Designed for high swing speeds.",
+    "descriptions": {
+      "en": "Low Spin model with adjustable sliding weight track. Designed for high swing speeds.",
+      "ko": "슬라이딩 웨이트 트랙이 적용된 저스핀 모델. 빠른 스윙 스피드를 가진 골퍼를 위해 설계되었습니다."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Qi4D+LS",
+    "swingSpeedRange": ["fast", "very_fast"],
+    "forgivenessRating": 7,
+    "distanceRating": 10,
+    "accuracyRating": 8
+  },
+  {
+    "name": "Qi4D Max Lite",
+    "brand": "TaylorMade",
+    "clubType": "driver",
+    "price": 649.99,
+    "skillLevels": ["beginner", "intermediate"],
+    "shaftFlex": ["ladies", "senior", "regular"],
+    "loft": "10.5, 12.0",
+    "description": "Ultra-lightweight construction for moderate swing speeds. Easy launch and maximum carry.",
+    "descriptions": {
+      "en": "Ultra-lightweight construction for moderate swing speeds. Easy launch and maximum carry.",
+      "ko": "중간 스윙 스피드를 위한 초경량 설계. 쉬운 탄도와 최대 비거리를 제공합니다."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Qi4D+Lite",
+    "swingSpeedRange": ["slow", "moderate"],
+    "forgivenessRating": 10,
+    "distanceRating": 8,
+    "accuracyRating": 9
+  },
+  {
+    "name": "Quantum Max",
+    "brand": "Callaway",
+    "clubType": "driver",
+    "price": 629.99,
+    "skillLevels": ["beginner", "intermediate", "advanced"],
+    "shaftFlex": ["senior", "regular", "stiff"],
+    "loft": "9.0, 10.5, 12.0",
+    "description": "Callaway Quantum Max uses Ai Smart Face 2.0 for consistent speed across the entire face.",
+    "descriptions": {
+      "en": "Callaway Quantum Max uses Ai Smart Face 2.0 for consistent speed across the entire face.",
+      "ko": "캘러웨이 퀀텀 맥스는 Ai 스마트 페이스 2.0을 사용하여 페이스 전체에서 일관된 스피드를 제공합니다."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Quantum+Max",
+    "swingSpeedRange": ["moderate", "fast"],
+    "forgivenessRating": 10,
+    "distanceRating": 9,
+    "accuracyRating": 9
+  },
+  {
+    "name": "Quantum Triple Diamond",
+    "brand": "Callaway",
+    "clubType": "driver",
+    "price": 649.99,
+    "skillLevels": ["advanced", "professional"],
+    "shaftFlex": ["stiff", "extra_stiff"],
+    "loft": "8.0, 9.0, 10.5",
+    "description": "Compact, low-spin head for elite players seeking workability and precision.",
+    "descriptions": {
+      "en": "Compact, low-spin head for elite players seeking workability and precision.",
+      "ko": "조작성과 정밀함을 추구하는 엘리트 플레이어를 위한 컴팩트한 저스핀 헤드."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Quantum+TD",
+    "swingSpeedRange": ["fast", "very_fast"],
+    "forgivenessRating": 6,
+    "distanceRating": 10,
+    "accuracyRating": 9
+  },
+  {
+    "name": "Quantum Triple Diamond Max",
+    "brand": "Callaway",
+    "clubType": "driver",
+    "price": 649.99,
+    "skillLevels": ["advanced", "professional"],
+    "shaftFlex": ["stiff", "extra_stiff"],
+    "loft": "9.0, 10.5",
+    "description": "The perfect blend of workability and forgiveness. Slightly larger footprint than the standard Triple Diamond.",
+    "descriptions": {
+      "en": "The perfect blend of workability and forgiveness. Slightly larger footprint than the standard Triple Diamond.",
+      "ko": "조작성과 관용성의 완벽한 조화. 표준 트리플 다이아몬드보다 약간 더 큰 헤드 형상."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Quantum+TD+Max",
+    "swingSpeedRange": ["fast", "very_fast"],
+    "forgivenessRating": 8,
+    "distanceRating": 10,
+    "accuracyRating": 9
+  },
+  {
+    "name": "G440 Max",
+    "brand": "Ping",
+    "clubType": "driver",
+    "price": 649.00,
+    "skillLevels": ["beginner", "intermediate", "advanced"],
+    "shaftFlex": ["soft_regular", "regular", "stiff", "extra_stiff"],
+    "loft": "9.0, 10.5, 12.0",
+    "description": "Ping's straightest driver ever. G440 Max pushes MOI to the limit for unmatched stability.",
+    "descriptions": {
+      "en": "Ping's straightest driver ever. G440 Max pushes MOI to the limit for unmatched stability.",
+      "ko": "핑 역사상 가장 똑바로 가는 드라이버. G440 Max는 비교할 수 없는 안정성을 위해 MOI를 극한까지 끌어올렸습니다."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=G440+Max",
+    "swingSpeedRange": ["slow", "moderate", "fast"],
+    "forgivenessRating": 10,
+    "distanceRating": 9,
+    "accuracyRating": 10
+  },
+  {
+    "name": "G440 LST",
+    "brand": "Ping",
+    "clubType": "driver",
+    "price": 679.00,
+    "skillLevels": ["advanced", "professional"],
+    "shaftFlex": ["stiff", "extra_stiff"],
+    "loft": "9.0, 10.5",
+    "description": "Low Spin Technology model. Smaller head profile for lower launch and spin.",
+    "descriptions": {
+      "en": "Low Spin Technology model. Smaller head profile for lower launch and spin.",
+      "ko": "저스핀 기술(Low Spin Technology) 모델. 더 낮은 탄도와 스핀을 위한 작은 헤드 프로파일."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=G440+LST",
+    "swingSpeedRange": ["fast", "very_fast"],
+    "forgivenessRating": 8,
+    "distanceRating": 10,
+    "accuracyRating": 9
+  },
+  {
+    "name": "OPTM Max",
+    "brand": "Cobra",
+    "clubType": "driver",
+    "price": 549.00,
+    "skillLevels": ["beginner", "intermediate", "advanced"],
+    "shaftFlex": ["regular", "stiff", "extra_stiff"],
+    "loft": "9.0, 10.5, 12.0",
+    "description": "Cobra OPTM Max features advanced aerodynamics and optimized weighting for effortless speed.",
+    "descriptions": {
+      "en": "Cobra OPTM Max features advanced aerodynamics and optimized weighting for effortless speed.",
+      "ko": "코브라 OPTM Max는 진보된 공기역학 설계와 최적화된 무게 배분으로 손쉬운 스피드를 제공합니다."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=OPTM+Max",
+    "swingSpeedRange": ["moderate", "fast"],
+    "forgivenessRating": 9,
+    "distanceRating": 9,
+    "accuracyRating": 8
+  },
+  {
+    "name": "OPTM LS",
+    "brand": "Cobra",
+    "clubType": "driver",
+    "price": 549.00,
+    "skillLevels": ["advanced", "professional"],
+    "shaftFlex": ["stiff", "extra_stiff"],
+    "loft": "8.0, 9.0, 10.5",
+    "description": "Low spin version of the OPTM line. Forward weighting for penetrating ball flight.",
+    "descriptions": {
+      "en": "Low spin version of the OPTM line. Forward weighting for penetrating ball flight.",
+      "ko": "OPTM 라인의 저스핀 버전. 관통하는 탄도를 위한 전방 무게 배분."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=OPTM+LS",
+    "swingSpeedRange": ["fast", "very_fast"],
+    "forgivenessRating": 7,
+    "distanceRating": 10,
+    "accuracyRating": 8
+  }
+]

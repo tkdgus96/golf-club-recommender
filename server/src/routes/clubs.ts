@@ -5,6 +5,7 @@ import {
   getRecommendations,
   QuizAnswers,
 } from "../services/recommendation.service";
+import { importClubsFromWeb, WebImportInput } from "../services/web-import.service";
 
 const router = Router();
 const clubRepo = () => AppDataSource.getRepository(GolfClub);
@@ -33,8 +34,8 @@ router.get("/", async (req: Request, res: Response) => {
 
     const qb = clubRepo()
       .createQueryBuilder("club")
-      .orderBy("club.brand", "ASC")
-      .addOrderBy("club.name", "ASC");
+      .orderBy("club.createdAt", "DESC")
+      .addOrderBy("club.brand", "ASC");
 
     if (type) {
       qb.andWhere("club.clubType = :type", { type });
@@ -114,6 +115,39 @@ router.get("/brands", async (_req: Request, res: Response) => {
   } catch (error) {
     console.error("Error fetching brands:", error);
     res.status(500).json({ error: "Failed to fetch brands" });
+  }
+});
+
+// POST /api/clubs/import/web - Import clubs from web URLs
+router.post("/import/web", async (req: Request, res: Response) => {
+  try {
+    const { inputs } = req.body as { inputs?: WebImportInput[] };
+
+    if (!Array.isArray(inputs) || inputs.length === 0) {
+      return res.status(400).json({
+        error: "Request body must include non-empty 'inputs' array",
+      });
+    }
+
+    const invalidInput = inputs.find(
+      (item) =>
+        !item ||
+        typeof item !== "object" ||
+        typeof item.url !== "string" ||
+        item.url.trim() === ""
+    );
+
+    if (invalidInput) {
+      return res.status(400).json({
+        error: "Each input item must contain a non-empty 'url' field",
+      });
+    }
+
+    const summary = await importClubsFromWeb(inputs);
+    res.json(summary);
+  } catch (error) {
+    console.error("Error importing clubs from web:", error);
+    res.status(500).json({ error: "Failed to import clubs from web" });
   }
 });
 

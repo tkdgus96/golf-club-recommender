@@ -4,6 +4,8 @@ import cors from "cors";
 import { AppDataSource } from "./config/database";
 import clubsRouter from "./routes/clubs";
 import recommendationsRouter from "./routes/recommendations";
+import shaftsRouter from "./routes/shafts";
+import commerceRouter from "./routes/commerce";
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -13,6 +15,8 @@ app.use(express.json());
 
 app.use("/api/clubs", clubsRouter);
 app.use("/api/recommendations", recommendationsRouter);
+app.use("/api/shafts", shaftsRouter);
+app.use("/api/commerce", commerceRouter);
 
 app.get("/api/health", (_req, res) => {
   res.json({ status: "ok" });

@@ -1,0 +1,60 @@
+
+[
+  {
+    "name": "Qi35 Max",
+    "brand": "TaylorMade",
+    "clubType": "driver",
+    "price": 649.99,
+    "skillLevels": ["beginner", "intermediate", "advanced"],
+    "shaftFlex": ["senior", "regular", "stiff", "extra_stiff"],
+    "loft": "9.0, 10.5, 12.0",
+    "description": "TaylorMade's 2025 flagship. The Qi35 Max push MOI limits further with Advanced Infinity Carbon Crown and enhanced 35g rear weight for maximum stability.",
+    "descriptions": {
+      "en": "TaylorMade's 2025 flagship. The Qi35 Max push MOI limits further with Advanced Infinity Carbon Crown and enhanced 35g rear weight for maximum stability.",
+      "ko": "테일러메이드 2025년 플래그십. Qi35 Max는 어드밴스드 인피니티 카본 크라운과 강화된 35g 후방 웨이트로 관용성의 한계를 한 번 더 넘었습니다."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Qi35+Max",
+    "swingSpeedRange": ["slow", "moderate", "fast"],
+    "forgivenessRating": 10,
+    "distanceRating": 10,
+    "accuracyRating": 10
+  },
+  {
+    "name": "Elite Pro",
+    "brand": "Callaway",
+    "clubType": "driver",
+    "price": 629.99,
+    "skillLevels": ["advanced", "professional"],
+    "shaftFlex": ["stiff", "extra_stiff"],
+    "loft": "8.0, 9.0, 10.5",
+    "description": "The Callaway Elite Pro introduces the new Hyper-Dynamic Ai Smart Face, delivering elite ball speeds and unmatched precision for better players.",
+    "descriptions": {
+      "en": "The Callaway Elite Pro introduces the new Hyper-Dynamic Ai Smart Face, delivering elite ball speeds and unmatched precision for better players.",
+      "ko": "캘러웨이 엘리트 프로는 새로운 하이퍼 다이내믹 Ai 스마트 페이스를 도입하여, 상급 골퍼들에게 엘리트 수준의 볼 스피드와 정밀함을 제공합니다."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Elite+Pro",
+    "swingSpeedRange": ["fast", "very_fast"],
+    "forgivenessRating": 7,
+    "distanceRating": 10,
+    "accuracyRating": 9
+  },
+  {
+    "name": "DS Adapt X",
+    "brand": "Cobra",
+    "clubType": "driver",
+    "price": 599.00,
+    "skillLevels": ["intermediate", "advanced"],
+    "shaftFlex": ["regular", "stiff", "extra_stiff"],
+    "loft": "9.0, 10.5, 12.0",
+    "description": "Cobra's DS Adapt X features the revolutionary Adapt-Weighting system, allowing golfers to fine-tune spin and launch with 15 adjustable configurations.",
+    "descriptions": {
+      "en": "Cobra's DS Adapt X features the revolutionary Adapt-Weighting system, allowing golfers to fine-tune spin and launch with 15 adjustable configurations.",
+      "ko": "코브라 DS Adapt X는 혁신적인 Adapt-웨이팅 시스템을 갖추어, 15가지 조절 가능한 구성을 통해 스핀과 발사각을 정밀하게 튜닝할 수 있습니다."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=DS+Adapt+X",
+    "swingSpeedRange": ["moderate", "fast"],
+    "forgivenessRating": 9,
+    "distanceRating": 9,
+    "accuracyRating": 9
+  }
+]

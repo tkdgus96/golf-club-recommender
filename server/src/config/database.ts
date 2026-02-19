@@ -1,5 +1,6 @@
 import { DataSource } from "typeorm";
 import { GolfClub } from "../entities/GolfClub";
+import { Shaft } from "../entities/Shaft";
 
 export const AppDataSource = new DataSource({
   type: "postgres",
@@ -10,5 +11,5 @@ export const AppDataSource = new DataSource({
   database: process.env.DB_NAME || "golf_recommender",
   synchronize: true,
   logging: false,
-  entities: [GolfClub],
+  entities: [GolfClub, Shaft],
 });

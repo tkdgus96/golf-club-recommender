@@ -6,7 +6,10 @@
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
-    "seed": "ts-node src/seeds/run-seed.ts"
+    "seed": "ts-node src/seeds/run-seed.ts",
+    "import:web": "ts-node src/scripts/import-web-clubs.ts",
+    "refresh:shafts": "ts-node src/scripts/refresh-shafts.ts",
+    "validate:data": "ts-node src/scripts/validate-seed-data.ts --strict"
   },
   "dependencies": {
     "cors": "^2.8.5",

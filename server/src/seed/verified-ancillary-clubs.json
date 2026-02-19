@@ -1,0 +1,136 @@
+
+[
+  {
+    "name": "Qi4D Rescue",
+    "brand": "TaylorMade",
+    "clubType": "hybrid",
+    "price": 299.99,
+    "skillLevels": ["beginner", "intermediate", "advanced"],
+    "shaftFlex": ["regular", "stiff"],
+    "loft": "19, 22, 25, 28",
+    "description": "Versatile hybrid with 4D Carbon construction. High launch and steep descent for holding greens.",
+    "descriptions": {
+      "en": "Versatile hybrid with 4D Carbon construction. High launch and steep descent for holding greens.",
+      "ko": "4D 카본 구조의 다재다능한 하이브리드. 그린을 공략하기 위한 높은 탄도와 가파른 하강 각도 제공."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Qi4D+Rescue",
+    "swingSpeedRange": ["moderate", "fast"],
+    "forgivenessRating": 9,
+    "distanceRating": 8,
+    "accuracyRating": 9
+  },
+  {
+    "name": "MyMG5 Wedge",
+    "brand": "TaylorMade",
+    "clubType": "wedge",
+    "price": 199.99,
+    "skillLevels": ["intermediate", "advanced", "professional"],
+    "shaftFlex": ["wedge"],
+    "loft": "50, 52, 54, 56, 58, 60",
+    "description": "Raw face for maximum spin. Precision milled grinds for ultimate versatility around the green.",
+    "descriptions": {
+      "en": "Raw face for maximum spin. Precision milled grinds for ultimate versatility around the green.",
+      "ko": "최대 스핀을 위한 로우 페이스. 그린 주변에서의 궁극의 범용성을 위한 정밀 밀링 그라인드."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=MyMG5",
+    "swingSpeedRange": ["moderate", "fast", "very_fast"],
+    "forgivenessRating": 6,
+    "distanceRating": 5,
+    "accuracyRating": 10
+  },
+  {
+    "name": "Spider ZT Putter",
+    "brand": "TaylorMade",
+    "clubType": "putter",
+    "price": 449.99,
+    "skillLevels": ["beginner", "intermediate", "advanced", "professional"],
+    "shaftFlex": ["putter"],
+    "loft": "3.0",
+    "description": "Zero-Torque technology eliminates twisting for absolute stability through the stroke.",
+    "descriptions": {
+      "en": "Zero-Torque technology eliminates twisting for absolute stability through the stroke.",
+      "ko": "제로 토크 기술로 스트로크 시 뒤틀림을 방지하여 완벽한 안정성을 제공합니다."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Spider+ZT",
+    "swingSpeedRange": ["slow", "moderate", "fast", "very_fast"],
+    "forgivenessRating": 10,
+    "distanceRating": 5,
+    "accuracyRating": 10
+  },
+  {
+    "name": "Opus SP Wedge",
+    "brand": "Callaway",
+    "clubType": "wedge",
+    "price": 199.99,
+    "skillLevels": ["intermediate", "advanced", "professional"],
+    "shaftFlex": ["wedge"],
+    "loft": "48, 50, 52, 54, 56, 58, 60",
+    "description": "Spin-optimized face technology. Forged for soft feel and consistent distance control.",
+    "descriptions": {
+      "en": "Spin-optimized face technology. Forged for soft feel and consistent distance control.",
+      "ko": "스핀 최적화 페이스 기술. 부드러운 타구감과 일관된 거리 제어를 위한 단조 제작."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Opus+SP",
+    "swingSpeedRange": ["moderate", "fast", "very_fast"],
+    "forgivenessRating": 7,
+    "distanceRating": 6,
+    "accuracyRating": 9
+  },
+  {
+    "name": "Odyssey Ai-DUAL #7",
+    "brand": "Callaway",
+    "clubType": "putter",
+    "price": 399.99,
+    "skillLevels": ["beginner", "intermediate", "advanced"],
+    "shaftFlex": ["putter"],
+    "loft": "3.0",
+    "description": "Dual-insert technology combining soft feel with firm feedback for consistent speed control.",
+    "descriptions": {
+      "en": "Dual-insert technology combining soft feel with firm feedback for consistent speed control.",
+      "ko": "부드러운 타구감과 견고한 피드백을 결합한 듀얼 인서트 기술로 일관된 거리 제어 제공."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Ai-DUAL+7",
+    "swingSpeedRange": ["slow", "moderate", "fast", "very_fast"],
+    "forgivenessRating": 9,
+    "distanceRating": 5,
+    "accuracyRating": 9
+  },
+  {
+    "name": "KING Tec Mini Driver",
+    "brand": "Cobra",
+    "clubType": "driver",
+    "price": 449.00,
+    "skillLevels": ["advanced", "professional"],
+    "shaftFlex": ["stiff", "extra_stiff"],
+    "loft": "11.5, 13.5",
+    "description": "303cc compact head for precision control off the tee and versatility from the fairway.",
+    "descriptions": {
+      "en": "303cc compact head for precision control off the tee and versatility from the fairway.",
+      "ko": "티샷에서의 정밀한 컨트롤과 페어웨이에서의 범용성을 위한 303cc 컴팩트 헤드."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Tec+Mini",
+    "swingSpeedRange": ["fast", "very_fast"],
+    "forgivenessRating": 6,
+    "distanceRating": 8,
+    "accuracyRating": 10
+  },
+  {
+    "name": "3DP Printed Irons",
+    "brand": "Cobra",
+    "clubType": "iron_set",
+    "price": 1999.00,
+    "skillLevels": ["advanced", "professional"],
+    "shaftFlex": ["stiff", "extra_stiff"],
+    "loft": "Traditional",
+    "description": "Additive manufacturing allows for internal weighting impossible with traditional forging.",
+    "descriptions": {
+      "en": "Additive manufacturing allows for internal weighting impossible with traditional forging.",
+      "ko": "적층 제조 방식을 통해 기존 단조 공법으로는 불가능했던 내부 무게 배분을 실현했습니다."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=3DP+Irons",
+    "swingSpeedRange": ["fast", "very_fast"],
+    "forgivenessRating": 8,
+    "distanceRating": 9,
+    "accuracyRating": 9
+  }
+]

@@ -24,6 +24,7 @@ router.post("/", async (req: Request, res: Response) => {
     if (!answers.budgetMin) answers.budgetMin = 0;
     if (!answers.budgetMax) answers.budgetMax = 10000;
     if (!answers.improvementGoals) answers.improvementGoals = [];
+    if (!answers.fittingGoal) answers.fittingGoal = "scoring_gain";
 
     const clubRepo = AppDataSource.getRepository(GolfClub);
     const allClubs = await clubRepo.find();

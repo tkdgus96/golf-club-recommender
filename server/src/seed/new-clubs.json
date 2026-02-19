@@ -1,0 +1,136 @@
+
+[
+  {
+    "name": "GT2",
+    "brand": "Titleist",
+    "clubType": "driver",
+    "price": 649.00,
+    "skillLevels": ["intermediate", "advanced"],
+    "shaftFlex": ["regular", "stiff"],
+    "loft": "8.0, 9.0, 10.0, 11.0",
+    "description": "High launch, low spin, and exceptional speed. The new standard for distance and stability in the GT line.",
+    "descriptions": {
+      "en": "High launch, low spin, and exceptional speed. The new standard for distance and stability in the GT line.",
+      "ko": "높은 탄도, 낮은 스핀, 그리고 탁월한 스피드. GT 라인업 중 비거리와 안정성의 새로운 기준."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=GT2",
+    "swingSpeedRange": ["moderate", "fast"],
+    "forgivenessRating": 9,
+    "distanceRating": 10,
+    "accuracyRating": 9
+  },
+  {
+    "name": "GT3",
+    "brand": "Titleist",
+    "clubType": "driver",
+    "price": 649.00,
+    "skillLevels": ["advanced", "professional"],
+    "shaftFlex": ["stiff", "extra_stiff"],
+    "loft": "8.0, 9.0, 10.0",
+    "description": "Adjustable CG track for precise flight tuning. Lower spin for faster swing speeds.",
+    "descriptions": {
+      "en": "Adjustable CG track for precise flight tuning. Lower spin for faster swing speeds.",
+      "ko": "정밀한 탄도 조절을 위한 CG 트랙 탑재. 빠른 스윙 스피드를 위한 저스핀 설계."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=GT3",
+    "swingSpeedRange": ["fast", "very_fast"],
+    "forgivenessRating": 7,
+    "distanceRating": 10,
+    "accuracyRating": 9
+  },
+  {
+    "name": "Darkspeed Max",
+    "brand": "Cobra",
+    "clubType": "driver",
+    "price": 549.00,
+    "skillLevels": ["beginner", "intermediate", "advanced"],
+    "shaftFlex": ["senior", "regular", "stiff"],
+    "loft": "9.0, 10.5, 12.0",
+    "description": "Aerodynamic shape with maximum forgiveness. Two weight ports for draw bias or stability.",
+    "descriptions": {
+      "en": "Aerodynamic shape with maximum forgiveness. Two weight ports for draw bias or stability.",
+      "ko": "공기역학적 디자인과 최대 관용성. 드로우 구질 또는 안정성을 위한 두 개의 웨이트 포트."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Darkspeed+Max",
+    "swingSpeedRange": ["slow", "moderate", "fast"],
+    "forgivenessRating": 10,
+    "distanceRating": 9,
+    "accuracyRating": 8
+  },
+  {
+    "name": "Blueprint S",
+    "brand": "Ping",
+    "clubType": "iron_set",
+    "price": 1499.00,
+    "skillLevels": ["advanced", "professional"],
+    "shaftFlex": ["stiff", "extra_stiff"],
+    "loft": "Traditional",
+    "description": "Forged cavity back for workability with a hint of forgiveness. Tour-preferred look and feel.",
+    "descriptions": {
+      "en": "Forged cavity back for workability with a hint of forgiveness. Tour-preferred look and feel.",
+      "ko": "조작성과 약간의 관용성을 겸비한 단조 캐비티 백. 투어 선호 디자인과 타구감."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Blueprint+S",
+    "swingSpeedRange": ["fast", "very_fast"],
+    "forgivenessRating": 6,
+    "distanceRating": 7,
+    "accuracyRating": 10
+  },
+  {
+    "name": "i530",
+    "brand": "Ping",
+    "clubType": "iron_set",
+    "price": 1399.00,
+    "skillLevels": ["intermediate", "advanced"],
+    "shaftFlex": ["regular", "stiff"],
+    "loft": "Strong",
+    "description": "Premium players distance iron. Hollow body design for maximum speed and height.",
+    "descriptions": {
+      "en": "Premium players distance iron. Hollow body design for maximum speed and height.",
+      "ko": "프리미엄 플레이어스 디스턴스 아이언. 최대 스피드와 탄도를 위한 중공 구조."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=i530",
+    "swingSpeedRange": ["moderate", "fast"],
+    "forgivenessRating": 8,
+    "distanceRating": 10,
+    "accuracyRating": 8
+  },
+  {
+    "name": "Mizuno Pro 245",
+    "brand": "Mizuno",
+    "clubType": "iron_set",
+    "price": 1399.00,
+    "skillLevels": ["intermediate", "advanced"],
+    "shaftFlex": ["regular", "stiff"],
+    "loft": "Standard",
+    "description": "Hollow body construction with Grain Flow Forged face. Looks like a blade, plays like a cavity back.",
+    "descriptions": {
+      "en": "Hollow body construction with Grain Flow Forged face. Looks like a blade, plays like a cavity back.",
+      "ko": "그레인 플로우 포지드 페이스와 중공 구조. 블레이드처럼 보이지만 캐비티 백의 성능을 제공합니다."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Pro+245",
+    "swingSpeedRange": ["moderate", "fast"],
+    "forgivenessRating": 7,
+    "distanceRating": 9,
+    "accuracyRating": 9
+  },
+  {
+    "name": "Mizuno Pro 241",
+    "brand": "Mizuno",
+    "clubType": "iron_set",
+    "price": 1399.00,
+    "skillLevels": ["professional"],
+    "shaftFlex": ["stiff", "extra_stiff"],
+    "loft": "Traditional",
+    "description": "Pure muscle back blade. The ultimate in feel and feedback for elite strikers.",
+    "descriptions": {
+      "en": "Pure muscle back blade. The ultimate in feel and feedback for elite strikers.",
+      "ko": "순수한 머슬백 블레이드. 엘리트 스트라이커를 위한 최고의 타구감과 피드백."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Pro+241",
+    "swingSpeedRange": ["very_fast"],
+    "forgivenessRating": 3,
+    "distanceRating": 6,
+    "accuracyRating": 10
+  }
+]

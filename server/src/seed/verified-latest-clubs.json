@@ -1,0 +1,231 @@
+
+[
+  {
+    "name": "Qi4D Max",
+    "brand": "TaylorMade",
+    "clubType": "driver",
+    "price": 649.99,
+    "skillLevels": ["beginner", "intermediate", "advanced"],
+    "shaftFlex": ["senior", "regular", "stiff", "extra_stiff"],
+    "loft": "9.0, 10.5, 12.0",
+    "description": "2026 Flagship. Features 4D Carbon Twist Face for maximum energy transfer and forgiveness.",
+    "descriptions": {
+      "en": "2026 Flagship. Features 4D Carbon Twist Face for maximum energy transfer and forgiveness.",
+      "ko": "2026년 플래그십. 최대 에너지 전달과 관용성을 위한 4D 카본 트위스트 페이스 탑재."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Qi4D+Max",
+    "swingSpeedRange": ["slow", "moderate", "fast"],
+    "forgivenessRating": 10,
+    "distanceRating": 10,
+    "accuracyRating": 10
+  },
+  {
+    "name": "Qi4D LS",
+    "brand": "TaylorMade",
+    "clubType": "driver",
+    "price": 699.99,
+    "skillLevels": ["advanced", "professional"],
+    "shaftFlex": ["stiff", "extra_stiff"],
+    "loft": "8.0, 9.0, 10.5",
+    "description": "Low spin model for high swing speeds. Compact shape with quad-weight system.",
+    "descriptions": {
+      "en": "Low spin model for high swing speeds. Compact shape with quad-weight system.",
+      "ko": "빠른 스윙 스피드를 위한 저스핀 모델. 4중 웨이트 시스템이 적용된 컴팩트 헤드."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Qi4D+LS",
+    "swingSpeedRange": ["fast", "very_fast"],
+    "forgivenessRating": 7,
+    "distanceRating": 10,
+    "accuracyRating": 9
+  },
+  {
+    "name": "Qi35 Fairway",
+    "brand": "TaylorMade",
+    "clubType": "fairway_wood",
+    "price": 399.99,
+    "skillLevels": ["intermediate", "advanced"],
+    "shaftFlex": ["regular", "stiff"],
+    "loft": "15, 18, 21",
+    "description": "High-launching fairway wood with 35g internal weighting for incredible stability.",
+    "descriptions": {
+      "en": "High-launching fairway wood with 35g internal weighting for incredible stability.",
+      "ko": "놀라운 안정성을 위한 35g 내부 웨이트가 적용된 고탄도 페어웨이 우드."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Qi35+FW",
+    "swingSpeedRange": ["moderate", "fast"],
+    "forgivenessRating": 9,
+    "distanceRating": 9,
+    "accuracyRating": 8
+  },
+  {
+    "name": "P·8CB",
+    "brand": "TaylorMade",
+    "clubType": "iron_set",
+    "price": 1499.99,
+    "skillLevels": ["advanced", "professional"],
+    "shaftFlex": ["stiff", "extra_stiff"],
+    "loft": "Traditional",
+    "description": "Modern classic cavity back. Forged for ultimate feel and workability.",
+    "descriptions": {
+      "en": "Modern classic cavity back. Forged for ultimate feel and workability.",
+      "ko": "현대적인 클래식 캐비티 백. 최고의 타구감과 조작성을 위해 단조 제작되었습니다."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=P8CB",
+    "swingSpeedRange": ["fast", "very_fast"],
+    "forgivenessRating": 5,
+    "distanceRating": 7,
+    "accuracyRating": 10
+  },
+  {
+    "name": "Quantum Max",
+    "brand": "Callaway",
+    "clubType": "driver",
+    "price": 649.99,
+    "skillLevels": ["beginner", "intermediate", "advanced"],
+    "shaftFlex": ["senior", "regular", "stiff"],
+    "loft": "9.0, 10.5, 12.0",
+    "description": "A Quantum Leap in distance. Ai Smart Face 2.0 optimizes launch and spin.",
+    "descriptions": {
+      "en": "A Quantum Leap in distance. Ai Smart Face 2.0 optimizes launch and spin.",
+      "ko": "비거리의 비약적인 도약. Ai 스마트 페이스 2.0이 탄도와 스핀을 최적화합니다."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Quantum+Max",
+    "swingSpeedRange": ["moderate", "fast"],
+    "forgivenessRating": 10,
+    "distanceRating": 10,
+    "accuracyRating": 9
+  },
+  {
+    "name": "Quantum Triple Diamond Max",
+    "brand": "Callaway",
+    "clubType": "driver",
+    "price": 649.99,
+    "skillLevels": ["advanced", "professional"],
+    "shaftFlex": ["stiff", "extra_stiff"],
+    "loft": "9.0, 10.5",
+    "description": "The ultimate player's driver with added stability. Low spin with tour-preferred shaping.",
+    "descriptions": {
+      "en": "The ultimate player's driver with added stability. Low spin with tour-preferred shaping.",
+      "ko": "안정성이 더해진 궁극의 플레이어용 드라이버. 투어 선호 형상의 저스핀 모델."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Quantum+TD+Max",
+    "swingSpeedRange": ["fast", "very_fast"],
+    "forgivenessRating": 8,
+    "distanceRating": 10,
+    "accuracyRating": 9
+  },
+  {
+    "name": "Elyte X",
+    "brand": "Callaway",
+    "clubType": "driver",
+    "price": 499.99,
+    "skillLevels": ["beginner", "intermediate"],
+    "shaftFlex": ["ladies", "senior", "regular"],
+    "loft": "10.5, 12.0",
+    "description": "Lightweight performance line for effortless launch and maximum speed.",
+    "descriptions": {
+      "en": "Lightweight performance line for effortless launch and maximum speed.",
+      "ko": "쉬운 탄도와 최대 스피드를 위한 경량 퍼포먼스 라인업."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Elyte+X",
+    "swingSpeedRange": ["slow", "moderate"],
+    "forgivenessRating": 10,
+    "distanceRating": 8,
+    "accuracyRating": 9
+  },
+  {
+    "name": "G440 K",
+    "brand": "Ping",
+    "clubType": "driver",
+    "price": 649.00,
+    "skillLevels": ["beginner", "intermediate", "advanced"],
+    "shaftFlex": ["soft_regular", "regular", "stiff"],
+    "loft": "9.0, 10.5, 12.0",
+    "description": "Kinetic Energy maximization. Features new aero-turbulators for increased clubhead speed.",
+    "descriptions": {
+      "en": "Kinetic Energy maximization. Features new aero-turbulators for increased clubhead speed.",
+      "ko": "운동 에너지 극대화. 헤드 스피드 증가를 위한 새로운 에어로 터뷸레이터 탑재."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=G440+K",
+    "swingSpeedRange": ["slow", "moderate", "fast"],
+    "forgivenessRating": 10,
+    "distanceRating": 10,
+    "accuracyRating": 10
+  },
+  {
+    "name": "i240",
+    "brand": "Ping",
+    "clubType": "iron_set",
+    "price": 1399.00,
+    "skillLevels": ["intermediate", "advanced"],
+    "shaftFlex": ["regular", "stiff"],
+    "loft": "Standard",
+    "description": "The evolution of the i230. Enhanced feel and more consistent distance control.",
+    "descriptions": {
+      "en": "The evolution of the i230. Enhanced feel and more consistent distance control.",
+      "ko": "i230의 진화. 강화된 타구감과 더 일관된 거리 제어력 제공."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=i240",
+    "swingSpeedRange": ["moderate", "fast"],
+    "forgivenessRating": 8,
+    "distanceRating": 8,
+    "accuracyRating": 9
+  },
+  {
+    "name": "OPTM Max",
+    "brand": "Cobra",
+    "clubType": "driver",
+    "price": 549.00,
+    "skillLevels": ["beginner", "intermediate", "advanced"],
+    "shaftFlex": ["senior", "regular", "stiff"],
+    "loft": "9.0, 10.5, 12.0",
+    "description": "Highly Addictive Accuracy. Maximum MOI and stability for tight dispersion.",
+    "descriptions": {
+      "en": "Highly Addictive Accuracy. Maximum MOI and stability for tight dispersion.",
+      "ko": "중독성 강한 정확성. 좁은 좌우 편차를 위한 최대 MOI와 안정성."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=OPTM+Max",
+    "swingSpeedRange": ["moderate", "fast"],
+    "forgivenessRating": 10,
+    "distanceRating": 9,
+    "accuracyRating": 9
+  },
+  {
+    "name": "OPTM LS",
+    "brand": "Cobra",
+    "clubType": "driver",
+    "price": 549.00,
+    "skillLevels": ["advanced", "professional"],
+    "shaftFlex": ["stiff", "extra_stiff"],
+    "loft": "8.0, 9.0, 10.5",
+    "description": "Low Spin performance with AI-optimized face. For golfers seeking maximum distance.",
+    "descriptions": {
+      "en": "Low Spin performance with AI-optimized face. For golfers seeking maximum distance.",
+      "ko": "Ai 최적화 페이스를 통한 저스핀 퍼포먼스. 최대 비거리를 추구하는 골퍼용."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=OPTM+LS",
+    "swingSpeedRange": ["fast", "very_fast"],
+    "forgivenessRating": 7,
+    "distanceRating": 10,
+    "accuracyRating": 8
+  },
+  {
+    "name": "DS Adapt X",
+    "brand": "Cobra",
+    "clubType": "driver",
+    "price": 599.00,
+    "skillLevels": ["intermediate", "advanced"],
+    "shaftFlex": ["regular", "stiff"],
+    "loft": "9.0, 10.5",
+    "description": "Featuring Adapt-Weighting for custom flight tuning. Versatile performance.",
+    "descriptions": {
+      "en": "Featuring Adapt-Weighting for custom flight tuning. Versatile performance.",
+      "ko": "커스텀 탄도 조절을 위한 Adapt-웨이팅 시스템 탑재. 다재다능한 퍼포먼스."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=DS+Adapt+X",
+    "swingSpeedRange": ["moderate", "fast"],
+    "forgivenessRating": 9,
+    "distanceRating": 9,
+    "accuracyRating": 9
+  }
+]

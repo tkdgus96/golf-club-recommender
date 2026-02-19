@@ -5,37 +5,9 @@ import {
   CreateDateColumn,
   UpdateDateColumn,
 } from "typeorm";
+import { ClubType, SkillLevel, ShaftFlex, SwingSpeed } from "../enums/club-enums";
 
-export enum ClubType {
-  DRIVER = "driver",
-  FAIRWAY_WOOD = "fairway_wood",
-  HYBRID = "hybrid",
-  IRON_SET = "iron_set",
-  WEDGE = "wedge",
-  PUTTER = "putter",
-}
-
-export enum SkillLevel {
-  BEGINNER = "beginner",
-  INTERMEDIATE = "intermediate",
-  ADVANCED = "advanced",
-  PROFESSIONAL = "professional",
-}
-
-export enum ShaftFlex {
-  LADIES = "ladies",
-  SENIOR = "senior",
-  REGULAR = "regular",
-  STIFF = "stiff",
-  EXTRA_STIFF = "extra_stiff",
-}
-
-export enum SwingSpeed {
-  SLOW = "slow",
-  MODERATE = "moderate",
-  FAST = "fast",
-  VERY_FAST = "very_fast",
-}
+export { ClubType, SkillLevel, ShaftFlex, SwingSpeed }; // Re-export for compatibility
 
 @Entity("golf_clubs")
 export class GolfClub {
@@ -83,6 +55,18 @@ export class GolfClub {
 
   @Column({ type: "int", default: 5 })
   accuracyRating!: number;
+
+  @Column({ type: "varchar", length: 120, nullable: true })
+  sourceName!: string | null;
+
+  @Column({ type: "varchar", length: 1000, nullable: true })
+  sourceUrl!: string | null;
+
+  @Column({ type: "timestamptz", nullable: true })
+  sourceUpdatedAt!: Date | null;
+
+  @Column({ type: "decimal", precision: 3, scale: 2, nullable: true })
+  dataConfidence!: number | null;
 
   @CreateDateColumn()
   createdAt!: Date;

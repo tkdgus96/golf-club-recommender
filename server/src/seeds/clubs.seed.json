@@ -4,10 +4,19 @@
     "brand": "TaylorMade",
     "clubType": "driver",
     "price": 599.99,
-    "skillLevels": ["beginner", "intermediate"],
-    "shaftFlex": ["regular", "stiff"],
+    "skillLevels": [
+      "beginner",
+      "intermediate"
+    ],
+    "shaftFlex": [
+      "regular",
+      "stiff"
+    ],
     "loft": "9, 10.5, 12",
-    "swingSpeedRange": ["moderate", "fast"],
+    "swingSpeedRange": [
+      "moderate",
+      "fast"
+    ],
     "forgivenessRating": 9,
     "distanceRating": 8,
     "accuracyRating": 8,
@@ -19,17 +28,28 @@
       "es": "Driver de máxima tolerancia con cabeza grande de 460cc y construcción avanzada de carbono. Ideal para golfistas que buscan consistencia desde el tee.",
       "ja": "460ccの大型ヘッドと先進的なカーボン構造による最大限の寛容性を備えたドライバー。ティーショットの安定性を求めるゴルファーに最適です。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/taylormade-qi10-max-driver.jpg"
   },
   {
     "name": "Qi10 Driver",
     "brand": "TaylorMade",
     "clubType": "driver",
     "price": 549.99,
-    "skillLevels": ["intermediate", "advanced"],
-    "shaftFlex": ["regular", "stiff", "extra_stiff"],
+    "skillLevels": [
+      "intermediate",
+      "advanced"
+    ],
+    "shaftFlex": [
+      "regular",
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "8, 9, 10.5",
-    "swingSpeedRange": ["moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 7,
     "distanceRating": 9,
     "accuracyRating": 7,
@@ -41,17 +61,28 @@
       "es": "Un driver versátil que equilibra distancia y manejabilidad. Corona de carbono y cara de titanio para una velocidad explosiva.",
       "ja": "飛距離と操作性を高次元でバランスさせた万能ドライバー。カーボンクラウンとチタンフェースで爆発的なスピードを実現します。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/taylormade-qi10-driver.svg"
   },
   {
     "name": "Paradym Ai Smoke Max Driver",
     "brand": "Callaway",
     "clubType": "driver",
     "price": 599.99,
-    "skillLevels": ["beginner", "intermediate"],
-    "shaftFlex": ["ladies", "regular", "stiff"],
+    "skillLevels": [
+      "beginner",
+      "intermediate"
+    ],
+    "shaftFlex": [
+      "ladies",
+      "regular",
+      "stiff"
+    ],
     "loft": "9, 10.5, 12",
-    "swingSpeedRange": ["slow", "moderate", "fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast"
+    ],
     "forgivenessRating": 9,
     "distanceRating": 8,
     "accuracyRating": 9,
@@ -63,17 +94,26 @@
       "es": "Cara diseñada con IA optimizada para máxima tolerancia y vuelo recto. Ideal para jugadores que buscan consistencia.",
       "ja": "AI設計フェースで最大限の寛容性とストレートな弾道を実現。安定したショットを求めるプレーヤーに最適です。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/callaway-paradym-ai-smoke-max-d-driver.svg"
   },
   {
     "name": "Paradym Ai Smoke Triple Diamond Driver",
     "brand": "Callaway",
     "clubType": "driver",
     "price": 599.99,
-    "skillLevels": ["advanced", "professional"],
-    "shaftFlex": ["stiff", "extra_stiff"],
+    "skillLevels": [
+      "advanced",
+      "professional"
+    ],
+    "shaftFlex": [
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "8, 9, 10.5",
-    "swingSpeedRange": ["fast", "very_fast"],
+    "swingSpeedRange": [
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 4,
     "distanceRating": 10,
     "accuracyRating": 6,
@@ -85,17 +125,26 @@
       "es": "Un driver compacto y de bajo spin diseñado para jugadores de élite con velocidades de swing rápidas que buscan máxima manejabilidad.",
       "ja": "速いスイングスピードを持つエリートプレーヤー向けのコンパクトなロースピンドライバー。最大限の操作性を求める上級者に最適です。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/callaway-paradym-ai-smoke-triple-diamond-driver.svg"
   },
   {
     "name": "TSR3 Driver",
     "brand": "Titleist",
     "clubType": "driver",
     "price": 549.99,
-    "skillLevels": ["advanced", "professional"],
-    "shaftFlex": ["stiff", "extra_stiff"],
+    "skillLevels": [
+      "advanced",
+      "professional"
+    ],
+    "shaftFlex": [
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "8, 9, 10",
-    "swingSpeedRange": ["fast", "very_fast"],
+    "swingSpeedRange": [
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 5,
     "distanceRating": 9,
     "accuracyRating": 8,
@@ -107,17 +156,28 @@
       "es": "Driver de nivel tour con pista CG ajustable para moldear el vuelo con precisión. Bajo spin para máxima distancia.",
       "ja": "精密な弾道調整が可能なCGトラック搭載のツアーレベルドライバー。ロースピンで最大飛距離を実現します。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/titleist-tsr3-driver.svg"
   },
   {
     "name": "TSR2 Driver",
     "brand": "Titleist",
     "clubType": "driver",
     "price": 549.99,
-    "skillLevels": ["intermediate", "advanced"],
-    "shaftFlex": ["regular", "stiff", "extra_stiff"],
+    "skillLevels": [
+      "intermediate",
+      "advanced"
+    ],
+    "shaftFlex": [
+      "regular",
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "9, 10, 11",
-    "swingSpeedRange": ["moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 7,
     "distanceRating": 9,
     "accuracyRating": 7,
@@ -129,17 +189,29 @@
       "es": "Rendimiento integral que combina velocidad, tolerancia y ajustabilidad. El driver más popular de Titleist.",
       "ja": "スピード、寛容性、調整機能を兼ね備えたオールラウンドドライバー。Titleistで最も人気のあるドライバーです。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/titleist-tsr2-driver.jpg"
   },
   {
     "name": "G430 Max 10K Driver",
     "brand": "Ping",
     "clubType": "driver",
     "price": 599.99,
-    "skillLevels": ["beginner", "intermediate"],
-    "shaftFlex": ["ladies", "senior", "regular", "stiff"],
+    "skillLevels": [
+      "beginner",
+      "intermediate"
+    ],
+    "shaftFlex": [
+      "ladies",
+      "senior",
+      "regular",
+      "stiff"
+    ],
     "loft": "9, 10.5, 12",
-    "swingSpeedRange": ["slow", "moderate", "fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast"
+    ],
     "forgivenessRating": 10,
     "distanceRating": 7,
     "accuracyRating": 9,
@@ -151,17 +223,26 @@
       "es": "El driver con mayor MOI de Ping con 10,000 g-cm2 de momento de inercia. Tolerancia definitiva en golpes descentrados.",
       "ja": "慣性モーメント10,000 g-cm2を誇るPing史上最高MOIドライバー。芯を外したショットでも究極の寛容性を発揮します。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/ping-g430-max-10k-driver.jpg"
   },
   {
     "name": "G430 LST Driver",
     "brand": "Ping",
     "clubType": "driver",
     "price": 579.99,
-    "skillLevels": ["advanced", "professional"],
-    "shaftFlex": ["stiff", "extra_stiff"],
+    "skillLevels": [
+      "advanced",
+      "professional"
+    ],
+    "shaftFlex": [
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "8, 9, 10.5",
-    "swingSpeedRange": ["fast", "very_fast"],
+    "swingSpeedRange": [
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 5,
     "distanceRating": 9,
     "accuracyRating": 7,
@@ -173,17 +254,29 @@
       "es": "Driver con tecnología de bajo spin para jugadores con velocidades de swing altas que buscan máxima distancia con vuelo penetrante.",
       "ja": "速いスイングスピードのプレーヤー向けロースピンテクノロジードライバー。貫通力のある弾道で最大飛距離を追求します。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/ping-g430-max-10k-driver.jpg"
   },
   {
     "name": "Aerojet Max Driver",
     "brand": "Cobra",
     "clubType": "driver",
     "price": 449.99,
-    "skillLevels": ["beginner", "intermediate"],
-    "shaftFlex": ["ladies", "senior", "regular", "stiff"],
+    "skillLevels": [
+      "beginner",
+      "intermediate"
+    ],
+    "shaftFlex": [
+      "ladies",
+      "senior",
+      "regular",
+      "stiff"
+    ],
     "loft": "9, 10.5, 12",
-    "swingSpeedRange": ["slow", "moderate", "fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast"
+    ],
     "forgivenessRating": 9,
     "distanceRating": 8,
     "accuracyRating": 8,
@@ -195,17 +288,28 @@
       "es": "Diseño aerodinámico para mayor velocidad de cabeza con peso draw-bias para tiros más rectos. Gran relación calidad-precio.",
       "ja": "空力設計による速いヘッドスピードとドローバイアスウェイトでまっすぐな弾道を実現。優れたコストパフォーマンスです。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/cobra-darkspeed-max-driver.jpg"
   },
   {
     "name": "Aerojet Driver",
     "brand": "Cobra",
     "clubType": "driver",
     "price": 449.99,
-    "skillLevels": ["intermediate", "advanced"],
-    "shaftFlex": ["regular", "stiff", "extra_stiff"],
+    "skillLevels": [
+      "intermediate",
+      "advanced"
+    ],
+    "shaftFlex": [
+      "regular",
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "8, 9, 10.5",
-    "swingSpeedRange": ["moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 7,
     "distanceRating": 9,
     "accuracyRating": 7,
@@ -217,17 +321,28 @@
       "es": "Driver optimizado para velocidad con peso PWR-BRIDGE para bajo spin y distancia explosiva. Excelente relación calidad-precio.",
       "ja": "PWR-BRIDGEウェイトシステムでロースピンと爆発的な飛距離を実現するスピード最適化ドライバー。コストパフォーマンス抜群です。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/cobra-darkspeed-max-driver.jpg"
   },
   {
     "name": "ST-Z 230 Driver",
     "brand": "Mizuno",
     "clubType": "driver",
     "price": 499.99,
-    "skillLevels": ["intermediate", "advanced"],
-    "shaftFlex": ["regular", "stiff", "extra_stiff"],
+    "skillLevels": [
+      "intermediate",
+      "advanced"
+    ],
+    "shaftFlex": [
+      "regular",
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "9, 10.5",
-    "swingSpeedRange": ["moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 6,
     "distanceRating": 9,
     "accuracyRating": 7,
@@ -239,17 +354,27 @@
       "es": "Cara de titanio beta con cámara Cortech para velocidad de bola rápida. Diseño elegante inspirado en el tour con bajo spin.",
       "ja": "ベータチタンフェースとCortechチャンバーで高速ボールスピードを実現。洗練されたツアーインスパイアのロースピン設計です。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/mizuno-st-max-230-driver.jpg"
   },
   {
     "name": "Launcher XL2 Driver",
     "brand": "Cleveland",
     "clubType": "driver",
     "price": 399.99,
-    "skillLevels": ["beginner", "intermediate"],
-    "shaftFlex": ["ladies", "senior", "regular"],
+    "skillLevels": [
+      "beginner",
+      "intermediate"
+    ],
+    "shaftFlex": [
+      "ladies",
+      "senior",
+      "regular"
+    ],
     "loft": "10.5, 12",
-    "swingSpeedRange": ["slow", "moderate"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate"
+    ],
     "forgivenessRating": 10,
     "distanceRating": 7,
     "accuracyRating": 9,
@@ -261,17 +386,28 @@
       "es": "Diseño ultraligero para máxima velocidad de cabeza. Tecnología Action Mass CB para un lanzamiento sin esfuerzo. La mejor relación calidad-precio para principiantes.",
       "ja": "超軽量設計で最大ヘッドスピードを実現。Action Mass CBテクノロジーで楽に打ち上がります。初心者に最適なコストパフォーマンスモデルです。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/cleveland-launcher-xl2-driver.svg"
   },
   {
     "name": "Qi10 Max Fairway Wood",
     "brand": "TaylorMade",
     "clubType": "fairway_wood",
     "price": 349.99,
-    "skillLevels": ["beginner", "intermediate"],
-    "shaftFlex": ["ladies", "regular", "stiff"],
+    "skillLevels": [
+      "beginner",
+      "intermediate"
+    ],
+    "shaftFlex": [
+      "ladies",
+      "regular",
+      "stiff"
+    ],
     "loft": "3W (15), 5W (18), 7W (21)",
-    "swingSpeedRange": ["slow", "moderate", "fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast"
+    ],
     "forgivenessRating": 9,
     "distanceRating": 8,
     "accuracyRating": 8,
@@ -283,17 +419,26 @@
       "es": "Madera de calle con construcción de carbono y máxima tolerancia. Fácil de lanzar desde cualquier lie.",
       "ja": "カーボン構造で最大限の寛容性を備えたフェアウェイウッド。どんなライからでも楽に打ち上がります。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/taylormade-qi10-max-driver.jpg"
   },
   {
     "name": "Qi10 Tour Fairway Wood",
     "brand": "TaylorMade",
     "clubType": "fairway_wood",
     "price": 349.99,
-    "skillLevels": ["advanced", "professional"],
-    "shaftFlex": ["stiff", "extra_stiff"],
+    "skillLevels": [
+      "advanced",
+      "professional"
+    ],
+    "shaftFlex": [
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "3W (13.5), 3HL (16.5)",
-    "swingSpeedRange": ["fast", "very_fast"],
+    "swingSpeedRange": [
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 5,
     "distanceRating": 9,
     "accuracyRating": 7,
@@ -305,17 +450,28 @@
       "es": "Cabeza compacta con perfil de bajo spin para manejabilidad y control. Preferida por profesionales del tour.",
       "ja": "コンパクトヘッドとロースピン設計で操作性とコントロール性に優れます。ツアープロに愛用されるモデルです。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/taylormade-qi10-max-driver.jpg"
   },
   {
     "name": "Paradym Ai Smoke Max Fairway",
     "brand": "Callaway",
     "clubType": "fairway_wood",
     "price": 349.99,
-    "skillLevels": ["beginner", "intermediate"],
-    "shaftFlex": ["ladies", "regular", "stiff"],
+    "skillLevels": [
+      "beginner",
+      "intermediate"
+    ],
+    "shaftFlex": [
+      "ladies",
+      "regular",
+      "stiff"
+    ],
     "loft": "3W (15), 5W (18), 7W (21), 9W (23)",
-    "swingSpeedRange": ["slow", "moderate", "fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast"
+    ],
     "forgivenessRating": 9,
     "distanceRating": 8,
     "accuracyRating": 9,
@@ -327,17 +483,28 @@
       "es": "Cara diseñada con IA y tecnología Jailbreak para velocidad y tolerancia. Fácil de golpear desde calle o rough.",
       "ja": "AI設計フェースとJailbreakテクノロジーでスピードと寛容性を両立。フェアウェイでもラフからでも楽に打てます。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/callaway-paradym-ai-smoke-max.jpg"
   },
   {
     "name": "Paradym Ai Smoke Fairway",
     "brand": "Callaway",
     "clubType": "fairway_wood",
     "price": 349.99,
-    "skillLevels": ["intermediate", "advanced"],
-    "shaftFlex": ["regular", "stiff", "extra_stiff"],
+    "skillLevels": [
+      "intermediate",
+      "advanced"
+    ],
+    "shaftFlex": [
+      "regular",
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "3W (15), 5W (18)",
-    "swingSpeedRange": ["moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 7,
     "distanceRating": 9,
     "accuracyRating": 7,
@@ -349,17 +516,28 @@
       "es": "Cabeza de tamaño medio con rendimiento versátil. Equilibra distancia con capacidad de moldear el vuelo.",
       "ja": "ミッドサイズヘッドで多彩なパフォーマンスを発揮。飛距離とショットメイキングをバランスよく両立します。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/callaway-paradym-ai-smoke-max.jpg"
   },
   {
     "name": "TSR2 Fairway Wood",
     "brand": "Titleist",
     "clubType": "fairway_wood",
     "price": 349.99,
-    "skillLevels": ["intermediate", "advanced"],
-    "shaftFlex": ["regular", "stiff", "extra_stiff"],
+    "skillLevels": [
+      "intermediate",
+      "advanced"
+    ],
+    "shaftFlex": [
+      "regular",
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "3W (15), 5W (18)",
-    "swingSpeedRange": ["moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 7,
     "distanceRating": 9,
     "accuracyRating": 8,
@@ -371,17 +549,29 @@
       "es": "Metal de calle con velocidad mejorada y construcción de cara optimizada para mayor velocidad de bola en toda la cara.",
       "ja": "改良されたフェース構造でフェース全面にわたって速いボールスピードを実現するスピード強化フェアウェイメタルです。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/titleist-tsr2-driver.jpg"
   },
   {
     "name": "G430 Max Fairway Wood",
     "brand": "Ping",
     "clubType": "fairway_wood",
     "price": 329.99,
-    "skillLevels": ["beginner", "intermediate"],
-    "shaftFlex": ["ladies", "senior", "regular", "stiff"],
+    "skillLevels": [
+      "beginner",
+      "intermediate"
+    ],
+    "shaftFlex": [
+      "ladies",
+      "senior",
+      "regular",
+      "stiff"
+    ],
     "loft": "3W (14.5), 5W (17.5), 7W (20.5), 9W (23.5)",
-    "swingSpeedRange": ["slow", "moderate", "fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast"
+    ],
     "forgivenessRating": 9,
     "distanceRating": 8,
     "accuracyRating": 8,
@@ -393,17 +583,29 @@
       "es": "Madera de calle con alto MOI y tecnología de cara Spinsistency. Distancia consistente en cada golpe.",
       "ja": "Spinsistencyフェーステクノロジー搭載のハイMOIフェアウェイウッド。毎ショット安定した飛距離を実現します。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/ping-g430-max-10k-driver.jpg"
   },
   {
     "name": "Aerojet Max Fairway Wood",
     "brand": "Cobra",
     "clubType": "fairway_wood",
     "price": 279.99,
-    "skillLevels": ["beginner", "intermediate"],
-    "shaftFlex": ["ladies", "senior", "regular", "stiff"],
+    "skillLevels": [
+      "beginner",
+      "intermediate"
+    ],
+    "shaftFlex": [
+      "ladies",
+      "senior",
+      "regular",
+      "stiff"
+    ],
     "loft": "3W (15), 5W (18), 7W (21)",
-    "swingSpeedRange": ["slow", "moderate", "fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast"
+    ],
     "forgivenessRating": 9,
     "distanceRating": 7,
     "accuracyRating": 8,
@@ -415,17 +617,28 @@
       "es": "Sistema de peso PWR-BRIDGE con forma aerodinámica para un lanzamiento fácil. Valor excepcional para principiantes.",
       "ja": "PWR-BRIDGEウェイトシステムとエアロダイナミクス形状で楽に打ち上がります。初心者に最高のコストパフォーマンスです。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/cobra-darkspeed-max-driver.jpg"
   },
   {
     "name": "ST-Z 230 Fairway Wood",
     "brand": "Mizuno",
     "clubType": "fairway_wood",
     "price": 299.99,
-    "skillLevels": ["intermediate", "advanced"],
-    "shaftFlex": ["regular", "stiff", "extra_stiff"],
+    "skillLevels": [
+      "intermediate",
+      "advanced"
+    ],
+    "shaftFlex": [
+      "regular",
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "3W (15), 5W (18)",
-    "swingSpeedRange": ["moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 6,
     "distanceRating": 9,
     "accuracyRating": 7,
@@ -437,17 +650,27 @@
       "es": "Cara de acero maraging con suela Wave technology para velocidad de bola rápida y bajo spin desde la calle.",
       "ja": "マレージング鋼フェースとWaveテクノロジーソールで、フェアウェイから速いボールスピードとロースピンを実現します。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/mizuno-st-max-230-driver.jpg"
   },
   {
     "name": "Launcher XL2 Fairway Wood",
     "brand": "Cleveland",
     "clubType": "fairway_wood",
     "price": 249.99,
-    "skillLevels": ["beginner", "intermediate"],
-    "shaftFlex": ["ladies", "senior", "regular"],
+    "skillLevels": [
+      "beginner",
+      "intermediate"
+    ],
+    "shaftFlex": [
+      "ladies",
+      "senior",
+      "regular"
+    ],
     "loft": "3W (15), 5W (18), 7W (21)",
-    "swingSpeedRange": ["slow", "moderate"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate"
+    ],
     "forgivenessRating": 10,
     "distanceRating": 7,
     "accuracyRating": 9,
@@ -459,17 +682,28 @@
       "es": "Ultraligera y fácil de golpear. Ideal para velocidades de swing lentas y principiantes que buscan contacto consistente.",
       "ja": "超軽量で打ちやすいフェアウェイウッド。スイングスピードが遅いゴルファーや安定したコンタクトを求める初心者に最適です。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/cleveland-launcher-xl2-fairway-wood.svg"
   },
   {
     "name": "Qi10 Max Rescue Hybrid",
     "brand": "TaylorMade",
     "clubType": "hybrid",
     "price": 299.99,
-    "skillLevels": ["beginner", "intermediate"],
-    "shaftFlex": ["ladies", "regular", "stiff"],
+    "skillLevels": [
+      "beginner",
+      "intermediate"
+    ],
+    "shaftFlex": [
+      "ladies",
+      "regular",
+      "stiff"
+    ],
     "loft": "3H (19), 4H (22), 5H (25), 6H (28)",
-    "swingSpeedRange": ["slow", "moderate", "fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast"
+    ],
     "forgivenessRating": 9,
     "distanceRating": 8,
     "accuracyRating": 8,
@@ -481,17 +715,28 @@
       "es": "Cabeza sobredimensionada para máxima tolerancia. Construcción de carbono para lanzamiento más alto y tiros largos más fáciles.",
       "ja": "大型ヘッドで最大限の寛容性を実現。カーボン構造で高い打ち出しと楽なロングショットを可能にします。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/taylormade-qi10-max-driver.jpg"
   },
   {
     "name": "Qi10 Rescue Hybrid",
     "brand": "TaylorMade",
     "clubType": "hybrid",
     "price": 279.99,
-    "skillLevels": ["intermediate", "advanced"],
-    "shaftFlex": ["regular", "stiff", "extra_stiff"],
+    "skillLevels": [
+      "intermediate",
+      "advanced"
+    ],
+    "shaftFlex": [
+      "regular",
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "2H (17), 3H (19), 4H (22), 5H (25)",
-    "swingSpeedRange": ["moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 7,
     "distanceRating": 9,
     "accuracyRating": 7,
@@ -503,17 +748,28 @@
       "es": "Palo de rescate versátil que transiciona suavemente entre maderas y hierros. CG bajo para lanzamiento fácil.",
       "ja": "ウッドとアイアンの間をスムーズにつなぐ万能レスキュークラブ。低重心で楽に打ち上がります。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/taylormade-qi10-max-driver.jpg"
   },
   {
     "name": "Paradym Ai Smoke Max Hybrid",
     "brand": "Callaway",
     "clubType": "hybrid",
     "price": 299.99,
-    "skillLevels": ["beginner", "intermediate"],
-    "shaftFlex": ["ladies", "regular", "stiff"],
+    "skillLevels": [
+      "beginner",
+      "intermediate"
+    ],
+    "shaftFlex": [
+      "ladies",
+      "regular",
+      "stiff"
+    ],
     "loft": "3H (19), 4H (22), 5H (25), 6H (28)",
-    "swingSpeedRange": ["slow", "moderate", "fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast"
+    ],
     "forgivenessRating": 9,
     "distanceRating": 8,
     "accuracyRating": 9,
@@ -525,17 +781,28 @@
       "es": "Diseño de cara optimizado con IA para distancia consistente en golpes descentrados. Fácil de lanzar desde cualquier lie.",
       "ja": "AI最適化フェース設計で芯を外しても安定した飛距離を実現。どんなライからでも楽に打ち上がります。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/callaway-paradym-ai-smoke-max.jpg"
   },
   {
     "name": "TSR2 Hybrid",
     "brand": "Titleist",
     "clubType": "hybrid",
     "price": 299.99,
-    "skillLevels": ["intermediate", "advanced"],
-    "shaftFlex": ["regular", "stiff", "extra_stiff"],
+    "skillLevels": [
+      "intermediate",
+      "advanced"
+    ],
+    "shaftFlex": [
+      "regular",
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "2H (17), 3H (19), 4H (21), 5H (24)",
-    "swingSpeedRange": ["moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 7,
     "distanceRating": 9,
     "accuracyRating": 8,
@@ -547,17 +814,30 @@
       "es": "Construcción de velocidad mejorada para máxima velocidad de bola. Forma compacta preferida por jugadores avanzados.",
       "ja": "強化されたスピード構造で最大ボールスピードを実現。上級プレーヤーに好まれるコンパクトな形状です。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/titleist-tsr2-driver.jpg"
   },
   {
     "name": "G430 Hybrid",
     "brand": "Ping",
     "clubType": "hybrid",
     "price": 279.99,
-    "skillLevels": ["beginner", "intermediate", "advanced"],
-    "shaftFlex": ["ladies", "senior", "regular", "stiff"],
+    "skillLevels": [
+      "beginner",
+      "intermediate",
+      "advanced"
+    ],
+    "shaftFlex": [
+      "ladies",
+      "senior",
+      "regular",
+      "stiff"
+    ],
     "loft": "3H (19), 4H (22), 5H (26), 6H (30)",
-    "swingSpeedRange": ["slow", "moderate", "fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast"
+    ],
     "forgivenessRating": 9,
     "distanceRating": 8,
     "accuracyRating": 8,
@@ -569,17 +849,29 @@
       "es": "Tecnología Facewrap para mayor velocidad de bola. Tungsteno de alta densidad para lanzamiento alto y tolerancia.",
       "ja": "Facewrapテクノロジーで速いボールスピードを実現。高密度タングステンで高い打ち出しと寛容性を両立します。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/ping-g430-irons.jpg"
   },
   {
     "name": "Aerojet Max Hybrid",
     "brand": "Cobra",
     "clubType": "hybrid",
     "price": 229.99,
-    "skillLevels": ["beginner", "intermediate"],
-    "shaftFlex": ["ladies", "senior", "regular", "stiff"],
+    "skillLevels": [
+      "beginner",
+      "intermediate"
+    ],
+    "shaftFlex": [
+      "ladies",
+      "senior",
+      "regular",
+      "stiff"
+    ],
     "loft": "3H (19), 4H (22), 5H (25), 6H (28)",
-    "swingSpeedRange": ["slow", "moderate", "fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast"
+    ],
     "forgivenessRating": 9,
     "distanceRating": 7,
     "accuracyRating": 8,
@@ -591,17 +883,26 @@
       "es": "Diseño offset con sesgo de draw para tiros más rectos. Construcción de cuerpo hueco para lanzamiento fácil.",
       "ja": "オフセットデザインとドローバイアスでまっすぐなショットを実現。中空構造で楽に打ち上がります。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/cobra-darkspeed-max-driver.jpg"
   },
   {
     "name": "CLK Hybrid",
     "brand": "Mizuno",
     "clubType": "hybrid",
     "price": 249.99,
-    "skillLevels": ["intermediate", "advanced"],
-    "shaftFlex": ["regular", "stiff"],
+    "skillLevels": [
+      "intermediate",
+      "advanced"
+    ],
+    "shaftFlex": [
+      "regular",
+      "stiff"
+    ],
     "loft": "3H (18), 4H (21), 5H (24)",
-    "swingSpeedRange": ["moderate", "fast"],
+    "swingSpeedRange": [
+      "moderate",
+      "fast"
+    ],
     "forgivenessRating": 7,
     "distanceRating": 8,
     "accuracyRating": 8,
@@ -613,17 +914,27 @@
       "es": "Suela con tecnología Wave para flexión de cara consistente. Forma compacta con vuelo de bola trabajable.",
       "ja": "Waveテクノロジーソールで安定したフェースフレックスを実現。コンパクトな形状で自在な弾道コントロールが可能です。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/mizuno-clk-hybrid.svg"
   },
   {
     "name": "Launcher XL2 Hybrid",
     "brand": "Cleveland",
     "clubType": "hybrid",
     "price": 199.99,
-    "skillLevels": ["beginner", "intermediate"],
-    "shaftFlex": ["ladies", "senior", "regular"],
+    "skillLevels": [
+      "beginner",
+      "intermediate"
+    ],
+    "shaftFlex": [
+      "ladies",
+      "senior",
+      "regular"
+    ],
     "loft": "3H (19), 4H (22), 5H (25), 6H (28), 7H (31)",
-    "swingSpeedRange": ["slow", "moderate"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate"
+    ],
     "forgivenessRating": 10,
     "distanceRating": 7,
     "accuracyRating": 9,
@@ -635,17 +946,28 @@
       "es": "El diseño ultraligero lo convierte en el híbrido más fácil de golpear. Reemplace los hierros largos difíciles con confianza.",
       "ja": "超軽量設計で最も打ちやすいハイブリッドです。難しいロングアイアンを安心してリプレースできます。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/cleveland-launcher-xl2-hybrid.svg"
   },
   {
     "name": "Qi Iron Set",
     "brand": "TaylorMade",
     "clubType": "iron_set",
     "price": 999.99,
-    "skillLevels": ["beginner", "intermediate"],
-    "shaftFlex": ["ladies", "regular", "stiff"],
+    "skillLevels": [
+      "beginner",
+      "intermediate"
+    ],
+    "shaftFlex": [
+      "ladies",
+      "regular",
+      "stiff"
+    ],
     "loft": "5-PW, AW",
-    "swingSpeedRange": ["slow", "moderate", "fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast"
+    ],
     "forgivenessRating": 9,
     "distanceRating": 8,
     "accuracyRating": 8,
@@ -657,17 +979,28 @@
       "es": "Diseño Cap Back con SpeedFoam Air para distancia explosiva y tolerancia. Punto dulce grande para contacto consistente.",
       "ja": "Cap Back設計とSpeedFoam Airで爆発的な飛距離と寛容性を実現。広いスイートスポットで安定した打球を可能にします。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/taylormade-qi-irons.jpg"
   },
   {
     "name": "P790 Iron Set",
     "brand": "TaylorMade",
     "clubType": "iron_set",
     "price": 1399.99,
-    "skillLevels": ["intermediate", "advanced"],
-    "shaftFlex": ["regular", "stiff", "extra_stiff"],
+    "skillLevels": [
+      "intermediate",
+      "advanced"
+    ],
+    "shaftFlex": [
+      "regular",
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "4-PW",
-    "swingSpeedRange": ["moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 7,
     "distanceRating": 9,
     "accuracyRating": 8,
@@ -679,17 +1012,26 @@
       "es": "Construcción forjada de cuerpo hueco con SpeedFoam Air. Hierro de distancia para jugadores con estética de nivel tour.",
       "ja": "SpeedFoam Airを搭載した鍛造中空構造。ツアーレベルの美しさを備えたプレーヤーズディスタンスアイアンです。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/taylormade-p-770-2024-irons.jpg"
   },
   {
     "name": "P770 Iron Set",
     "brand": "TaylorMade",
     "clubType": "iron_set",
     "price": 1499.99,
-    "skillLevels": ["advanced", "professional"],
-    "shaftFlex": ["stiff", "extra_stiff"],
+    "skillLevels": [
+      "advanced",
+      "professional"
+    ],
+    "shaftFlex": [
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "3-PW",
-    "swingSpeedRange": ["fast", "very_fast"],
+    "swingSpeedRange": [
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 5,
     "distanceRating": 7,
     "accuracyRating": 9,
@@ -701,17 +1043,28 @@
       "es": "Hierro forjado compacto con peso de tungsteno. Sensación de precisión y manejabilidad para jugadores hábiles.",
       "ja": "タングステンウェイト搭載のコンパクト鍛造アイアン。上級プレーヤーのための精密な打感と操作性を提供します。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/taylormade-p-770-2024-irons.jpg"
   },
   {
     "name": "Paradym Ai Smoke Max Iron Set",
     "brand": "Callaway",
     "clubType": "iron_set",
     "price": 999.99,
-    "skillLevels": ["beginner", "intermediate"],
-    "shaftFlex": ["ladies", "regular", "stiff"],
+    "skillLevels": [
+      "beginner",
+      "intermediate"
+    ],
+    "shaftFlex": [
+      "ladies",
+      "regular",
+      "stiff"
+    ],
     "loft": "5-PW, AW",
-    "swingSpeedRange": ["slow", "moderate", "fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast"
+    ],
     "forgivenessRating": 9,
     "distanceRating": 8,
     "accuracyRating": 8,
@@ -723,17 +1076,28 @@
       "es": "Flash Face diseñada con IA para velocidad de bola consistente. Cabeza sobredimensionada con suela ancha para lanzamiento fácil.",
       "ja": "AI設計のFlash Faceで安定したボールスピードを実現。ワイドソールの大型ヘッドで楽に打ち上がります。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/callaway-paradym-ai-smoke-max.jpg"
   },
   {
     "name": "Apex Ai Smoke Iron Set",
     "brand": "Callaway",
     "clubType": "iron_set",
     "price": 1399.99,
-    "skillLevels": ["intermediate", "advanced"],
-    "shaftFlex": ["regular", "stiff", "extra_stiff"],
+    "skillLevels": [
+      "intermediate",
+      "advanced"
+    ],
+    "shaftFlex": [
+      "regular",
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "4-PW",
-    "swingSpeedRange": ["moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 7,
     "distanceRating": 8,
     "accuracyRating": 9,
@@ -745,17 +1109,26 @@
       "es": "Acero al carbono 1025 forjado con cara AI. Sensación premium con distancia y precisión para jugadores avanzados.",
       "ja": "1025カーボンスチール鍛造ボディにAIフェースを搭載。上級プレーヤーのためのプレミアムな打感、飛距離、精度を提供します。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/callaway-apex-ai200-irons.jpg"
   },
   {
     "name": "Apex Pro Iron Set",
     "brand": "Callaway",
     "clubType": "iron_set",
     "price": 1499.99,
-    "skillLevels": ["advanced", "professional"],
-    "shaftFlex": ["stiff", "extra_stiff"],
+    "skillLevels": [
+      "advanced",
+      "professional"
+    ],
+    "shaftFlex": [
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "3-PW",
-    "swingSpeedRange": ["fast", "very_fast"],
+    "swingSpeedRange": [
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 4,
     "distanceRating": 7,
     "accuracyRating": 10,
@@ -767,17 +1140,26 @@
       "es": "Hierro forjado validado en tour con forma precisa. Máximo control de tiro y retroalimentación para jugadores de élite.",
       "ja": "精密な形状のツアー検証済み鍛造アイアン。エリートプレーヤーのための最高のショットコントロールとフィードバックを提供します。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/callaway-apex-pro-24-irons.svg"
   },
   {
     "name": "T150 Iron Set",
     "brand": "Titleist",
     "clubType": "iron_set",
     "price": 1399.99,
-    "skillLevels": ["advanced", "professional"],
-    "shaftFlex": ["stiff", "extra_stiff"],
+    "skillLevels": [
+      "advanced",
+      "professional"
+    ],
+    "shaftFlex": [
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "4-PW",
-    "swingSpeedRange": ["fast", "very_fast"],
+    "swingSpeedRange": [
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 5,
     "distanceRating": 7,
     "accuracyRating": 10,
@@ -789,17 +1171,28 @@
       "es": "Hierro de tour con tungsteno D18 de alta densidad para colocación precisa del CG. Preferido por profesionales del tour en todo el mundo.",
       "ja": "D18高密度タングステンで精密な重心配置を実現したツアーアイアン。世界中のツアープロに愛用されています。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/titleist-t100-2023-irons.jpg"
   },
   {
     "name": "T200 Iron Set",
     "brand": "Titleist",
     "clubType": "iron_set",
     "price": 1299.99,
-    "skillLevels": ["intermediate", "advanced"],
-    "shaftFlex": ["regular", "stiff", "extra_stiff"],
+    "skillLevels": [
+      "intermediate",
+      "advanced"
+    ],
+    "shaftFlex": [
+      "regular",
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "4-PW",
-    "swingSpeedRange": ["moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 7,
     "distanceRating": 9,
     "accuracyRating": 8,
@@ -811,17 +1204,26 @@
       "es": "Tecnología Max Impact para velocidad y tolerancia en un diseño de distancia para jugadores. Cuerpo hueco con núcleo de polímero.",
       "ja": "Max Impactテクノロジーでスピードと寛容性を両立するプレーヤーズディスタンス設計。ポリマーコアの中空ボディアイアンです。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/titleist-t100-2023-irons.jpg"
   },
   {
     "name": "T350 Iron Set",
     "brand": "Titleist",
     "clubType": "iron_set",
     "price": 999.99,
-    "skillLevels": ["beginner", "intermediate"],
-    "shaftFlex": ["regular", "stiff"],
+    "skillLevels": [
+      "beginner",
+      "intermediate"
+    ],
+    "shaftFlex": [
+      "regular",
+      "stiff"
+    ],
     "loft": "5-PW, AW",
-    "swingSpeedRange": ["moderate", "fast"],
+    "swingSpeedRange": [
+      "moderate",
+      "fast"
+    ],
     "forgivenessRating": 9,
     "distanceRating": 8,
     "accuracyRating": 7,
@@ -833,17 +1235,29 @@
       "es": "Hierro de mejora de juego con cara grande y suela ancha. Offset generoso para vuelo de bola más recto.",
       "ja": "大きなフェースとワイドソールのゲームインプルーブメントアイアン。たっぷりのオフセットでまっすぐな弾道を実現します。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/titleist-t350-2023-irons.jpg"
   },
   {
     "name": "G430 Iron Set",
     "brand": "Ping",
     "clubType": "iron_set",
-    "price": 937.50,
-    "skillLevels": ["beginner", "intermediate"],
-    "shaftFlex": ["ladies", "senior", "regular", "stiff"],
+    "price": 937.5,
+    "skillLevels": [
+      "beginner",
+      "intermediate"
+    ],
+    "shaftFlex": [
+      "ladies",
+      "senior",
+      "regular",
+      "stiff"
+    ],
     "loft": "5-PW, UW",
-    "swingSpeedRange": ["slow", "moderate", "fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast"
+    ],
     "forgivenessRating": 9,
     "distanceRating": 8,
     "accuracyRating": 8,
@@ -855,17 +1269,28 @@
       "es": "Cara de acero inoxidable Hyper 17-4 para mayor velocidad de bola. Puerto de ajuste personalizado para sonido y sensación óptimos.",
       "ja": "Hyper 17-4ステンレススチールフェースで速いボールスピードを実現。カスタムチューニングポートで最適な打球音と打感を提供します。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/ping-g430-irons.jpg"
   },
   {
     "name": "i530 Iron Set",
     "brand": "Ping",
     "clubType": "iron_set",
-    "price": 1312.50,
-    "skillLevels": ["intermediate", "advanced"],
-    "shaftFlex": ["regular", "stiff", "extra_stiff"],
+    "price": 1312.5,
+    "skillLevels": [
+      "intermediate",
+      "advanced"
+    ],
+    "shaftFlex": [
+      "regular",
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "4-PW",
-    "swingSpeedRange": ["moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 7,
     "distanceRating": 9,
     "accuracyRating": 8,
@@ -877,17 +1302,26 @@
       "es": "Hierro de cuerpo hueco con cara de acero maraging. Diseño de distancia para jugadores con sensación excepcional.",
       "ja": "マレージング鋼フェースの中空ボディアイアン。卓越した打感を誇るプレーヤーズディスタンス設計です。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/ping-i530-irons.svg"
   },
   {
     "name": "i230 Iron Set",
     "brand": "Ping",
     "clubType": "iron_set",
-    "price": 1200.00,
-    "skillLevels": ["advanced", "professional"],
-    "shaftFlex": ["stiff", "extra_stiff"],
+    "price": 1200,
+    "skillLevels": [
+      "advanced",
+      "professional"
+    ],
+    "shaftFlex": [
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "3-PW",
-    "swingSpeedRange": ["fast", "very_fast"],
+    "swingSpeedRange": [
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 5,
     "distanceRating": 7,
     "accuracyRating": 9,
@@ -899,17 +1333,26 @@
       "es": "Acero al carbono 8620 forjado para sensación excepcional. Perfil compacto tipo blade para moldear el vuelo.",
       "ja": "8620カーボンスチール鍛造で卓越した打感を実現。コンパクトなブレード型プロファイルで自在なショットメイキングが可能です。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/ping-i230-irons.svg"
   },
   {
     "name": "Air-X Iron Set",
     "brand": "Cobra",
     "clubType": "iron_set",
     "price": 699.99,
-    "skillLevels": ["beginner"],
-    "shaftFlex": ["ladies", "senior", "regular"],
+    "skillLevels": [
+      "beginner"
+    ],
+    "shaftFlex": [
+      "ladies",
+      "senior",
+      "regular"
+    ],
     "loft": "5-PW, GW",
-    "swingSpeedRange": ["slow", "moderate"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate"
+    ],
     "forgivenessRating": 10,
     "distanceRating": 7,
     "accuracyRating": 8,
@@ -921,17 +1364,26 @@
       "es": "Diseño ultraligero para máxima velocidad de cabeza. Suela ancha previene el clavado. La mejor relación calidad-precio para principiantes.",
       "ja": "超軽量設計で最大ヘッドスピードを実現。ワイドソールでダフリを防止します。初心者に最適なコストパフォーマンスモデルです。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/cobra-darkspeed-max-driver.jpg"
   },
   {
     "name": "JPX925 Hot Metal Iron Set",
     "brand": "Mizuno",
     "clubType": "iron_set",
     "price": 999.99,
-    "skillLevels": ["beginner", "intermediate"],
-    "shaftFlex": ["regular", "stiff"],
+    "skillLevels": [
+      "beginner",
+      "intermediate"
+    ],
+    "shaftFlex": [
+      "regular",
+      "stiff"
+    ],
     "loft": "5-PW, GW",
-    "swingSpeedRange": ["moderate", "fast"],
+    "swingSpeedRange": [
+      "moderate",
+      "fast"
+    ],
     "forgivenessRating": 8,
     "distanceRating": 9,
     "accuracyRating": 7,
@@ -943,17 +1395,26 @@
       "es": "Cara de cromoly para velocidad explosiva. Cara de copa sin costuras para distancia consistente en toda la cara.",
       "ja": "クロモリフェースで爆発的なスピードを実現。シームレスカップフェースでフェース全面にわたって安定した飛距離を提供します。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/mizuno-jpx925-hot-metal-irons.jpg"
   },
   {
     "name": "JPX925 Forged Iron Set",
     "brand": "Mizuno",
     "clubType": "iron_set",
     "price": 1299.99,
-    "skillLevels": ["advanced", "professional"],
-    "shaftFlex": ["stiff", "extra_stiff"],
+    "skillLevels": [
+      "advanced",
+      "professional"
+    ],
+    "shaftFlex": [
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "4-PW",
-    "swingSpeedRange": ["fast", "very_fast"],
+    "swingSpeedRange": [
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 5,
     "distanceRating": 7,
     "accuracyRating": 9,
@@ -965,17 +1426,29 @@
       "es": "Grain Flow Forged HD de un solo tocho de acero 1025E. El estándar de oro en sensación forjada.",
       "ja": "1025Eスチールの単一ビレットからGrain Flow Forged HD工法で製造。鍛造フィールのゴールドスタンダードです。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/mizuno-jpx925-hot-metal-irons.jpg"
   },
   {
     "name": "Milled Grind 4 Wedge",
     "brand": "TaylorMade",
     "clubType": "wedge",
     "price": 179.99,
-    "skillLevels": ["intermediate", "advanced", "professional"],
-    "shaftFlex": ["regular", "stiff", "extra_stiff"],
+    "skillLevels": [
+      "intermediate",
+      "advanced",
+      "professional"
+    ],
+    "shaftFlex": [
+      "regular",
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "46, 48, 50, 52, 54, 56, 58, 60",
-    "swingSpeedRange": ["moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 6,
     "distanceRating": 6,
     "accuracyRating": 9,
@@ -987,17 +1460,26 @@
       "es": "Suela fresada con precisión y cara raw para máximo spin. Opciones de grind probadas en tour para cualquier condición.",
       "ja": "精密ミーリングソールとロウフェースで最大スピンを実現。あらゆるコンディションに対応するツアー検証済みグラインドオプションを備えています。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/taylormade-mg4-wedge.jpg"
   },
   {
     "name": "Hi-Toe 3 Wedge",
     "brand": "TaylorMade",
     "clubType": "wedge",
     "price": 179.99,
-    "skillLevels": ["beginner", "intermediate"],
-    "shaftFlex": ["regular", "stiff"],
+    "skillLevels": [
+      "beginner",
+      "intermediate"
+    ],
+    "shaftFlex": [
+      "regular",
+      "stiff"
+    ],
     "loft": "50, 52, 54, 56, 58, 60",
-    "swingSpeedRange": ["moderate", "fast"],
+    "swingSpeedRange": [
+      "moderate",
+      "fast"
+    ],
     "forgivenessRating": 8,
     "distanceRating": 6,
     "accuracyRating": 8,
@@ -1009,17 +1491,28 @@
       "es": "Líneas de scoring en toda la cara para spin en cualquier tiro. Grind de suela versátil para tiros con cara abierta alrededor del green.",
       "ja": "フルフェーススコアリングラインであらゆるショットにスピンをかけられます。グリーン周りのオープンフェースショットに対応する万能ソールグラインドです。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/taylormade-hi-toe-3-wedge.svg"
   },
   {
     "name": "Jaws Full Toe Wedge",
     "brand": "Callaway",
     "clubType": "wedge",
     "price": 179.99,
-    "skillLevels": ["intermediate", "advanced"],
-    "shaftFlex": ["regular", "stiff", "extra_stiff"],
+    "skillLevels": [
+      "intermediate",
+      "advanced"
+    ],
+    "shaftFlex": [
+      "regular",
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "54, 56, 58, 60, 64",
-    "swingSpeedRange": ["moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 7,
     "distanceRating": 5,
     "accuracyRating": 9,
@@ -1031,17 +1524,26 @@
       "es": "Surcos JAWS agresivos en toda la cara. Suela C-grind para versatilidad alrededor del green.",
       "ja": "フェース全面に刻まれた攻撃的なJAWSグルーブ。C-グラインドソールでグリーン周りの多彩なプレーに対応します。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/callaway-jaws-raw-wedge.svg"
   },
   {
     "name": "Jaws Raw Wedge",
     "brand": "Callaway",
     "clubType": "wedge",
     "price": 179.99,
-    "skillLevels": ["advanced", "professional"],
-    "shaftFlex": ["stiff", "extra_stiff"],
+    "skillLevels": [
+      "advanced",
+      "professional"
+    ],
+    "shaftFlex": [
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "48, 50, 52, 54, 56, 58, 60",
-    "swingSpeedRange": ["fast", "very_fast"],
+    "swingSpeedRange": [
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 5,
     "distanceRating": 5,
     "accuracyRating": 10,
@@ -1053,17 +1555,29 @@
       "es": "Cara raw para spin que aumenta con el tiempo. Tecnología groove-in-groove offset para máximo agarre.",
       "ja": "使い込むほどスピンが増すロウフェース。オフセットグルーブ・イン・グルーブテクノロジーで最大のバイトを実現します。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/callaway-jaws-raw-wedge.svg"
   },
   {
     "name": "Vokey SM10 Wedge",
     "brand": "Titleist",
     "clubType": "wedge",
     "price": 189.99,
-    "skillLevels": ["intermediate", "advanced", "professional"],
-    "shaftFlex": ["regular", "stiff", "extra_stiff"],
+    "skillLevels": [
+      "intermediate",
+      "advanced",
+      "professional"
+    ],
+    "shaftFlex": [
+      "regular",
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "46, 48, 50, 52, 54, 56, 58, 60, 62",
-    "swingSpeedRange": ["moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 6,
     "distanceRating": 6,
     "accuracyRating": 10,
@@ -1075,17 +1589,27 @@
       "es": "La cuña más popular del tour. Surcos Spin Milled con múltiples opciones de grind para cualquier estilo de juego.",
       "ja": "ツアーで最も人気のあるウェッジ。Spin Milledグルーブと多彩なグラインドオプションであらゆるプレースタイルに対応します。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/titleist-vokey-sm10-chrome.jpg"
   },
   {
     "name": "Glide 4.0 Wedge",
     "brand": "Ping",
     "clubType": "wedge",
     "price": 169.99,
-    "skillLevels": ["beginner", "intermediate", "advanced"],
-    "shaftFlex": ["regular", "stiff"],
+    "skillLevels": [
+      "beginner",
+      "intermediate",
+      "advanced"
+    ],
+    "shaftFlex": [
+      "regular",
+      "stiff"
+    ],
     "loft": "46, 48, 50, 52, 54, 56, 58, 60",
-    "swingSpeedRange": ["moderate", "fast"],
+    "swingSpeedRange": [
+      "moderate",
+      "fast"
+    ],
     "forgivenessRating": 8,
     "distanceRating": 6,
     "accuracyRating": 8,
@@ -1097,17 +1621,26 @@
       "es": "Cara con acabado emery blast para spin consistente. Cuatro grinds de suela para adaptarse a tu swing y condiciones del terreno.",
       "ja": "エメリーブラストフェースで安定したスピンを実現。スイングとターフコンディションに合わせた4種類のソールグラインドを用意しています。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/ping-g430-irons.jpg"
   },
   {
     "name": "Snakebite Wedge",
     "brand": "Cobra",
     "clubType": "wedge",
     "price": 139.99,
-    "skillLevels": ["beginner", "intermediate"],
-    "shaftFlex": ["regular", "stiff"],
+    "skillLevels": [
+      "beginner",
+      "intermediate"
+    ],
+    "shaftFlex": [
+      "regular",
+      "stiff"
+    ],
     "loft": "50, 52, 54, 56, 58, 60",
-    "swingSpeedRange": ["moderate", "fast"],
+    "swingSpeedRange": [
+      "moderate",
+      "fast"
+    ],
     "forgivenessRating": 8,
     "distanceRating": 6,
     "accuracyRating": 7,
@@ -1119,17 +1652,29 @@
       "es": "Surcos Snakebite con múltiples grinds para versatilidad. Gran spin y valor para golfistas recreativos.",
       "ja": "Snakebiteグルーブと複数のグラインドで多彩なプレーに対応。レクリエーションゴルファーに最適なスピン性能とコストパフォーマンスです。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/cobra-snakebite-wedge.svg"
   },
   {
     "name": "RTX 6 ZipCore Wedge",
     "brand": "Cleveland",
     "clubType": "wedge",
     "price": 159.99,
-    "skillLevels": ["intermediate", "advanced", "professional"],
-    "shaftFlex": ["regular", "stiff", "extra_stiff"],
+    "skillLevels": [
+      "intermediate",
+      "advanced",
+      "professional"
+    ],
+    "shaftFlex": [
+      "regular",
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "46, 48, 50, 52, 54, 56, 58, 60",
-    "swingSpeedRange": ["moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 7,
     "distanceRating": 6,
     "accuracyRating": 9,
@@ -1141,17 +1686,28 @@
       "es": "La tecnología ZipCore baja el CG para mayor lanzamiento con más spin. Surcos UltiZip para máximo control en el green.",
       "ja": "ZipCoreテクノロジーで重心を下げ、高い打ち出しと強いスピンを実現。UltiZipグルーブでグリーンサイドのコントロールを最大化します。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/cleveland-rtx-6-zipcore-wedge.svg"
   },
   {
     "name": "CBX4 ZipCore Wedge",
     "brand": "Cleveland",
     "clubType": "wedge",
     "price": 149.99,
-    "skillLevels": ["beginner", "intermediate"],
-    "shaftFlex": ["ladies", "regular", "stiff"],
+    "skillLevels": [
+      "beginner",
+      "intermediate"
+    ],
+    "shaftFlex": [
+      "ladies",
+      "regular",
+      "stiff"
+    ],
     "loft": "46, 48, 50, 52, 54, 56, 58",
-    "swingSpeedRange": ["slow", "moderate", "fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast"
+    ],
     "forgivenessRating": 9,
     "distanceRating": 6,
     "accuracyRating": 8,
@@ -1163,17 +1719,29 @@
       "es": "Cuña cavity-back con suela ancha para bunker fácil. ZipCore para spin sin sacrificar tolerancia.",
       "ja": "ワイドソールのキャビティバックウェッジでバンカーショットが楽に打てます。ZipCoreで寛容性を犠牲にせずスピン性能を発揮します。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/cleveland-cbx4-zipcore-wedge.svg"
   },
   {
     "name": "T24 Wedge",
     "brand": "Mizuno",
     "clubType": "wedge",
     "price": 149.99,
-    "skillLevels": ["intermediate", "advanced", "professional"],
-    "shaftFlex": ["regular", "stiff", "extra_stiff"],
+    "skillLevels": [
+      "intermediate",
+      "advanced",
+      "professional"
+    ],
+    "shaftFlex": [
+      "regular",
+      "stiff",
+      "extra_stiff"
+    ],
     "loft": "46, 48, 50, 52, 54, 56, 58, 60",
-    "swingSpeedRange": ["moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 6,
     "distanceRating": 5,
     "accuracyRating": 9,
@@ -1185,17 +1753,27 @@
       "es": "Grain Flow Forged de acero de boro 1025E. Micro-surcos HydroFlow para rendimiento de spin en mojado y seco.",
       "ja": "1025Eボロン鋼からGrain Flow Forged工法で製造。HydroFlowマイクログルーブでウェットでもドライでも優れたスピン性能を発揮します。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/mizuno-t24-wedge.svg"
   },
   {
     "name": "Spider GT Max Putter",
     "brand": "TaylorMade",
     "clubType": "putter",
     "price": 379.99,
-    "skillLevels": ["beginner", "intermediate"],
-    "shaftFlex": ["regular"],
+    "skillLevels": [
+      "beginner",
+      "intermediate"
+    ],
+    "shaftFlex": [
+      "regular"
+    ],
     "loft": "3",
-    "swingSpeedRange": ["slow", "moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 10,
     "distanceRating": 5,
     "accuracyRating": 9,
@@ -1207,17 +1785,27 @@
       "es": "Putter mallet de alto MOI con alineación True Path. Construcción de acero-aluminio-tungsteno para estabilidad en golpes descentrados.",
       "ja": "True Pathアライメント搭載のハイMOIマレットパター。スチール・アルミ・タングステン構造で芯を外しても安定したストロークを実現します。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/taylormade-spider-zt-putter.jpg"
   },
   {
     "name": "Spider Tour Putter",
     "brand": "TaylorMade",
     "clubType": "putter",
     "price": 399.99,
-    "skillLevels": ["advanced", "professional"],
-    "shaftFlex": ["regular"],
+    "skillLevels": [
+      "advanced",
+      "professional"
+    ],
+    "shaftFlex": [
+      "regular"
+    ],
     "loft": "3",
-    "swingSpeedRange": ["slow", "moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 7,
     "distanceRating": 5,
     "accuracyRating": 10,
@@ -1229,17 +1817,27 @@
       "es": "Mallet probado en tour con inserto Pure Roll para velocidad consistente. Diseño compacto preferido por jugadores del tour.",
       "ja": "Pure Rollインサートで安定したスピードを提供するツアー検証済みマレットパター。ツアープレーヤーに好まれるコンパクトデザインです。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/taylormade-spider-tour-putter.svg"
   },
   {
     "name": "Odyssey Ai-ONE Mallet Putter",
     "brand": "Callaway",
     "clubType": "putter",
     "price": 299.99,
-    "skillLevels": ["beginner", "intermediate"],
-    "shaftFlex": ["regular"],
+    "skillLevels": [
+      "beginner",
+      "intermediate"
+    ],
+    "shaftFlex": [
+      "regular"
+    ],
     "loft": "3",
-    "swingSpeedRange": ["slow", "moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 10,
     "distanceRating": 5,
     "accuracyRating": 9,
@@ -1251,17 +1849,28 @@
       "es": "Inserto de cara diseñado con IA para velocidad de bola consistente en toda la cara. Diseño de alto MOI con alineación fácil.",
       "ja": "AI設計フェースインサートでフェース全面にわたって安定したボールスピードを実現。簡単なアライメントのハイMOI設計です。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/callaway-apex-ai200-irons.jpg"
   },
   {
     "name": "Odyssey Ai-ONE Blade Putter",
     "brand": "Callaway",
     "clubType": "putter",
     "price": 299.99,
-    "skillLevels": ["intermediate", "advanced", "professional"],
-    "shaftFlex": ["regular"],
+    "skillLevels": [
+      "intermediate",
+      "advanced",
+      "professional"
+    ],
+    "shaftFlex": [
+      "regular"
+    ],
     "loft": "3",
-    "swingSpeedRange": ["slow", "moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 6,
     "distanceRating": 5,
     "accuracyRating": 9,
@@ -1273,17 +1882,27 @@
       "es": "Forma de blade clásica con inserto de cara AI. Aspecto limpio en el address con sensación mejorada para jugadores hábiles.",
       "ja": "AIフェースインサート搭載のクラシックブレード形状。アドレス時のクリーンな見た目と上級プレーヤーのための向上した打感を提供します。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/callaway-apex-ai200-irons.jpg"
   },
   {
     "name": "Scotty Cameron Special Select Newport 2",
     "brand": "Titleist",
     "clubType": "putter",
     "price": 449.99,
-    "skillLevels": ["advanced", "professional"],
-    "shaftFlex": ["regular"],
+    "skillLevels": [
+      "advanced",
+      "professional"
+    ],
+    "shaftFlex": [
+      "regular"
+    ],
     "loft": "3.5",
-    "swingSpeedRange": ["slow", "moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 5,
     "distanceRating": 5,
     "accuracyRating": 10,
@@ -1295,17 +1914,27 @@
       "es": "Fresado de acero inoxidable 303. Diseño blade clásico con peso de precisión. El estándar de oro de los putters.",
       "ja": "303ステンレススチールからミーリング加工されたパター。精密ウェイティングのクラシックブレードデザイン。パターのゴールドスタンダードです。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/titleist-scotty-cameron-super-select-newport-2-putter.svg"
   },
   {
     "name": "Scotty Cameron Phantom X Putter",
     "brand": "Titleist",
     "clubType": "putter",
     "price": 449.99,
-    "skillLevels": ["intermediate", "advanced"],
-    "shaftFlex": ["regular"],
+    "skillLevels": [
+      "intermediate",
+      "advanced"
+    ],
+    "shaftFlex": [
+      "regular"
+    ],
     "loft": "3.5",
-    "swingSpeedRange": ["slow", "moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 8,
     "distanceRating": 5,
     "accuracyRating": 9,
@@ -1317,17 +1946,27 @@
       "es": "Mallet multi-material con fresado sólido de cara. Alto MOI con ayudas de alineación para golpes consistentes.",
       "ja": "ソリッドフェースミーリングのマルチマテリアルマレットパター。アライメントエイド付きのハイMOIで安定したストロークを実現します。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/titleist-scotty-cameron-phantom-11r.jpg"
   },
   {
     "name": "Ping PLD Milled Anser Putter",
     "brand": "Ping",
     "clubType": "putter",
     "price": 499.99,
-    "skillLevels": ["advanced", "professional"],
-    "shaftFlex": ["regular"],
+    "skillLevels": [
+      "advanced",
+      "professional"
+    ],
+    "shaftFlex": [
+      "regular"
+    ],
     "loft": "3",
-    "swingSpeedRange": ["slow", "moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 6,
     "distanceRating": 5,
     "accuracyRating": 10,
@@ -1339,17 +1978,27 @@
       "es": "Completamente fresado de acero inoxidable 303. El icónico diseño Anser refinado con fresado CNC de precisión.",
       "ja": "303ステンレススチールからフルミーリングで製造。象徴的なAnserデザインを精密CNCミーリングでさらに磨き上げました。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/ping-pld-milled-anser-putter.svg"
   },
   {
     "name": "Ping 2024 Tyne G Putter",
     "brand": "Ping",
     "clubType": "putter",
     "price": 299.99,
-    "skillLevels": ["beginner", "intermediate"],
-    "shaftFlex": ["regular"],
+    "skillLevels": [
+      "beginner",
+      "intermediate"
+    ],
+    "shaftFlex": [
+      "regular"
+    ],
     "loft": "3",
-    "swingSpeedRange": ["slow", "moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 10,
     "distanceRating": 5,
     "accuracyRating": 8,
@@ -1361,17 +2010,28 @@
       "es": "Mallet de alto MOI con inserto PEBAX de doble durómetro para sensación suave. Alineación fácil con línea de mira contrastante.",
       "ja": "デュアルデュロメーターPEBAXインサートでソフトな打感を提供するハイMOIマレットパター。コントラストサイトラインで簡単にアライメントできます。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/ping-blueprint-s-irons.jpg"
   },
   {
     "name": "3D Printed Grandsport Putter",
     "brand": "Cobra",
     "clubType": "putter",
     "price": 349.99,
-    "skillLevels": ["beginner", "intermediate", "advanced"],
-    "shaftFlex": ["regular"],
+    "skillLevels": [
+      "beginner",
+      "intermediate",
+      "advanced"
+    ],
+    "shaftFlex": [
+      "regular"
+    ],
     "loft": "3",
-    "swingSpeedRange": ["slow", "moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 9,
     "distanceRating": 5,
     "accuracyRating": 8,
@@ -1383,17 +2043,27 @@
       "es": "Estructura de celosía impresa en 3D para distribución de peso optimizada. Inserto de cara SIK para rodamiento consistente.",
       "ja": "3Dプリントラティス構造で最適な重量配分を実現。SIKフェースインサートで安定したロールを提供します。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/cobra-3d-printed-grandsport-putter.svg"
   },
   {
     "name": "Huntington Beach Soft Putter",
     "brand": "Cleveland",
     "clubType": "putter",
     "price": 149.99,
-    "skillLevels": ["beginner", "intermediate"],
-    "shaftFlex": ["regular"],
+    "skillLevels": [
+      "beginner",
+      "intermediate"
+    ],
+    "shaftFlex": [
+      "regular"
+    ],
     "loft": "3",
-    "swingSpeedRange": ["slow", "moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 8,
     "distanceRating": 5,
     "accuracyRating": 7,
@@ -1405,17 +2075,27 @@
       "es": "Tecnología Speed Optimized Face para control de distancia consistente. Cara fresada CNC Diamond. Excelente valor.",
       "ja": "Speed Optimized Faceテクノロジーで安定した距離コントロールを実現。ダイヤモンドCNCミーリングフェース。優れたコストパフォーマンスです。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/cleveland-huntington-beach-soft-putter.svg"
   },
   {
     "name": "M-Craft OMOI Putter",
     "brand": "Mizuno",
     "clubType": "putter",
     "price": 349.99,
-    "skillLevels": ["advanced", "professional"],
-    "shaftFlex": ["regular"],
+    "skillLevels": [
+      "advanced",
+      "professional"
+    ],
+    "shaftFlex": [
+      "regular"
+    ],
     "loft": "3",
-    "swingSpeedRange": ["slow", "moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 5,
     "distanceRating": 5,
     "accuracyRating": 10,
@@ -1427,17 +2107,27 @@
       "es": "Fresado de un solo bloque de acero al carbono suave 1025E. Sensación excepcionalmente suave con retroalimentación precisa.",
       "ja": "1025E軟鉄の単一ブロックからミーリング加工されたパター。極めてソフトな打感と正確なフィードバックを提供します。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/mizuno-jpx-one-driver.jpg"
   },
   {
     "name": "M-Craft V Putter",
     "brand": "Mizuno",
     "clubType": "putter",
     "price": 299.99,
-    "skillLevels": ["intermediate", "advanced"],
-    "shaftFlex": ["regular"],
+    "skillLevels": [
+      "intermediate",
+      "advanced"
+    ],
+    "shaftFlex": [
+      "regular"
+    ],
     "loft": "3",
-    "swingSpeedRange": ["slow", "moderate", "fast", "very_fast"],
+    "swingSpeedRange": [
+      "slow",
+      "moderate",
+      "fast",
+      "very_fast"
+    ],
     "forgivenessRating": 7,
     "distanceRating": 5,
     "accuracyRating": 9,
@@ -1449,6 +2139,6 @@
       "es": "Diseño mallet fresado con pesos de suela ajustables. Forjado de acero al carbono suave para sensación mantequillosa.",
       "ja": "調整可能なソールウェイトを備えたミーリングマレットデザイン。軟鉄鍛造によるバターのようになめらかな打感を実現します。"
     },
-    "imageUrl": ""
+    "imageUrl": "/images/clubs/mizuno-jpx-one-driver.jpg"
   }
 ]

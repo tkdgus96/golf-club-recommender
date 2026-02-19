@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://www.titleist.com/golf-clubs/drivers/gt2",
+    "sourceName": "Titleist",
+    "clubTypeHint": "driver"
+  },
+  {
+    "url": "https://www.titleist.com/golf-clubs/drivers/gt3",
+    "sourceName": "Titleist",
+    "clubTypeHint": "driver"
+  },
+  {
+    "url": "https://www.titleist.com/golf-clubs/irons/t200",
+    "sourceName": "Titleist",
+    "clubTypeHint": "iron_set"
+  },
+  {
+    "url": "https://eu.ping.com/en-us/clubs/drivers",
+    "sourceName": "PING",
+    "clubTypeHint": "driver"
+  },
+  {
+    "url": "https://eu.ping.com/en-us/clubs/irons/g440",
+    "sourceName": "PING",
+    "clubTypeHint": "iron_set"
+  },
+  {
+    "url": "https://eu.ping.com/en-us/clubs/wedges/s159",
+    "sourceName": "PING",
+    "clubTypeHint": "wedge"
+  },
+  {
+    "url": "https://www.cobragolf.com/collections/drivers/products/ds-adapt-max-k-driver",
+    "sourceName": "Cobra",
+    "clubTypeHint": "driver"
+  },
+  {
+    "url": "https://www.cobragolf.com/collections/irons/products/king-tec-irons",
+    "sourceName": "Cobra",
+    "clubTypeHint": "iron_set"
+  },
+  {
+    "url": "https://us.dunlopsports.com/srixon/clubs/drivers/zxi-driver/MZXIDRV.html",
+    "sourceName": "Srixon",
+    "clubTypeHint": "driver"
+  }
+]

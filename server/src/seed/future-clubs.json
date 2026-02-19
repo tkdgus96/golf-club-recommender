@@ -1,0 +1,193 @@
+
+[
+  {
+    "name": "Qi4D Max",
+    "brand": "TaylorMade",
+    "clubType": "driver",
+    "price": 649.99,
+    "skillLevels": ["beginner", "intermediate", "advanced"],
+    "shaftFlex": ["senior", "regular", "stiff", "extra_stiff"],
+    "loft": "9.0, 10.5, 12.0",
+    "description": "TaylorMade's 2025 flagship. The Qi4D features a 4-Dimensional Carbon Face for infinite forgiveness across the entire hitting area.",
+    "descriptions": {
+      "en": "TaylorMade's 2025 flagship. The Qi4D features a 4-Dimensional Carbon Face for infinite forgiveness across the entire hitting area.",
+      "ko": "테일러메이드 2025년 플래그십. 4차원 카본 페이스를 탑재하여 페이스 전체에 걸쳐 무한한 관용성을 제공합니다."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Qi4D+Max",
+    "swingSpeedRange": ["slow", "moderate", "fast"],
+    "forgivenessRating": 10,
+    "distanceRating": 10,
+    "accuracyRating": 10
+  },
+  {
+    "name": "Qi4D Tour",
+    "brand": "TaylorMade",
+    "clubType": "driver",
+    "price": 699.99,
+    "skillLevels": ["advanced", "professional"],
+    "shaftFlex": ["stiff", "extra_stiff"],
+    "loft": "8.0, 9.0, 10.5",
+    "description": "Compact shape with quad-weight adjustment system. Low spin, high workability.",
+    "descriptions": {
+      "en": "Compact shape with quad-weight adjustment system. Low spin, high workability.",
+      "ko": "4중 웨이트 조절 시스템이 적용된 컴팩트 헤드. 저스핀과 높은 조작성."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Qi4D+Tour",
+    "swingSpeedRange": ["fast", "very_fast"],
+    "forgivenessRating": 7,
+    "distanceRating": 10,
+    "accuracyRating": 9
+  },
+  {
+    "name": "Quantum Speed",
+    "brand": "Callaway",
+    "clubType": "driver",
+    "price": 629.99,
+    "skillLevels": ["beginner", "intermediate", "advanced"],
+    "shaftFlex": ["senior", "regular", "stiff"],
+    "loft": "9.0, 10.5, 12.0",
+    "description": "Callaway Quantum features the new 'Q-Face' AI, optimizing ball speed at the quantum level for every strike.",
+    "descriptions": {
+      "en": "Callaway Quantum features the new 'Q-Face' AI, optimizing ball speed at the quantum level for every strike.",
+      "ko": "캘러웨이 퀀텀은 새로운 'Q-페이스' AI를 탑재하여 모든 타격에서 양자 수준으로 볼 스피드를 최적화합니다."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Quantum+Speed",
+    "swingSpeedRange": ["moderate", "fast"],
+    "forgivenessRating": 10,
+    "distanceRating": 10,
+    "accuracyRating": 9
+  },
+  {
+    "name": "Quantum Pro",
+    "brand": "Callaway",
+    "clubType": "driver",
+    "price": 649.99,
+    "skillLevels": ["advanced", "professional"],
+    "shaftFlex": ["stiff", "extra_stiff"],
+    "loft": "8.0, 9.0, 10.5",
+    "description": "Tour-inspired shape with Q-Face tech. Ultra-low spin for elite ball strikers.",
+    "descriptions": {
+      "en": "Tour-inspired shape with Q-Face tech. Ultra-low spin for elite ball strikers.",
+      "ko": "투어에서 영감을 받은 쉐이프와 Q-페이스 기술. 엘리트 골퍼를 위한 초저스핀."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Quantum+Pro",
+    "swingSpeedRange": ["fast", "very_fast"],
+    "forgivenessRating": 6,
+    "distanceRating": 10,
+    "accuracyRating": 9
+  },
+  {
+    "name": "G440 K",
+    "brand": "Ping",
+    "clubType": "driver",
+    "price": 649.00,
+    "skillLevels": ["beginner", "intermediate", "advanced"],
+    "shaftFlex": ["soft_regular", "regular", "stiff", "extra_stiff"],
+    "loft": "9.0, 10.5, 12.0",
+    "description": "The 'K' stands for Kinetic. Ping's new Turbulator system maximizes clubhead speed while maintaining legendary G-series forgiveness.",
+    "descriptions": {
+      "en": "The 'K' stands for Kinetic. Ping's new Turbulator system maximizes clubhead speed while maintaining legendary G-series forgiveness.",
+      "ko": "'K'는 Kinetic(운동 에너지)을 의미합니다. 핑의 새로운 터뷸레이터 시스템은 전설적인 관용성을 유지하면서 헤드 스피드를 극대화합니다."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=G440+K",
+    "swingSpeedRange": ["slow", "moderate", "fast"],
+    "forgivenessRating": 10,
+    "distanceRating": 9,
+    "accuracyRating": 10
+  },
+  {
+    "name": "OPTM Aero",
+    "brand": "Cobra",
+    "clubType": "driver",
+    "price": 549.00,
+    "skillLevels": ["beginner", "intermediate", "advanced"],
+    "shaftFlex": ["regular", "stiff", "extra_stiff"],
+    "loft": "9.0, 10.5, 12.0",
+    "description": "Cobra OPTM (Optimal) driver features PWR-COR 2.0 for optimized weight distribution and effortless speed.",
+    "descriptions": {
+      "en": "Cobra OPTM (Optimal) driver features PWR-COR 2.0 for optimized weight distribution and effortless speed.",
+      "ko": "코브라 OPTM(Optimal) 드라이버는 PWR-COR 2.0을 탑재하여 최적의 무게 배분과 손쉬운 스피드를 제공합니다."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=OPTM+Aero",
+    "swingSpeedRange": ["moderate", "fast"],
+    "forgivenessRating": 9,
+    "distanceRating": 10,
+    "accuracyRating": 8
+  },
+  {
+    "name": "Quantum Irons",
+    "brand": "Callaway",
+    "clubType": "iron_set",
+    "price": 1499.99,
+    "skillLevels": ["intermediate", "advanced"],
+    "shaftFlex": ["regular", "stiff"],
+    "loft": "Strong",
+    "description": "Forged face cup with Quantum urethane microspheres for unmatched feel and distance.",
+    "descriptions": {
+      "en": "Forged face cup with Quantum urethane microspheres for unmatched feel and distance.",
+      "ko": "퀀텀 우레탄 마이크로스피어가 적용된 단조 페이스 컵. 타의 추종을 불허하는 타구감과 비거리."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Quantum+Irons",
+    "swingSpeedRange": ["moderate", "fast"],
+    "forgivenessRating": 8,
+    "distanceRating": 10,
+    "accuracyRating": 8
+  },
+  {
+    "name": "Qi4D Irons",
+    "brand": "TaylorMade",
+    "clubType": "iron_set",
+    "price": 1399.99,
+    "skillLevels": ["intermediate", "advanced"],
+    "shaftFlex": ["regular", "stiff"],
+    "loft": "Standard",
+    "description": "Multi-dimensional shaping for speed and forgiveness. The perfect blend of P790 distance and P770 control.",
+    "descriptions": {
+      "en": "Multi-dimensional shaping for speed and forgiveness. The perfect blend of P790 distance and P770 control.",
+      "ko": "스피드와 관용성을 위한 다차원 쉐이핑. P790의 비거리와 P770의 컨트롤의 완벽한 조화."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=Qi4D+Irons",
+    "swingSpeedRange": ["moderate", "fast"],
+    "forgivenessRating": 8,
+    "distanceRating": 9,
+    "accuracyRating": 9
+  },
+  {
+    "name": "G440 Irons",
+    "brand": "Ping",
+    "clubType": "iron_set",
+    "price": 1299.00,
+    "skillLevels": ["beginner", "intermediate"],
+    "shaftFlex": ["regular", "stiff"],
+    "loft": "Standard",
+    "description": "Ping's highest launching iron ever. PurFlex cavity badge ensures solid feel and sound.",
+    "descriptions": {
+      "en": "Ping's highest launching iron ever. PurFlex cavity badge ensures solid feel and sound.",
+      "ko": "핑 역사상 가장 높은 탄도를 자랑하는 아이언. PurFlex 캐비티 배지가 견고한 타구감과 타구음을 보장합니다."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=G440+Irons",
+    "swingSpeedRange": ["slow", "moderate"],
+    "forgivenessRating": 10,
+    "distanceRating": 8,
+    "accuracyRating": 9
+  },
+  {
+    "name": "OPTM Forged",
+    "brand": "Cobra",
+    "clubType": "iron_set",
+    "price": 1199.00,
+    "skillLevels": ["advanced", "professional"],
+    "shaftFlex": ["stiff", "extra_stiff"],
+    "loft": "Traditional",
+    "description": "5-step forged construction for buttery soft feel. Compact blade length for precision.",
+    "descriptions": {
+      "en": "5-step forged construction for buttery soft feel. Compact blade length for precision.",
+      "ko": "5단계 단조 공정으로 버터처럼 부드러운 타구감. 정밀함을 위한 컴팩트한 블레이드 길이."
+    },
+    "imageUrl": "https://placehold.co/400x400?text=OPTM+Forged",
+    "swingSpeedRange": ["fast", "very_fast"],
+    "forgivenessRating": 5,
+    "distanceRating": 7,
+    "accuracyRating": 10
+  }
+]
